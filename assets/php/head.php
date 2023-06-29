@@ -7,3 +7,5 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Costume css -->
+    <link rel="stylesheet" href="/css/timeline.css">

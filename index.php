@@ -79,7 +79,7 @@
     <img src="./img/akryla_shan_structure1.jpg" alt="" class="card-img vh-100" style="object-fit: cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
         <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
-          <p class="card-text">active performance</p>
+          <p class="card-text">Forestilling formidler Hudsult</p>
           <h1 class="card-title;">AKRYLARIUM</h1>
           <a href="/repertoire/akrylarium" class="btn btn-outline-light btn-lg">Info</a>
         </div>
