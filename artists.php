@@ -1,48 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artists</title>
-    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
-        <!-- Bootstrap core CSS -->
-<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!doctype html>
+<html lang="da">
+<?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'head.php';
+    ?>
 
-</head>
-<body class="bg-light">
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand:focusable" href="../index.html"><img src="../img/artfarm_zeromargin_invert.png" height="40px" alt="Art Farm logo" class="ms-1"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" href="artists.html">Artists</a></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Repertoire
-                </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="terminus.html">Terminus</a></li>
-                    <li><a class="dropdown-item" href="danceomatic.html">danceOmatic</a></li>
-                    <li><a class="dropdown-item" href="akrylarium.html">Akrylarium</a></li>
-                  </ul>
-              </li>
-          </ul>
-          
-         
-        </div>
-      </div>
-    </nav>
-  </header>
+  <body class="bg-light">
+
+  <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'header.php';
+    ?>
+    
 <main>
     <section class="py-5 text-center container">
         <div class="row pt-5">
@@ -61,7 +30,9 @@
         </div>
         <div class="col-lg-10 col-8 align-self-center">
           <h2>Martin Schultz Kristensen</h2>
-          <p class="lead">Artistic director and dancer<br>Currently performing in AKRYLARIUM</p> 
+          <p class="lead">Projektleder</p> 
+          <p>Martin danser i øvrigt også med i Frikadelle, 
+            <a class="link-primary" href="/repertoire/akrylarium">test</a> og <a href="/repertoire/danceomatic">danceOmatic</a></p>
         </div>
       </div>
 
@@ -97,7 +68,7 @@
           <p class="lead">Choreographer and assistant<br></p>
           <p>Meng-Ting is rehearsal director of AKRYLARIUM, and the artistic director in the co-production <i>conTEMPORARY PAINTER.</i><br>
           Remotly she is directing the Taiwanese dance company: <i>Mai Ti Dance Company</i></p>
-          <a class="btn btn-outline-dark btn-sm" href="https://www.humanlab.studio/about.html" role="button" target="_blank">Company Website &raquo;</a>
+          <a class="btn btn-outline-dark btn-sm" href="https://www.maitidancecompany.org/" role="button" target="_blank">Company Website &raquo;</a>
         </div>
       </div>
 
@@ -115,40 +86,10 @@
 
     </div>
         <!-- FOOTER -->
-        <footer class="container-fluid">
-          <hr>
-          <div class="row mx-lg-2">
-            <div class="col-sm-9">
-              <h2 class="featurette-heading">Support and <span class="text-muted">collaborators</span></h2>
-              <div class="row">
-                <div class="col-3">
-                    <img src="/img/support_logo/StKFond.png" alt="" srcset="" class="img-fluid">
-                  </div>
-                  <div class="col-3">
-                    <img src="/img/support_logo/Altuglas.svg" alt="" srcset="" class="img-fluid p-1">
-                    <img src="/img/support_logo/van_fonden_logo1.png" alt="" srcset="" class="img-fluid p-1">
-                    <img src="/img/support_logo/humanlabLogo.png" alt="Mai-Ti dance company logo" class="img-fluid pt-sm-4 px-1">
-                  </div>
-                  <div class="col-2">
-                    <img src="https://d2typry64h97y6.cloudfront.net/wp-content/uploads/2023/01/24135746/Globus-Opstart_Logo_BLACK_RGB.png" alt="logo globus opstart" class="img-fluid d-inline-flex pt-3">
-                  </div>
-                  <div class="col-2">
-                    <img src="/img/support_logo/logoMaiTiTransparrent.png" alt="Mai-Ti dance company logo" class="img-fluid pt-3">
-                  </div>
-                  <div class="col-2">
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-between mb-sm-2 mb-lg-5 mx-lg-2">
-            <div class="col-4">
-              <p>Art Farm<br>info@artfarm.dk<br>cvr: 39563886</p>
-            </div>
-            <div class="col-4">
-              <p class="float-end"><br><br><a href="#">Back to top</a></p>
-            </div>
-          </div>
-        </footer>
+        <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'footer.php';
+    ?>
 </main>
       <script src="../js/bootstrap.bundle.min.js"></script>
 </body>

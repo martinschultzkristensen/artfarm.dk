@@ -167,7 +167,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'footer.php';
     ?>
-</div>
 </main>
 
 <script src="../js/bootstrap.bundle.min.js"></script>
