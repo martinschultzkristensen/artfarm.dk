@@ -19,6 +19,7 @@
                     </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/repertoire/terminus">Terminus</a></li>
+                        <li><a class="dropdown-item" href="/repertoire/frikadelle">Frikadelle</a></li>
                         <li><a class="dropdown-item" href="/repertoire/danceomatic">danceOmatic</a></li>
                         <li><a class="dropdown-item" href="/repertoire/akrylarium">Akrylarium</a></li>
                       </ul>

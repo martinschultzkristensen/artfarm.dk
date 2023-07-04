@@ -18,7 +18,7 @@
 <div class="container-fluid;">
 
   <div class="card text-white text-uppercase"> 
-  <img src="../img/terminusBwLayOut.png" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
+  <img src="/img/terminusBwLayOut.png" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
   <div class="card-img-overlay">
           <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Terminus</h1>
     </div>
@@ -47,16 +47,16 @@
         <h2 class="featurette-heading">Om <span class="text-muted">forestillingen</span></h2>
         <p class="lead mt-3 mx-3">I ”Terminus” møder man den gamle mand, der bor på den travle banegård. Han støder på forskellige forhastede og åndeligt afsporede mennesker, som i mødet med oldingen skruer ned for tempoet i deres liv og oplever pludselig at føle empati og se andre mennesker på nye måder.</p>
         <p class="lead mt-3 mx-3">Forestillingen gør brug af masker, special produceret i Italien, som repræsenterer menneskelige arketyper.<br> 
-          <span><a href="https://www.humanlab.studio/" target="_blank"><img src="../img/support_logo/humanlabLogo.png" alt="" width="" height="20" class="d-inline-block align-text-top"></a></span> har med deres ekspertise omkring masketeknik, 
+          <span><a href="https://www.humanlab.studio/" target="_blank"><img src="/img/support_logo/humanlabLogo.png" alt="" width="" height="20" class="d-inline-block align-text-top"></a></span> har med deres ekspertise omkring masketeknik, 
           og teater stået for at levnagtigøre performernes brug af maskerne.<br>
-          <span><img src="../img/artfarm_logo_Tegnebræt 1.svg" alt="" width="" height="45" class="d-inline-block align-text-bottom"></span> har til forestillingen udviklet et ordløst bevægelsessprog, med teknikker fra pantomime, klassisk ballet, moderne dans og hiphop.</p>  
+          <span><img src="/img/artfarm_logo_Tegnebræt 1.svg" alt="" width="" height="45" class="d-inline-block align-text-bottom"></span> har til forestillingen udviklet et ordløst bevægelsessprog, med teknikker fra pantomime, klassisk ballet, moderne dans og hiphop.</p>  
           
       </div>
     </div>
     
     <div class="row align-items-left">
       <div class="col-12 ">
-        <h2 class="featurette-heading">Turné <span class="text-muted"> 26. Aug - 2. Sep</span><span class="px-4 img-fluid"><a href="https://www.humanlab.studio/" target="_blank"><img src="../img/support_logo/trekantfest_sort.png" alt="" width="" height="60"></a></span></h2>
+        <h2 class="featurette-heading">Turné <span class="text-muted"> 26. Aug - 2. Sep</span><span class="px-4 img-fluid"><a href="https://www.humanlab.studio/" target="_blank"><img src="/img/support_logo/trekantfest_sort.png" alt="" width="" height="60"></a></span></h2>
         <p class="lead mt-3 mx-3">Oplev forestillingen når vi turnere trekantområdets 7 kommuner som en del af trekantområdets festuge</p> 
       </div>
 
@@ -74,8 +74,8 @@
               <tr>
                 <th scope="row">26. Aug</th>
                 <td>Kolding</td>
-                <td>Nicolai Gården<br>Skolegade 2C, 6000 Kolding</td>
-                <td>10:00</td>
+                <td>Axeltorv<br>Akseltorv 1, 6000 Kolding</td>
+                <td>11:00</td>
               </tr>
               <tr>
                 <th scope="row">27. Aug</th>
@@ -130,10 +130,9 @@
           </button>
       </div>
       <div class="col-4">
-
-        <img src="../img/plkatTermKoldTrkt.svg" alt="" width="" height="" class="img-fluid">
+        <img src="/img/plkatTermKoldTrkt.svg" alt="" width="" height="" class="img-fluid">
       </div>  
-      </div>
+    </div>
 
 
 
@@ -146,14 +145,14 @@
         <h5 class="modal-title" id="exampleModalLabel">Vælg presse materiale</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <a download href="../pdf/Kolding.png" target="_blank">Kolding.png</a><br>
-        <a download href="../pdf/Middelfart.png" target="_blank">Middelfart.png</a><br>
-        <a download href="../pdf/Vejen.png" target="_blank">Vejen.png</a><br>
-        <a download href="../pdf/Vojens.png" target="_blank">Vojens.png</a><br>
-        <a download href="../pdf/Fredericia.png" target="_blank">Fredericia.png</a><br>
-        <a download href="../pdf/Grindsted.png" target="_blank">Grindsted.png</a><br>
-        <a download href="../pdf/Jelling.png" target="_blank">Jelling.png</a>
+      <div class="modal-body p-3">
+        <a download href="/pdf/Kolding.png" target="_blank">Kolding.png</a><br>
+        <a download href="/pdf/Middelfart.png" target="_blank">Middelfart.png</a><br>
+        <a download href="/pdf/Vejen.png" target="_blank">Vejen.png</a><br>
+        <a download href="/pdf/Vojens.png" target="_blank">Vojens.png</a><br>
+        <a download href="/pdf/Fredericia.png" target="_blank">Fredericia.png</a><br>
+        <a download href="/pdf/Grindsted.png" target="_blank">Grindsted.png</a><br>
+        <a download href="/pdf/Jelling.png" target="_blank">Jelling.png</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -165,9 +164,9 @@
 
             
 
-    <div class="col-12">
+    <div class="col-12 mt-5">
       <h2 class="featurette-heading">Praktisk <span class="text-muted"> info </span></h2>
-      <ul class="no-bullets">
+      <ul>
         <li class="pb-2"><strong style="margin: 0px; padding: 0px; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Producent:</strong><span style="color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span>&nbsp;</span>HumanLab</span><a href="http://www.humanlab.studio/" rel="nofollow" style="margin: 0px 0px 0px 5px; padding: 0px; text-decoration: none; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" target="_blank">Se mere</a><br style="margin: 0px; padding: 0px; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" />
         <strong style="margin: 0px; padding: 0px; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Co-Producent:</strong><span style="color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span>&nbsp;</span>Art Farm</span><br style="margin: 0px; padding: 0px; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" />
         <strong style="margin: 0px; padding: 0px; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Komponist:</strong><span style="color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span>&nbsp;</span>Domenico Mannelli</span><br style="margin: 0px; padding: 0px; color: rgb(13, 13, 13); font-family: arial, verdana, tahoma; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" />
@@ -204,46 +203,21 @@
 
 
 
+
+
+
 <!-- Footer -->
-<footer class="container-fluid">
-  <hr>
-  <div class="row mx-lg-2">
-    <div class="col-sm-9">
-      <h2 class="featurette-heading">Support and <span class="text-muted">collaborators</span></h2>
-      <div class="row">
-        <div class="col-3">
-            <img src="../img/support_logo/StKFond.png" alt="" srcset="" class="img-fluid">
-          </div>
-          <div class="col-3">
-            <img src="../img/support_logo/trekantfest_sort.png" alt="Mai-Ti dance company logo" class="img-fluid pt-3">
-            <img src="../img/support_logo/van_fonden_logo1.png" alt="" srcset="" class="img-fluid p-1">
-            <img src="../img/support_logo/humanlabLogo.png" alt="Mai-Ti dance company logo" class="img-fluid pt-sm-4 px-1">
-          </div>
-          <div class="col-2">
-            <img src="https://d2typry64h97y6.cloudfront.net/wp-content/uploads/2023/01/24135746/Globus-Opstart_Logo_BLACK_RGB.png" alt="logo globus opstart" class="img-fluid d-inline-flex pt-3">
-          </div>
-          <div class="col-2 col-sm-2">
-            <img src="../img/support_logo/logoMaiTiTransparrent.png" alt="Mai-Ti dance company logo" class="img-fluid pt-3">
-            <img src="../img/support_logo/Altuglas.svg" alt="" srcset="" class="img-fluid p-1">
-          </div>
-          <div class="col-2">
-          </div>
-      </div>
-    </div>
-  </div>
-  <div class="row justify-content-between mb-sm-2 mb-lg-5 mx-lg-2">
-    <div class="col-4">
-      <p>Art Farm<br>info@artfarm.dk<br>cvr: 39563886</p>
-    </div>
-    <div class="col-4">
-      <p class="float-end"><br><br><a href="#">Back to top</a></p>
-    </div>
-  </div>
-</footer>
-
+<?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'footer.php';
+    ?>
+  
 </main>
-
-<script src="/js/bootstrap.bundle.min.js"></script>
-
+  
+  <!-- <div class="d-sm-inline-flex p-2 bd-highlight bg-danger">I'm a flexbox container!</div> -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
+
+
 </html>
+  

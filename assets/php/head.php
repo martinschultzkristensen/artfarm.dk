@@ -9,3 +9,4 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Costume css -->
     <link rel="stylesheet" href="/css/timeline.css">
+    <link rel="stylesheet" href="/css/style.css">
