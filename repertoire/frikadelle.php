@@ -52,12 +52,12 @@
               <tr>
                 <th scope="row">15. Sep</th>
                 <td>Horsens</td>
-                <td>Teaterfestival<br>
+                <td><a href="https://horsensteaterfestival.dk/events/frikadelle/" target="_blank">Teaterfestival</a><br>
                 Pladsen foran Søndergade 26</td>
                 <td>16:00 <br> 17:00</td>
               </tr>
               <tr>
-                <th scope="row">15. Sep</th>
+                <th scope="row">18. Sep</th>
                 <td>Hjørring</td>
                 <td>Vendsyssel Teater<br>Kulturfrikadellen
                 </td>
