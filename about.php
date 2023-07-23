@@ -304,9 +304,9 @@
          <a href="/pdf/gen2019_referat.pdf" target="_blank">General Assembly 2019</a><br>
          <a href="/pdf/gen2020_referat.pdf" target="_blank">General Assembly 2020</a><br>
          <a href="/pdf/gen2021_referat.pdf" target="_blank">General Assembly 2021</a><br>
-         <a href="/pdf/gen2022_referat.pdf" target="_blank">General Assembly 2021</a><br>
-         <a href="/pdf/gen2023_referat.pdf" target="_blank">General Assembly 2021</a><br>
-         <a href="/pdf/xtraOrdnGen2022_referat.pdf" target="_blank">General Assembly 2021</a>
+         <a href="/pdf/gen2022_referat.pdf" target="_blank">General Assembly 2022</a><br>
+         <a href="/pdf/xtraOrdnGen2022_referat.pdf" target="_blank">Ekstraordinær General Forsamling 2022</a><br>
+         <a href="/pdf/gen2023_referat.pdf" target="_blank">General Assembly 2023</a>
       </div>
     </div>
 
