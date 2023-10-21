@@ -26,16 +26,29 @@
 
 
 </div> -->
-<div class="container-fluid;">
-  <div class="card text-white text-uppercase">  
-    <img src="/img/frikadelleMainV2.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+
+<div class="card text-white text-uppercase">  
+    <img src="/img/dmaskine_1.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
         <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
-          <p class="card-text"></span>Frikadelle på tur fra 1 aug.</p>
+          <p class="card-text">refusionsgodkendt!</p>
+          <h1 class="card-title;">Bliver DANCEOMATIC<br>klar til Aprilfestival?</h1>
+          <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg">Info</a>        
+        </div>
+      </div>
+  </div>
 
 
-          <h1 class="card-title;">Sjælland og Jylland</h1>
-   <a href="/repertoire/frikadelle" class="btn btn-outline-light btn-lg">Se hvor..</a>        
+<div class="container-fluid;">
+  <div class="card text-white text-uppercase">  
+    <img src="/img/frikaAmarMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <div class="card-img-overlay position-absolute">
+        <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
+          <p class="card-text"></span>Frikadelle på tur = Done!</p>
+
+
+          <h1 class="card-title;">Se billeder!</h1>
+   <a href="/repertoire/frikadelle" class="btn btn-outline-light btn-lg">Gallari -></a>        
         </div>
       </div>
   </div>
@@ -66,16 +79,7 @@
   </div>
 
 
-  <div class="card text-white text-uppercase">  
-    <img src="/img/dmaskine_1.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
-      <div class="card-img-overlay position-absolute">
-        <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
-          <p class="card-text"><span class=""><img src="/img/taiwanTxt.png" width="115" height="45" class="d-inline-block align-text-bottom"></a></span> dance tour</p>
-          <h1 class="card-title;">March 2023<br>DANCEOMATIC - Jumping Islands</h1>
-          <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg">Info</a>        
-        </div>
-      </div>
-  </div>
+ 
 
   <div class="card text-white text-uppercase">  
     <img src="/img/akryla_shan_structure1.jpg" alt="" class="card-img vh-100" style="object-fit: cover; filter: brightness(70%);">

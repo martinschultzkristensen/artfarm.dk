@@ -36,9 +36,10 @@
       <div class="col-lg-5">
         <p class="lead text-left">Trailer</p>
         
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/814219627?h=1e5114104a" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe></div>
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/857624362?h=649e692bc6" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe></div>
           <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
+
       
 
       
@@ -61,7 +62,7 @@
       </div>
 
       <div class="p-2">
-          <table class="table">
+          <table class="table table-sm">
             <thead>
               <tr>
                 <th scope="col">Dato</th>
