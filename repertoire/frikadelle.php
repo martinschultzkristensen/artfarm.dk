@@ -18,7 +18,7 @@
 <div class="container-fluid;">
 
   <div class="card text-white text-uppercase"> 
-  <img src="/img/frikadelleMainV2.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
+  <img src="/img/frikaAmarMain.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
   <div class="card-img-overlay">
     <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Frikadelle</h1>
   </div>
@@ -28,9 +28,40 @@
     
     <div class="row align-items-center">
       <div class="col-12">
-        <h2 class="text-center">Følg den overdådige kreation af en frikadelle.</p>
-       </div>
-      </div> 
+        <h2 class="text-center">Se billederne fra den overdådige kreation af en frikadelle.</h2>
+      </div>
+    </div>
+      <div class="row">
+
+        <div class="col p-1">
+          
+          <img src="/img/frikadelle/flatAudience.jpg" class="img-fluid">
+          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid">
+          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
+          
+          
+        </div>
+        <div class="col p-1">
+          
+          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
+          <img src="/img/frikadelle/flatAudience.jpg" class="img-fluid">
+          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid">
+          
+          
+        </div>
+        <div class="col p-1">
+          
+          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
+          <img src="/img/frikadelle/flatAudience.jpg" class="img-fluid">
+          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid">
+          
+          
+        </div>
+
+      </div>
+    </div>
+
+  </div>
       
       <div class="p-sm-2">
           <table class="table">
