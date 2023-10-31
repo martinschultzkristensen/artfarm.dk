@@ -164,7 +164,7 @@
 
 
             
-
+<!-- fix this style -->
     <div class="col-12 mt-5">
       <h2 class="featurette-heading">Praktisk <span class="text-muted"> info </span></h2>
       <ul>

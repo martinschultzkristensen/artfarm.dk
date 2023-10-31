@@ -30,33 +30,33 @@
       <div class="col-12">
         <h2 class="text-center">Se billederne fra den overdådige kreation af en frikadelle.</h2>
       </div>
-    </div>
+      
       <div class="row">
-
-        <div class="col p-1">
-          
-          <img src="/img/frikadelle/flatAudience.jpg" class="img-fluid">
-          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid">
+        
+        <div class="col-md-4">         
+          <img src="/img/frikadelle/tallFreeze.jpg" class="img-fluid mb-1">
+          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid mb-1">
           <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
           
           
         </div>
-        <div class="col p-1">
+        <div class="col">
           
-          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
-          <img src="/img/frikadelle/flatAudience.jpg" class="img-fluid">
-          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid">
-          
-          
-        </div>
-        <div class="col p-1">
-          
-          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
-          <img src="/img/frikadelle/flatAudience.jpg" class="img-fluid">
-          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid">
+          <img src="/img/frikadelle/tallBlowUp.jpg" alt="" class="img-fluid mb-1">
+          <img src="/img/frikadelle/tallFly.jpg" class="img-fluid mb-1">
+          <img src="/img/frikadelle/flatAudience.jpg" alt="" class="img-fluid">
           
           
         </div>
+        <div class="col">
+          
+          <img src="/img/frikadelle/flatBrushOut.jpg" alt="" class="img-fluid mb-1">
+          <img src="/img/frikadelle/tallHandstand.jpg" class="img-fluid mb-1">
+          <img src="/img/frikadelle/tallAudienceBack.jpg" alt="" class="img-fluid">
+          
+          
+        </div>
+      </div>
 
       </div>
     </div>
