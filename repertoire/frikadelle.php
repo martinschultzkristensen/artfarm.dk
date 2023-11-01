@@ -18,45 +18,45 @@
 <div class="container-fluid;">
 
   <div class="card text-white text-uppercase"> 
-  <img src="/img/frikaAmarMain.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
-  <div class="card-img-overlay">
-    <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Frikadelle</h1>
-  </div>
+    <img src="/img/frikaAmarMain.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
+    <div class="card-img-overlay">
+      <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Frikadelle</h1>
+    </div>
   </div>
   
   <div class="container my-5" id="skeleton">
     
     <div class="row align-items-center">
-      <div class="col-12">
+      <!-- <div class="col-12">
         <h2 class="text-center">Se billederne fra den overdådige kreation af en frikadelle.</h2>
-      </div>
+      </div> -->
       
-      <div class="row">
+
         
-        <div class="col-md-4">         
-          <img src="/img/frikadelle/tallFreeze.jpg" class="img-fluid mb-1">
-          <img src="/img/frikadelle/flatBow.jpg" alt="" class="img-fluid mb-1">
-          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="img-fluid">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">         
+          <img src="/img/frikadelle/tallFreeze.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+          <img src="/img/frikadelle/flatBow.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+          <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">
           
           
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           
-          <img src="/img/frikadelle/tallBlowUp.jpg" alt="" class="img-fluid mb-1">
-          <img src="/img/frikadelle/tallFly.jpg" class="img-fluid mb-1">
-          <img src="/img/frikadelle/flatAudience.jpg" alt="" class="img-fluid">
-          
-          
-        </div>
-        <div class="col">
-          
-          <img src="/img/frikadelle/flatBrushOut.jpg" alt="" class="img-fluid mb-1">
-          <img src="/img/frikadelle/tallHandstand.jpg" class="img-fluid mb-1">
-          <img src="/img/frikadelle/tallAudienceBack.jpg" alt="" class="img-fluid">
+          <img src="/img/frikadelle/tallBlowUp.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+          <img src="/img/frikadelle/tallFly.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+          <img src="/img/frikadelle/flatAudience.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">
           
           
         </div>
-      </div>
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          
+          <img src="/img/frikadelle/flatBrushOut.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+          <img src="/img/frikadelle/tallHandstand.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+          <img src="/img/frikadelle/tallAudienceBack.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">
+          
+          
+        </div>
+     
 
       </div>
     </div>
@@ -161,16 +161,16 @@
     
   </div> <!-- container -->
   
-</main>
-
-
-
-<!-- Footer -->
-<?php
+  
+  
+  
+  <!-- Footer -->
+  <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'footer.php';
     ?>
   
+</main>
   
   <!-- <div class="d-sm-inline-flex p-2 bd-highlight bg-danger">I'm a flexbox container!</div> -->
   <script src="/js/bootstrap.bundle.min.js"></script>
