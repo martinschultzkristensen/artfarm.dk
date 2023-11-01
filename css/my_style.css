@@ -1,0 +1,40 @@
+/* used in cleanslate_index */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+/* Horizontal Navigation Bar */
+
+li {
+  float: left;
+}
+
+/* for all links 'a' within a list  'li' item */
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+li a:hover {
+ background-color: #111;  
+}
+
+/* gives all links 'a' a block size */
+a {
+  display: block;
+  padding: 8px;
+
+}
+
+.active {
+  background-color: #04AA6D;
+}
+

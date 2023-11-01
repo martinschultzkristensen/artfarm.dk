@@ -26,19 +26,6 @@
 
 
 </div> -->
-
-<div class="card text-white text-uppercase">  
-    <img src="/img/dmaskine_1.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
-      <div class="card-img-overlay position-absolute">
-        <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
-          <p class="card-text">refusionsgodkendt!</p>
-          <h1 class="card-title;">Bliver DANCEOMATIC<br>klar til Aprilfestival?</h1>
-          <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg">Info</a>        
-        </div>
-      </div>
-  </div>
-
-
 <div class="container-fluid;">
   <div class="card text-white text-uppercase">  
     <img src="/img/frikaAmarMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
@@ -52,7 +39,8 @@
         </div>
       </div>
   </div>
-<div class="container-fluid;">
+
+  <div class="container-fluid;">
   <div class="card text-white text-uppercase">  
     <img src="/img/terminusBwLayOut.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
@@ -65,6 +53,22 @@
         </div>
       </div>
   </div>
+
+<div class="card text-white text-uppercase">  
+    <img src="/img/dmaskine_1.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <div class="card-img-overlay position-absolute">
+        <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
+          <p class="card-text">refusionsgodkendt!</p>
+          <h1 class="card-title;">Bliver DANCEOMATIC<br>klar til Aprilfestival?</h1>
+          <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg">Info</a>        
+        </div>
+      </div>
+  </div>
+
+
+
+
+
 
 
   <div class="card text-white text-uppercase">  
