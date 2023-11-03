@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/my_style.css">
 <header>
         <nav>
           <div>
@@ -6,29 +7,30 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button> -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+
               <ul>
-                  <li>
-                    <a href="/artists">Team</a></a>
-                  </li>
-                  <li>
-                      <a class="nav-link" href="/about">About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Repertoire
-                    </a>
-                      <ul aria-labelledby="navbarDropdown">
-                        <li><a href="/repertoire/terminus">Terminus</a></li>
-                        <li><a href="/repertoire/frikadelle">Frikadelle</a></li>
-                        <li><a href="/repertoire/danceomatic">danceOmatic</a></li>
-                        <li><a href="/repertoire/akrylarium">Akrylarium</a></li>
-                      </ul>
+                  <li><a href="/artists">Team</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li class="dropdown">
+                    <a class="dropbtn" href="javascript:void(0)">Repertoire</a>
+                      <div class="dropdown-content">
+                        <a href="/repertoire/terminus">Terminus</a>
+                        <a href="/repertoire/frikadelle">Frikadelle</a>
+                        <a href="/repertoire/danceomatic">danceOmatic</a>
+                        <a href="/repertoire/akrylarium">Akrylarium</a>
+                      </div>  
                   </li>
               </ul>
-              
+
+
              
-            </div>
+            
+
+
+
+
+
+
           </div>
         </nav>
-      </header>
+</header>
