@@ -73,3 +73,29 @@ a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media screen and (max-width: 600px) {
+  ul li {
+    float: none;
+  }
+}
+
+.navbar {
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  cursor: pointer;
+  width: 10px;
+}
+
+/* Building a Responsive Grid-View */
+/* The code below ensures that all elements are sized in this more intuitive way. */
+* {
+  box-sizing: border-box;
+}

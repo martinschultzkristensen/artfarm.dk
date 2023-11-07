@@ -7,7 +7,9 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button> -->
-
+            <div class="navbar">
+              <img src="/img/logo_invert_navbar.png" alt="art farm logo" class="logo">
+            </div>
               <ul>
                   <li><a href="/artists">Team</a></li>
                   <li><a href="/about">About</a></li>
