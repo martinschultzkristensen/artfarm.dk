@@ -33,31 +33,28 @@
       
       <div class="col-lg-12 ">
         <h2 class="featurette-heading">Beretning fra <span class="text-muted">sidste forestilling</span></h2>
-        <p class="lead mt-3 mx-3">Den 15 oktober havde vi en foreløbig sidste oprørelse af ‘Frikadelle’. 
-            Vi med på et brag i Amagercenteret, med mange veloplagte publikummer. - Store som små! &#x1F60A</p>
+        <p class="lead mt-3 mx-3">Den 15. oktober oplevede vi den foreløbige sidste forestilling af 'Frikadelle'. Vi var med til den fantastiske begivenhed som en del af Amager børneteater festival, med et stort antal entusiastiske publikummer - både store og små! &#x1F60A</p>
       </div>
 
       
       
+      <p>Billeder af Kristina Pedersen</p>
       <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
-        <p>Billeder af Kristina Pedersen</p>
-        
-
-        <img src="/img/frikadelle/flatBrushOut.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/tallHandstand.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/tallAudienceBack.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4"> 
+        <img src="/img/frikadelle/compressjpeg/flatBrushOut-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+        <img src="/img/frikadelle/compressjpeg/tallHandstand-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+        <img src="/img/frikadelle/compressjpeg/tallAudienceBack-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4"> 
       </div>
       
       <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">          
-        <img src="/img/frikadelle/tallFreeze.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/flatBow.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/tallFlipOver.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">  
+        <img src="/img/frikadelle/compressjpeg/tallFreeze-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+        <img src="/img/frikadelle/compressjpeg/flatBow-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+        <img src="/img/frikadelle/compressjpeg/tallFlipOver-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">  
       </div>
       
       <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"> 
-        <img src="/img/frikadelle/tallBlowUp.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/tallFly.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/flatAudience.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4"> 
+        <img src="/img/frikadelle/compressjpeg/tallBlowUp-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+        <img src="/img/frikadelle/compressjpeg/tallFly-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+        <img src="/img/frikadelle/compressjpeg/flatAudience-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4"> 
       </div>
       
 

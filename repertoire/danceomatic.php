@@ -18,7 +18,8 @@
   <div class="card text-white text-uppercase"> 
   <img src="../img/dmaskine_1.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
   <div class="card-img-overlay">
-          <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">danceOmatic</h1>
+          <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);"><img src="../assets/svg_elements/danceOmatic_logo.svg" height="250" class="d-inline-block"></h1>
+        
     </div>
   </div>
   

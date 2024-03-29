@@ -86,12 +86,15 @@ a {
   margin: auto;
   display: flex;
   align-items: center;
-  
 }
 
-.logo {
-  cursor: pointer;
-  width: 10px;
+#logo{
+  position:absolute;
+  top:10px; 
+  left:10px;
+  width:40px;
+  height:40px;
+  overflow:hidden;
 }
 
 /* Building a Responsive Grid-View */
