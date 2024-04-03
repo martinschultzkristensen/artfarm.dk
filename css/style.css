@@ -2,6 +2,10 @@
 
 /*style only used in Repetoire.html */
 
+body {
+  background-color: lightblue;
+}
+
 .list-praktisk-info {
   list-style-type: none;
   margin: 0px;
@@ -36,9 +40,80 @@
   opacity: 1;
 }
 
+#Penetrating_0,
+#O_inside_Shade-2,
+#BangEffect {
+  visibility: hidden;
+}
+
 .top_left {
   position: absolute;
   top: 1em;
   left: 1em;
 }
 
+@keyframes Pil {
+  from {
+    transform: rotateZ(-0.2turn);
+  }
+  to {
+    transform: rotateZ(-0turn);
+  }
+}
+
+#Pil {
+  transform-origin: center bottom;
+  animation: Pil 0.5s;
+  /* cubic-bezier(0, 0.2, 0.1, 1) */
+}
+
+#Lyn {
+  animation: Lyn 1s alternate ease-in;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes Lyn {
+  from {
+    transform: translate(0%, -100%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+
+#Explotion {
+  animation: Explotion 1s alternate ease-in;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes Explotion {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes showLetter {
+  from {
+    opacity: 1;
+    transform: scale(4.5); /* Start with the letter scaled up */
+    transform-origin: center;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1); /* End with the letter at normal scale */
+  }
+}
+
+.letter {
+  opacity: 0;
+}
+
+.letter.show {
+  opacity: 1;
+  animation: showLetter 0.3s ease-out;
+}
