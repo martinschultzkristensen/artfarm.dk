@@ -12,8 +12,9 @@ document.getElementById("Pil").addEventListener("animationend", function () {
 function showFontPinkLetters() {
   var letters = document.querySelectorAll(".letter");
   letters.forEach(function (letter, index) {
+    var delay = index === letters.length - 11 ? 150 : 110; //delay for letter "O". nr 11 in the class letters
     setTimeout(function () {
       letter.classList.add("show");
-    }, (letters.length - index) * 300); // Juster forsinkelsen efter behov
+    }, (letters.length - index) * delay); // Juster forsinkelsen efter behov
   });
 }

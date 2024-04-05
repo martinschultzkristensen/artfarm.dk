@@ -63,11 +63,11 @@ body {
 
 #Pil {
   transform-origin: center bottom;
-  animation: Pil 0.5s;
+  animation: Pil 0.3s;
   /* cubic-bezier(0, 0.2, 0.1, 1) */
 }
 
-#Lyn {
+/* #Lyn {
   animation: Lyn 1s alternate ease-in;
   transform-origin: center;
   transform-box: fill-box;
@@ -86,7 +86,7 @@ body {
   animation: Explotion 1s alternate ease-in;
   transform-origin: center;
   transform-box: fill-box;
-}
+} */
 
 @keyframes Explotion {
   from {
@@ -98,15 +98,22 @@ body {
 }
 
 @keyframes showLetter {
-  from {
-    opacity: 1;
-    transform: scale(4.5); /* Start with the letter scaled up */
-    transform-origin: center;
+  0% {
+    opacity: 0;
+    transform: scale(
+      10
+    ); /* Start with the letter scaled up and positioned above */
   }
-  to {
+  50% {
     opacity: 1;
-    transform: scale(1); /* End with the letter at normal scale */
+    transform: scale(1); /* Scale down and move to original position */
   }
+}
+
+.letter {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  transform-origin: center; /* Ensure the scaling happens from the center of the letter */
 }
 
 .letter {
@@ -115,5 +122,5 @@ body {
 
 .letter.show {
   opacity: 1;
-  animation: showLetter 0.3s ease-out;
+  animation: showLetter 1s;
 }
