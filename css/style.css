@@ -63,37 +63,49 @@ body {
 
 #Pil {
   transform-origin: center bottom;
-  animation: Pil 0.3s;
+  animation: Pil 0.5s forwards;
   /* cubic-bezier(0, 0.2, 0.1, 1) */
 }
 
-/* #Lyn {
-  animation: Lyn 1s alternate ease-in;
+#Lyn {
+  opacity: 0;
+  animation: Lyn 0.2s alternate ease-out forwards;
   transform-origin: center;
   transform-box: fill-box;
+  animation-delay: 0.3s;
 }
 
 @keyframes Lyn {
-  from {
+  0% {
+    opacity: 0;
     transform: translate(0%, -100%);
   }
-  to {
+  100% {
+    opacity: 1;
     transform: translate(0%, 0%);
   }
 }
 
 #Explotion {
-  animation: Explotion 1s alternate ease-in;
+  opacity: 0;
+  animation: Explotion 0.2s alternate ease-out forwards;
   transform-origin: center;
   transform-box: fill-box;
-} */
+  animation-delay: 2.7s;
+}
 
 @keyframes Explotion {
-  from {
+  0% {
     transform: scale(0);
+    opacity: 0;
   }
-  to {
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -116,11 +128,16 @@ body {
   transform-origin: center; /* Ensure the scaling happens from the center of the letter */
 }
 
-.letter {
-  opacity: 0;
-}
-
 .letter.show {
   opacity: 1;
-  animation: showLetter 1s;
+  animation: showLetter 1s ease-in forwards;
+}
+
+#shadeEffect {
+  opacity: 0; /* Start with the shadow effect hidden */
+  transition: 0.5s; /* Define the transition property */
+}
+
+#shadeEffect.show {
+  opacity: 1; /* Make the shadow effect visible */
 }

@@ -7,6 +7,7 @@
 document.getElementById("Pil").addEventListener("animationend", function () {
   console.log("Animationen af Pil er fuldført!"); // Tilføjet console.log()
   showFontPinkLetters();
+  setTimeout(fadeInShadowEffect, 2200);
 });
 
 function showFontPinkLetters() {
@@ -17,4 +18,9 @@ function showFontPinkLetters() {
       letter.classList.add("show");
     }, (letters.length - index) * delay); // Juster forsinkelsen efter behov
   });
+}
+
+function fadeInShadowEffect() {
+  var shadowElement = document.getElementById("shadeEffect");
+  shadowElement.classList.add("show");
 }
