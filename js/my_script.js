@@ -10,8 +10,9 @@ document.getElementById("danceOmatic_logo").addEventListener("load", function ()
   // Access the SVG document
   var svgDoc = this.contentDocument;
 
+
 svgDoc.getElementById("Pil").addEventListener("animationend", function () {
-  console.log("Animationen af Pil er fuldført!"); // Tilføjet console.log()
+  console.log("Animationen af Pil er fuldført!"); 
   showFontPinkLetters();
   setTimeout(fadeInShadowEffect, 2200);
 });
