@@ -3,7 +3,7 @@
 /*style only used in Repetoire.html */
 
 body {
-  background-color: lightblue;
+  background-color: lightcyan;
 }
 
 .list-praktisk-info {
@@ -40,12 +40,7 @@ body {
   opacity: 1;
 }
 
-.zoomed-svg-container {
-  width: 100%; /* Adjust the width of the container as needed */
-  overflow: hidden; /* Hide horizontal scrollbar */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-}
+
 
 
 
@@ -61,22 +56,28 @@ body {
 
 .svg-overlay {
   position: absolute;
-  width: 100px; /* Adjust the width of the SVG as needed */
+  width: 15%; /* Adjust the width of the SVG as needed */
   height: auto; /* Allow the height to adjust proportionally */
-  top: 50%; /* Position the SVG in the middle vertically */
+  top: 30%; /* Position the SVG in the middle vertically */
   left: 50%; /* Position the SVG in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the SVG */
 }
 
 .centered-svg {
-  width: 100%; /* Take up the full width of the container */
-  max-width: 1000px; /* Limit the maximum width to prevent it from stretching too much */
-  margin: 0 auto; /* Center the container horizontally */
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  width: 100%; 
 }
 
 .zoomed-svg {
-  transform: scale(2.5) translateY(2000);
+  transform: scale(1.5) translateY(-20%);
+  transform-origin: top;
+}
+
+.zoomed-svg-container {
+  position: relative;
+  width: 100%; /* Adjust the width of the container as needed */
+  overflow-y: visible;
+  overflow-x: clip; /* Hide horizontal scrollbar */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
 }

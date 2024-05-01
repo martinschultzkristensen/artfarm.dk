@@ -12,19 +12,52 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 <body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand:focusable" href="/index.html"><img src="../img/artfarm_zeromargin_ivert.png" height="40px" alt="Art Farm logo" class="ms-1"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Repetoire.html">Repetoire</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/tourplan.html">Tourplan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/pages/artists.html">Artists</a></li>
+                    <li><a class="dropdown-item" href="/pages/organization.html">Organisation</a></li>
+               
+                  </ul>
+              </li>
+          </ul>
+          
+         
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- under layer -->
+    <div class="zoomed-svg-container">
+      <object data="/assets/svg_elements/arcade.svg" id="arcade" class="zoomed-svg" type="image/svg+xml">  
+      </object>
+      <div class="svg-overlay">
+        <object type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" class="zoomed-svg" id="danceOmatic_logo"></object>
+      </div>
+    </div>
   
-
-<main>
-
-<!-- under layer -->
-<div class="zoomed-svg-container ">
-
-  <object data="/assets/svg_elements/arcade.svg" id="arcade"  type="image/svg+xml"></object>
-</div>
-  <!-- <div class="container my-5 card-img-overlay" id="skeleton">
-  <object type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo"></object>
-    </div> -->
-    
+    <div class="container-fluid">
+  </div>
 
   
 
