@@ -40,7 +40,18 @@ body {
   opacity: 1;
 }
 
+.zoomed-svg-container {
+  width: 100%; /* Adjust the width of the container as needed */
+  overflow: hidden; /* Hide horizontal scrollbar */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+}
 
+
+
+.masked-image {
+  width: 100%; /* Adjust the width of the container as needed */
+}
 
 .top_left {
   position: absolute;
@@ -58,9 +69,14 @@ body {
 }
 
 .centered-svg {
-  width: 10%; /* Adjust this value as needed */
-  transform: translateX(-50%);
-  left: 50%;
-  position: relative;
+  width: 100%; /* Take up the full width of the container */
+  max-width: 1000px; /* Limit the maximum width to prevent it from stretching too much */
+  margin: 0 auto; /* Center the container horizontally */
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
+.zoomed-svg {
+  transform: scale(2.5) translateY(2000);
+}

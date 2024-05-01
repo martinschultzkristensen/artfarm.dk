@@ -9,41 +9,28 @@
     <title>Art Farm</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+  
 
 <main>
-<div class="container-fluid;">
 
-  <div class="card text-white text-uppercase"> 
-  <img src="../img/dmaskine_1.jpg" alt="picture of danceOmatic" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
-  <div class="card-img-overlay">
-          <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">danceOmatic</h1>
-        
-    </div>
-  </div>
-  
-  <div class="container my-5" id="skeleton">
+<!-- under layer -->
+<div class="zoomed-svg-container ">
+
+  <object data="/assets/svg_elements/arcade.svg" id="arcade"  type="image/svg+xml"></object>
+</div>
+  <!-- <div class="container my-5 card-img-overlay" id="skeleton">
   <object type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo"></object>
-  <object type="image/svg+xml" data="/assets/svg_elements/coin8bit.svg" id="coin8bit"></object>  
-    <div class="row align-items-center">
-       <div class="col-12">
-         <h2 class="text-center">En fusion mellem en spillemaskine og live danseforestilling</p>
-         <img src="../assets/danceOmatic_logo.svg" height="250" class="d-inline-block">
-
- 
-   
-
-
-       </div>
-     </div> 
-
-
-
-
+    </div> -->
+    
 
   
-</div> <!-- container -->
+
+  
+
+<!-- container -->
 
 
 
@@ -51,11 +38,6 @@
 
 
 
-<!-- Footer -->
-<?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'footer.php';
-    ?>
 
 </main>
 
