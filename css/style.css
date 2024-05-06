@@ -58,6 +58,14 @@ body {
   left: 50%; /* Position the SVG in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the SVG */
 }
+.svg-overlay-coin {
+  position: absolute;
+  width: 10%; 
+  height: auto; 
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%); 
+}
 
 .centered-svg {
   width: 100%;
@@ -76,6 +84,13 @@ body {
   .svg-overlay-logo {
     top: 60%; /* Adjust the top value for mobile devices */
     width: 30%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .svg-overlay-coin {
+    top: 140%; /* Adjust the top value for mobile devices */
+    width: 10%;
     height: auto;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -106,4 +121,12 @@ body {
 
 #arcade text {
   animation: fadeAnimation 2s infinite;
+}
+
+/* CSS styles for coin.svg */
+#coin8bit {
+  position: fixed;
+  top: 180px;
+  left: 10px;
+
 }

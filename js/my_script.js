@@ -56,3 +56,22 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(toggleOpacity, 2000);
   });
 });
+
+ // JavaScript to handle scroll animation
+ document.addEventListener("DOMContentLoaded", function() {
+  // Get a reference to the coin.svg element
+  const coin = document.getElementById("coin8bit");
+
+  // Function to update the position of the coin based on scroll
+  function updateCoinPosition() {
+      // Calculate the new position based on the scroll position
+      const scrollPosition = window.scrollY;
+      const newPosition = -50 + scrollPosition; // Adjust as needed
+
+      // Update the left position of the coin element
+      coin.style.left = newPosition + "px";
+  }
+
+  // Add a scroll event listener to trigger the animation
+  window.addEventListener("scroll", updateCoinPosition);
+});
