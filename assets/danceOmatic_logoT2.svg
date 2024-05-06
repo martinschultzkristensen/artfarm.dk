@@ -1,13 +1,6 @@
     <svg id="danceOmatic_logo" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.2 709.48">
       <defs>
-      <mask id="rectangle-mask">
-    <rect x="1171" y="880" width="662" height="590" fill="white" rx="20" ry="20" />
-  </mask>
 
-      <mask id="square-mask">
-<!-- mask fill white means invisible -->
-    <rect width="500" height="500" fill="white" rx="20" ry="20" transform="translate(50 120)"/>
-    </mask>
       <style>
     @keyframes Pil {
     from {

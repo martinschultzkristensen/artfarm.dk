@@ -40,10 +40,6 @@ body {
   opacity: 1;
 }
 
-
-
-
-
 .masked-image {
   width: 100%; /* Adjust the width of the container as needed */
 }
@@ -54,22 +50,36 @@ body {
   left: 1em;
 }
 
-.svg-overlay {
+.svg-overlay-logo {
   position: absolute;
-  width: 15%; /* Adjust the width of the SVG as needed */
+  width: 20%; /* Adjust the width of the SVG as needed */
   height: auto; /* Allow the height to adjust proportionally */
-  top: 30%; /* Position the SVG in the middle vertically */
+  top: 28%; /* Position the SVG in the middle vertically */
   left: 50%; /* Position the SVG in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the SVG */
 }
 
 .centered-svg {
-  width: 100%; 
+  width: 100%;
 }
 
 .zoomed-svg {
   transform: scale(1.5) translateY(-20%);
   transform-origin: top;
+}
+
+@media (max-width: 768px) {
+  /* Adjust the max-width as needed */
+  .zoomed-svg {
+    transform: scale(2.5) translateY(-15%); /* Adjust the translateY value for mobile devices */
+  }
+  .svg-overlay-logo {
+    top: 60%; /* Adjust the top value for mobile devices */
+    width: 30%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
 }
 
 .zoomed-svg-container {
@@ -80,4 +90,20 @@ body {
   display: flex; /* Use flexbox for centering */
   justify-content: center; /* Center horizontally */
   align-items: center;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#arcade text {
+  animation: fadeAnimation 2s infinite;
 }

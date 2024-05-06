@@ -4,6 +4,8 @@
  * Released under the MIT license
  */
 
+
+
 // Wait for the SVG document to be fully loaded
 document.getElementById("danceOmatic_logo").addEventListener("load", function () {
   
@@ -30,8 +32,27 @@ function showFontPinkLetters() {
   });
 }
 
-  function fadeInShadowEffect() {
+function fadeInShadowEffect() {
     var svgDoc = document.getElementById("danceOmatic_logo").contentDocument;
   var shadowElement = svgDoc.getElementById("shadeEffect");
   shadowElement.classList.add("show");
 }
+
+console.log("Script loaded!");
+document.addEventListener("DOMContentLoaded", function() {
+  const arcadeObject = document.getElementById("arcade");
+
+  arcadeObject.addEventListener("load", function() {
+    const svgDocument = arcadeObject.contentDocument;
+    const fadeAnimation = svgDocument.getElementById("fadeAnimation");
+
+    function toggleOpacity() {
+      fadeAnimation.beginElement(); // Start the animation
+      setTimeout(() => {
+        fadeAnimation.endElement(); // End the animation after a delay
+      }, 3000); // Adjust the delay (in milliseconds) as needed
+    }
+
+    setInterval(toggleOpacity, 2000);
+  });
+});

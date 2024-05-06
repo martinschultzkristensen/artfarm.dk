@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="arcade" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="arcade"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3002.9 3003" enable-background="new 0 0 3002.9 3003" xml:space="preserve">
 <mask id="rectangle-mask">
     <rect x="1171" y="880" width="662" height="590" fill="white" rx="20" ry="20" />
@@ -239,8 +239,13 @@
 		c5.5,17.1,11.1,27.9,17,32.6c5.3,5.3,16.4,9.4,33.3,12.3l280.1-1.6L1502.6,883.9"/> -->
 
 		<!-- arcadescreen -->
-
-	<rect x="1171" y="880" width="662" height="590" fill="black" stroke="black" stroke-width="2" rx="20" ry="20" mask="url(#rectangle-mask)"/>	
+	<g>
+	<rect x="1171" y="880" width="662" height="590" fill="black" stroke="black" stroke-width="2" rx="20" ry="20" mask="url(#rectangle-mask)"/>
+	<text x="1465" y="1450" fill="pink" font-size="90" text-anchor="middle" font-family="ArcadeClassic">
+	 <animate id="fadeAnimation" attributeName="opacity" values="0;0;1" dur="5s" repeatCount="indefinite" />
+  	INSERT COIN
+	</text>	
+	</g>
 	<g id="joystick">
 		<path d="M1274.9,1657c0,26.3-26.9,44.1-55,44.1c-28.2,0-55.1-17.8-55.1-44.1c0-26.3,26.9-44.1,55.1-44.1
 			C1248,1612.9,1274.9,1630.6,1274.9,1657 M1258,1657c0-13-14.8-27.2-38.1-27.2c-23.3,0-38.1,14.1-38.1,27.2
