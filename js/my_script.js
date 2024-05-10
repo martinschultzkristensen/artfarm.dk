@@ -4,7 +4,7 @@
  * Released under the MIT license
  */
 
-
+ 
 
 // Wait for the SVG document to be fully loaded
 document.getElementById("danceOmatic_logo").addEventListener("load", function () {
@@ -57,21 +57,40 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
- // JavaScript to handle scroll animation
- document.addEventListener("DOMContentLoaded", function() {
+
+// JavaScript to handle scroll animation
+document.addEventListener("DOMContentLoaded", function() {
   // Get a reference to the coin.svg element
   const coin = document.getElementById("coin8bit");
 
   // Function to update the position of the coin based on scroll
   function updateCoinPosition() {
-      // Calculate the new position based on the scroll position
-      const scrollPosition = window.scrollY;
-      const newPosition = -50 + scrollPosition; // Adjust as needed
+    // Calculate the new position based on the scroll position
+    const viewportHeight = window.innerHeight;
+    const scrollPosition = window.scrollY + (-0.4 * viewportHeight);
+    console.log("Scroll position:", scrollPosition);
+    const threshold = 485; // Adjust this value as needed
+    const newPosition = -50 + scrollPosition;
+    console.log("New position:", newPosition);
+
 
       // Update the left position of the coin element
-      coin.style.left = newPosition + "px";
+    coin.style.left = newPosition + "px";
+    console.log("Coin position updated");
+    if (scrollPosition > threshold) {
+      // If it does, set the z-index of the coin element to a value that makes it appear behind the arcade element
+      coin.style.zIndex = -1;
+      coin.style.opacity = 0;
+    } else {
+      // Otherwise, set the z-index to a value that makes it appear above the arcade element
+      coin.style.zIndex = 1;
+      coin.style.opacity = 100;
+    }
+
   }
 
   // Add a scroll event listener to trigger the animation
   window.addEventListener("scroll", updateCoinPosition);
+   // Set the initial position of the coin
+   coin.style.left = "-50px"; // Adjust the initial position as needed
 });
