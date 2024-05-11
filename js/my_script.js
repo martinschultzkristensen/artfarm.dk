@@ -94,3 +94,19 @@ document.addEventListener("DOMContentLoaded", function() {
    // Set the initial position of the coin
    coin.style.left = "-50px"; // Adjust the initial position as needed
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var hiddenText = document.querySelector(".item-appear");
+
+  window.addEventListener("scroll", function() {
+    var scrollPosition = window.scrollY;
+    var triggerPosition = 800; // Adjust as needed, this is the scroll position where the text appears
+
+    if (scrollPosition > triggerPosition) {
+      hiddenText.classList.add("visible");
+    } else {
+      hiddenText.classList.remove("visible");
+    }
+  });
+});

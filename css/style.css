@@ -158,3 +158,18 @@ body {
     margin-top: 12%;
   }
 }
+
+
+
+
+.item-appear {
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.9s ease;
+  position: relative;
+  top: 100px;
+}
+
+.visible {
+  opacity: 1;
+  top: 0%
+}
