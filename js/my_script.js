@@ -62,14 +62,15 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
   // Get a reference to the coin.svg element
   const coin = document.getElementById("coin8bit");
+  const blingContainer = document.getElementById("bling");
 
   // Function to update the position of the coin based on scroll
   function updateCoinPosition() {
     // Calculate the new position based on the scroll position
     const viewportHeight = window.innerHeight;
-    const scrollPosition = window.scrollY + (-0.4 * viewportHeight);
+    const scrollPosition = window.scrollY + (-0.7 * viewportHeight);
     console.log("Scroll position:", scrollPosition);
-    const threshold = 485; // Adjust this value as needed
+    const threshold = 185; // Adjust this value as needed
     const newPosition = -50 + scrollPosition;
     console.log("New position:", newPosition);
 
@@ -78,13 +79,11 @@ document.addEventListener("DOMContentLoaded", function() {
     coin.style.left = newPosition + "px";
     console.log("Coin position updated");
     if (scrollPosition > threshold) {
-      // If it does, set the z-index of the coin element to a value that makes it appear behind the arcade element
-      coin.style.zIndex = -1;
       coin.style.opacity = 0;
+      blingContainer.classList.add("bling-visible");
     } else {
-      // Otherwise, set the z-index to a value that makes it appear above the arcade element
-      coin.style.zIndex = 1;
       coin.style.opacity = 100;
+      blingContainer.classList.remove("bling-visible");
     }
 
   }
@@ -92,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Add a scroll event listener to trigger the animation
   window.addEventListener("scroll", updateCoinPosition);
    // Set the initial position of the coin
-   coin.style.left = "-50px"; // Adjust the initial position as needed
+   coin.style.left = "0px"; // Adjust the initial position as needed
 });
 
 
@@ -101,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   window.addEventListener("scroll", function() {
     var scrollPosition = window.scrollY;
-    var triggerPosition = 800; // Adjust as needed, this is the scroll position where the text appears
+    var triggerPosition = 800;
 
     if (scrollPosition > triggerPosition) {
       hiddenText.classList.add("visible");

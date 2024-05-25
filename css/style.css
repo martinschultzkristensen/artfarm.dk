@@ -4,52 +4,10 @@
 
 body {
   background-color: lightcyan;
+  overflow-x: hidden;
 }
 
-.list-praktisk-info {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  font-size: 11px;
-  orphans: 2;
-  text-align: start;
-  text-indent: 0px;
-  text-transform: none;
-  white-space: normal;
-  widows: 2;
-  word-spacing: 0px;
-}
-
-.modal-dialog {
-  max-width: 800px;
-  margin: 30px auto;
-}
-
-.modal-body {
-  position: relative;
-  padding: 0px;
-}
-.close {
-  position: absolute;
-  right: -30px;
-  top: 0;
-  z-index: 999;
-  font-size: 2rem;
-  font-weight: normal;
-  color: #fff;
-  opacity: 1;
-}
-
-.masked-image {
-  width: 100%; /* Adjust the width of the container as needed */
-}
-
-.top_left {
-  position: absolute;
-  top: 1em;
-  left: 1em;
-}
-
+/*this is the danceOmatic logo*/
 .svg-overlay-logo {
   position: absolute;
   width: 20%; /* Adjust the width of the SVG as needed */
@@ -58,6 +16,21 @@ body {
   left: 50%; /* Position the SVG in the middle horizontally */
   transform: translate(-50%, -50%); /* Center the SVG */
 }
+
+.bling-container {
+  position: absolute;
+  width: 30rem; 
+  height: auto; 
+  top: 150%;
+  left: 10%;
+  transform: none;
+  object-position: top left;
+  opacity: 0;
+}
+
+
+
+
 .svg-overlay-coin {
   position: absolute;
   width: 10%; 
@@ -67,72 +40,79 @@ body {
   transform: none; 
 }
 
-.centered-svg {
-  width: 100%;
+.svg-container {
+  position: relative;
+  height: 100px; /* Adjust this height based on the scaled SVG height */
 }
 
 .zoomed-svg {
+  position: relative;
   transform: scale(1.5) translateY(-20%);
   transform-origin: top;
+  overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  /* Adjust the max-width as needed */
+/* @media (max-width: 768px) {
+  
   .zoomed-svg {
-    transform: scale(2.5) translateY(-15%); /* Adjust the translateY value for mobile devices */
+    transform: scale(1.5) translateY(-20%); 
+    overflow: hidden;
+    position: relative;
   }
   .svg-overlay-logo {
-    top: 60%; /* Adjust the top value for mobile devices */
+    top: 60%; 
     width: 30%;
     height: auto;
     transform: translate(-50%, -50%);
     left: 50%;
+  
   }
-  .svg-overlay-coin {
-    top: 140%; /* Adjust the top value for mobile devices */
-    width: 5%;
-    height: auto;
-    transform: none;
-    left: 50%;
-  }
+} */
+
+.container.position-relative {
+  position: relative; /* Ensure position relative is maintained */
+  z-index: 1; /* Ensure it stays in the correct stacking order */
+}
+
+.duplicate-paragraph {
+  position: relative; /* Relative positioning for correct placement */
+  z-index: 2; /* Higher z-index to appear above the SVG */
 }
 
 #coin8bit {
   position: absolute;
-  left: 10%; /* Adjust left positioning as needed */
-  top: 73%; /* Adjust top positioning as needed */
-  width: 7%; /* Adjust the width of the coin as needed */
+  left: 100%;
+  top: 220%; /* Adjust top positioning as needed */
+  width: 30%; /* Adjust the width of the coin as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
-.zoomed-svg-container {
-  position: relative;
-  width: 100%; /* Adjust the width of the container as needed */
-  overflow-y: visible;
-  overflow-x: clip; /* Hide horizontal scrollbar */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center;
+
+
+#bling.bling-visible {
+  opacity: 1;
+  animation: Bling 0.2s alternate ease-out forwards;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 
-@keyframes fadeAnimation {
+@keyframes Bling {
   0% {
+    transform: scale(0);
     opacity: 0;
   }
   50% {
+    transform: scale(1.5);
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    transform: scale(1);
+    opacity: 1;
   }
 }
 
-#arcade text {
-  animation: fadeAnimation 2s infinite;
-}
 
-/* CSS styles for coin.svg */
-
+/* header image styling */
 .header-img,
 .header-img-bottom,
 .header-img-top {
@@ -142,22 +122,16 @@ body {
   object-position: center top;
 }
 
-/* @media (min-width: 576px) {
-  .container,
-  .container-sm {
-    max-width: 540px;
-  }
-} */
-
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   .header-img,
   .header-img-bottom,
   .header-img-top {
-    height: 25vh; /* Reduce height for smaller screens */
-    object-position:bottm left;
-    margin-top: 12%;
+    height: 40vh; /* Reduce height for smaller screens */
+    object-position: top;
+    margin-top: 7%;
   }
 }
+
 
 
 
