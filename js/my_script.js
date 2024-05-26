@@ -58,41 +58,42 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// JavaScript to handle scroll animation
+// JavaScript to handle coin-scroll animation:
 document.addEventListener("DOMContentLoaded", function() {
-  // Get a reference to the coin.svg element
   const coin = document.getElementById("coin8bit");
   const blingContainer = document.getElementById("bling");
+  const arcade = document.getElementById("arcade");
+  const coinInsertThreshold = -0.37; // Proportion of the container height where the coin should disappear
 
-  // Function to update the position of the coin based on scroll
   function updateCoinPosition() {
-    // Calculate the new position based on the scroll position
     const viewportHeight = window.innerHeight;
-    const scrollPosition = window.scrollY + (-0.7 * viewportHeight);
-    console.log("Scroll position:", scrollPosition);
-    const threshold = 185; // Adjust this value as needed
+    const scrollPosition = window.scrollY + (-0.4 * viewportHeight);
+
+    // Get the arcade container dimensions
+    const arcadeRect = arcade.getBoundingClientRect();
+    const containerHeight = arcadeRect.height;
+    const containerTop = arcadeRect.top + window.scrollY;
+
+    // Calculate the new position of the coin
     const newPosition = -50 + scrollPosition;
-    console.log("New position:", newPosition);
-
-
-      // Update the left position of the coin element
     coin.style.left = newPosition + "px";
-    console.log("Coin position updated");
+
+    // Calculate the threshold dynamically based on container height
+    const threshold = containerTop + (coinInsertThreshold * containerHeight);
+
     if (scrollPosition > threshold) {
       coin.style.opacity = 0;
       blingContainer.classList.add("bling-visible");
     } else {
-      coin.style.opacity = 100;
+      coin.style.opacity = 1; // Set opacity to 1 (fully visible)
       blingContainer.classList.remove("bling-visible");
     }
-
   }
 
-  // Add a scroll event listener to trigger the animation
   window.addEventListener("scroll", updateCoinPosition);
-   // Set the initial position of the coin
-   coin.style.left = "0px"; // Adjust the initial position as needed
+  coin.style.left = "0px"; // Set the initial position of the coin
 });
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
