@@ -1,6 +1,5 @@
 /* body {margin:2rem;} */
 
-/*style only used in Repetoire.html */
 
 body {
   background-color: lightcyan;
@@ -10,22 +9,21 @@ body {
 /*this is the danceOmatic logo*/
 .overlay-danceOmatic-logo {
   position: absolute;
-  width: 13%; /* Adjust the width of the SVG as needed */
-  height: auto; /* Allow the height to adjust proportionally */
-  top: 38%; /* Position the SVG in the middle vertically */
-  left: 50%; /* Position the SVG in the middle horizontally */
-  transform: translate(-50%, -50%); /* Center the SVG */
+  width: 13%; 
+  height: auto;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
 .bling-container {
   position: absolute;
-  width: 30rem; 
+  width: 50%; 
   height: auto; 
-  top: 50%;
-  left: 30%;
-  transform: none;
-  object-position: top left;
+  top: 55%;
+  left: 37%;
+  transform: translate(-50%, -50%);
   opacity: 0;
 }
 
@@ -36,8 +34,9 @@ body {
   position: absolute;
   width: 5%; 
   height: auto; 
-  top: 67%;
+  top: 69%;
   left: 0%;
+  transform: translate(-50%, -50%);
 }
 
 .svg-container {
