@@ -58,44 +58,66 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// JavaScript to handle coin-scroll animation:
+// Script to handle coin-scroll animation:
 document.addEventListener("DOMContentLoaded", function() {
   const coin = document.getElementById("coin8bit");
   const blingContainer = document.getElementById("bling");
   const arcade = document.getElementById("arcade");
-  const coinInsertThreshold = -0.37;
 
-  function updateCoinPosition() {
+  // Funktion til at justere møntens position baseret på scrolling
+  function updateCoinPosition(scrollY) {
     const viewportHeight = window.innerHeight;
-    const scrollPosition = window.scrollY + (-0.4 * viewportHeight);
-
-    const arcadeRect = arcade.getBoundingClientRect();
-    const containerHeight = arcadeRect.height;
-    const containerTop = arcadeRect.top + window.scrollY;
-
-    const newPosition = -50 + scrollPosition;
+    const newPosition = -50 + scrollY + (-0.4 * viewportHeight);
     coin.style.left = newPosition + "px";
-
-    const threshold = containerTop + (coinInsertThreshold * containerHeight);
-
-    // console.log("Viewport Height:", viewportHeight);
-    // console.log("Scroll Position:", scrollPosition);
-    // console.log("Container Height:", containerHeight);
-    // console.log("Container Top:", containerTop);
-    // console.log("Threshold:", threshold);
-
-    if (scrollPosition > threshold) {
-      coin.style.opacity = 0;
-      blingContainer.classList.add("bling-visible");
-    } else {
-      coin.style.opacity = 1;
-      blingContainer.classList.remove("bling-visible");
-    }
   }
 
-  window.addEventListener("scroll", updateCoinPosition);
+  // Konfiguration for Intersection Observer
+  const options = {
+    root: null, // observere i forhold til viewporten
+    rootMargin: "0px",
+    threshold: [0, 1.0] // triggers ved 0% og 100% synlighed
+  };
+
+  // Funktion der håndterer visibilitetsændringer
+  function handleIntersect(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const scrollPosition = window.scrollY;
+        const arcadeRect = arcade.getBoundingClientRect();
+        const containerHeight = arcadeRect.height;
+        const containerTop = arcadeRect.top + window.scrollY;
+        const coinInsertThreshold = -0.0; // Proportion of the container height where the coin should disappear
+
+        // Calculate the threshold dynamically based on container height
+        const threshold = containerTop + (coinInsertThreshold * containerHeight);
+
+        if (scrollPosition > threshold) {
+          coin.style.opacity = 0;
+          blingContainer.classList.add("bling-visible");
+        } else {
+          coin.style.opacity = 1;
+          blingContainer.classList.remove("bling-visible");
+        }
+      }
+    });
+  }
+
+  // Opret en ny Intersection Observer
+  const observer = new IntersectionObserver(handleIntersect, options);
+
+  // Observer arcade elementet
+  observer.observe(arcade);
+
+  // Juster møntens position ved scrolling
+  window.addEventListener("scroll", function() {
+    updateCoinPosition(window.scrollY);
+  });
+
+  // Initialiser møntens position
   coin.style.left = "0px";
 });
+
+
 
 
 
