@@ -6,25 +6,6 @@ $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
 include $IPATH . 'head.php';
 ?>
 
-<style>
-  .centered-svg {
-    width: 30%;
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
-    top: 50px;
-  }
-
-  @media (max-width: 768px) {
-  #danceOmatic_logo {
-    width: 50%;
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
-    top: 50px;
-  }
-}
-</style>
 
 <body class="bg-light">
 
@@ -37,11 +18,14 @@ include $IPATH . 'head.php';
     <div class="container-fluid;">
 
     
-        <img src="../img/dmaskine_1.jpg" alt="picture of audience with danceOmatic machine" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
-        <div class="card-img-overlay">
-          <object class="centered-svg" type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo" >
+
+    
+    <img src="/img/2017_dmaskine.jpg" alt="picture of danceOmatic machine" class="header-img">
+    <div class="card-img-overlay"></div>
+          <!-- The danceOmatic overlay logo
+            <object class="centered-svg" type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo" >
             <script src="/js/my_script.js"></script>
-          </object>
+          </object> -->
         </div>
      
 
@@ -54,116 +38,111 @@ include $IPATH . 'head.php';
           </div>
         </div>
 
-        <div class="row align-items-center">
-          <div class="col-md-5">
-            <p class="lead text-left">Trailer</p>
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/237552947?h=d5b71c92d0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe></div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-            <!-- <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/5cbN06_Klho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> -->
-          </div>
-          <div class="col-md-7 py-5">
-            <h2 class="featurette-heading">Beskrivelse<span class="text-muted"></span></h2>
-            <p class="lead mt-3 mx-3">Ved hjælp af specialudviklet software kan publikum nu bestille professionel dans! Ved at indkaste en mønt aktiveres programmet, hvorefter publikum får mulighed for at vælge mellem et udvalg af korte dansekoreografier, hver med sit eget tema og udtryk.</p>
+      <main>
+
+        <div class="row align-items-center my-5">
+          <div class="col-md-5 col-12 text-md-end text-center">
+            <h2 class="featurette-heading">Indkast en mønt <span class="text-muted">i den unikke danceOmatic maskine</span></h2>
+            <p class="lead mx-3 d-none d-sm-block">
+              Få nu valget mellem forskellige professionelle danseforestillinger. Som var det en ’danseautomat!’
+            </p>
           </div>
 
-        </div>
-
-        <div class="row pt-5 align-items-center">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Seneste turné: <span class="text-muted">danceOmatic - Jumping Islands</span></h2>
-            <p class="lead mt-3 mx-3">I Februar og Marts 2023 besøgte vi Taiwans fjerntliggende øer på turneen:</p>
-            <p class="italic">
-              "danceOmatic - Jumping Islands" </p>
-            DanceOmatics legende tilgang appellerer til børn og unge, og er for mange det første møde med moderne dans som scenekunst. Således fastholder vi den oprindelige hensigt om at dele kunst og kultur med fjerntliggende steder.</p>
-          </div>
-          <div class="col-md-5">
-            <figure>
-              <img src="/img/taiwanMap.png" class="img-fluid" alt="">
-              <img src="/img/crewJmpngIsland.svg" height="150" class="d-inline-block">
-              <figcaption class="figure-caption text-center">Map of Taiwan and Islands</figcaption>
-            </figure>
-          </div>
-        </div>
-
-
-        <div class="row pt-5 align-items-center">
-          <div class="col-md-12">
-            <h2 class="featurette-heading text-center">Co-laboration between <span class="text-muted">Taiwan and Denmark</span></h2>
-            <p class="lead mt-3 mx-3">The tour is coordinated by the <a href="https://www.maitidancecompany.org/" target="_blank"> Mai-Ti dance company </a>based in the city of Xinying, Taiwan.
-              The performers comes from the EU and from Taiwan.</p>
-          </div>
-
-        </div>
-
-        <div class="row sm-p-5 justify-content-center text-center">
-          <h2 class="mt-3 mx-3">Dancers</h2>
-          <div class="col-3">
-            <figure class="text-center d-inline">
-              <img src="../img/team/Martin_sqr.jpg" class="rounded-circle figure-img img-fluid" alt="Picture of Artistic director Martin">
-              <figcaption class="figure-caption">Martin</figcaption>
-          </div>
-          <div class="col-3">
-            <figure class="text-center d-inline">
-              <img src="../img/team/Alex_sqr_bw.jpeg" class="rounded-circle img-fluid" alt="Picture of dancer Alex">
-              <figcaption class="figure-caption">Alex</figcaption>
-          </div>
-          <div class="col-3">
-            <figure class="text-center d-inline">
-              <img src="../img/team/MengYuan_sqr_bw.jpg" class="rounded-circle img-fluid" alt="Picture of dancer Meng-Yuan">
-              <figcaption class="figure-caption">Meng-Yuan</figcaption>
-          </div>
-          <div class="col-3">
-            <figure class="text-center d-inline">
-              <img src="../img/team/ZhiYing_sqr_bw.jpeg" class="rounded-circle img-fluid" alt="Picture of dancer Zhi Ying">
-              <figcaption class="figure-caption">Zhi Ying</figcaption>
-          </div>
-        </div>
-
-        <div class="row sm-p-5 justify-content-center text-center">
-          <h2>Organizers</h2>
-          <p>Mai-Ti Dance Company</p>
-          <div class="col-3">
-            <figure class="text-center d-inline">
-              <img src="../img/team/MT_sqr.jpg" class="rounded-circle figure-img img-fluid" alt="Picture of Artistic director Martin">
-              <figcaption class="figure-caption">Meng-Ting<br></figcaption>
-          </div>
-          <div class="col-3">
-            <figure class="text-center d-inline">
-              <img src="../img/team/panda_sqr.jpeg" class="rounded-circle img-fluid" alt="Picture of Artistic director Martin">
-              <figcaption class="figure-caption">Panda</figcaption>
-          </div>
-
-        </div>
-
-        <hr>
-
-        <div class="row pt-5 align-items-center">
-          <div class="col-md-6">
-            <h2 class="featurette-heading">Previous tour in<span class=""><img src="../img/taiwanTxt.png" width="115" height="45" class="d-inline-block align-text-bottom"></a></span></h2>
-            <p class="lead mt-3 mx-3">In 2019 we also performed danceOmatic in Taiwan. Watch a quick recap of the tour in this video »</p>
-          </div>
-          <div class="col-md-6">
-            <div style="padding:100% 0 0 0;position:relative;">
-              <iframe src="https://player.vimeo.com/video/792985911?h=9a0a695931&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CarryTheArtDocVideo.mp4"></iframe>
+          <div class="col-md-7 col-12"> <!-- <-- denne som wrapper det hele -->
+            <div class="zoomed-svg">
+              <object data="/assets/svg_elements/arcade.svg" id="arcade" class="" type="image/svg+xml"></object>
+              <div class="svg-container">
+                <object type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo" class="overlay-danceOmatic-logo"></object>
+                <object data="/assets/svg_elements/coin8bit.svg" type="image/svg+xml" id="coin8bit" class="overlay-coin"></object> 
+                <object data="/assets/svg_elements/Bling.svg" type="image/svg+xml" id="bling" class="bling-container"></object>
+              </div>
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
+            
+          </div>
+
+          <div class="col-12 d-block d-sm-none">
+            <p class="lead mx-3">
+              Få nu valget mellem forskellige professionelle danseforestillinger. Som var det en ’danseautomat!’
+            </p>
+          </div>
+        </div>
+        
+        <div class="row align-items-center my-md-5 item-appear">
+          <div class="col-lg-6 col-12">
+            <img src="/img/dOm_withMachineblurBG.jpg" class="img-fluid rounded shadow">
+          </div>
+          <div class="col-lg-5 col-12">
+            <h2 class="featurette-heading">Vælg hvad <span class="text-muted">der skal ses</span></h2>
+            <p class="lead mt-3 mx-3">Danseforestillingerne er professionelt opførte værker af dansere, der hver favner om forskellige tematikker og dansestilarter. Dette vil fremgå af softwarens brugergrænseflade.</p>
           </div>
         </div>
 
 
+        <div class="row align-items-center my-md-5">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">60 sekunder... <span class="text-muted"> -Og så performance</span></h2>
+      <p class="lead mt-3 mx-3">Danserne skynder sig at gøre klar til den valgte forestilling. -En dans tager mellem 3-5 minutter. DanceOmatics legende tilgang appellerer til børn og unge, og dans som scenekunst helt tæt på tilskueren.</p>
+       </p>
+    </div>
+    <div class="col-md-5">
+      <figure>
+        <img src="/img/dmaskine_kolding2017.jpg" class="img-fluid rounded shadow" alt="dancers performing Siblings">
+      </figure>
+    </div>
+  </div>
 
+  <div class="row align-items-center">
+      <div class="col-12">
+        <h2 class="text-center">Trailer og Anmeldelse</p>
+      </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-md-5 py-5">
+      <p class="lead text-left">Trailer</p>
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/237552947?h=d5b71c92d0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+    <div class="col-md-7 py-5">
+      <h2 class="featurette-heading">Beskrivelse<span class="text-muted"></span></h2>
+      <p class="lead mt-3 mx-3">Se hvordan publikum ved hjælp af specialudviklet software bestiller professionel dans! Ved at indkaste en mønt aktiveres programmet, hvorefter publikum får mulighed for at vælge mellem et udvalg af korte dansekoreografier, hver med sit eget tema og udtryk.</p>
+    </div>
+    <div class="col-12">
+      <a href="https://teateravisen.dk/tilbud-dance-on-demand/" class="link-container p-3 border rounded" target="_blank">
+        <img src="https://teateravisen.dk/wp-content/uploads/2024/05/Art-Farm-danceOmatic.jpg" alt="Anmeldelse Teater Avisen" class="link-image">
+        <div>
+          <p class="mb-0 text-muted">Morten Hede, teaterjournalist og anmelder:</p>
+          <p class="mb-0 text-muted fst-italic">"(...) underholdende, fortællende og fysisk imponerende. Og netop fordi de både er korte og tilgængelige, bliver ’danceOmatic’ også en slags intro til moderne dans."</p>
+          <h5 class="mb-1 text-with-icon">Læs hele anmeldelsen<object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="" type="image/svg+xml"></object></h5>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="row align-items-center my-md-5">
+  
+  </div>
 
+  <hr>
 
-
-
-
-
-
-      </div> <!-- container -->
-
-
+  <div class="row pt-5 align-items-center">
+  <div class="col-md-6">
+    <h2 class="featurette-heading">Historiske turnéer</h2>
+    <p class="lead mt-3 mx-3">Gennem årene har danceOmatic været oplevet forskellige steder i verden, fra pulserende metropoler til afsidesliggende øer. Således fastholder vi den oprindelige hensigt om at dele kunst og kultur med fjerntliggende steder.</p>
+  </div>
+  </div>
+    <div class="row pt-5 align-items-center">
+      <div class="col-md-6">
+        <h2 class="featurette-heading">danceOmatic - <span class="text-muted">Jumping Islands</span></h2>
+        <h2 class="featurette-heading">Turné i <span class=""><img src="../img/taiwanTxt.png" width="115" height="45" class="d-inline-block align-text-bottom"></a></span></h2>
+        <p class="lead mt-3 mx-3">I 2019 optrådte vi med danceOmatic i Taiwan. Se en hurtig opsummering af turen i denne video<object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="" type="image/svg+xml"></object></p>
+      </div>
+      <div class="col-md-6">
+        <div style="padding:100% 0 0 0;position:relative;">
+          <iframe src="https://player.vimeo.com/video/792985911?h=9a0a695931&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CarryTheArtDocVideo.mp4"></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
+    </div>
 
 
 
@@ -177,7 +156,8 @@ include $IPATH . 'head.php';
 
   </main>
 
-  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/my_script.js"></script>
 
 
 </body>

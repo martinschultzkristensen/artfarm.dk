@@ -136,3 +136,19 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+
+if ('scrollTimeline' in document.documentElement.style) {
+  document.querySelector('.zoom-image').animate(
+    { transform: ['scale(1)', 'scale(1.5)'] },
+    {
+      duration: 1,
+      fill: 'both',
+      timeline: new ScrollTimeline({
+        scrollSource: document.scrollingElement,
+        timeRange: 1,
+        orientation: 'block',
+      }),
+    }
+  );
+}
