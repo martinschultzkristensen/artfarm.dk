@@ -13,120 +13,113 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'header.php';
     ?>
-    <div class="container">  
+    
     <main>
+      <div class="container">  
         <div class="row pt-5 mt-5 text-center">
-          <div class="col-6 mx-auto">
-            <h1 class="fw-light">Tourplan</h1>
-          </div>
         </div>  
-      <div class="loop-wrapper">
-        <div class="mountain"></div>
-        <div class="hill"></div>
-        <div class="tree"></div>
-        <div class="tree"></div>
-        <div class="tree"></div>
-        <div class="rock"></div>
-        <div class="truck"><div class="logo"></div></div>
-        <div class="wheels"></div>
-      </div> 
+        <div class="loop-wrapper">
+          <div class="mountain"></div>
+          <div class="hill"></div>
+          <div class="tree"></div>
+          <div class="tree"></div>
+          <div class="tree"></div>
+          <div class="rock"></div>
+          <div class="truck"><div class="logo"></div></div>
+          <div class="wheels"></div>
+        </div> 
 
   
         
         
-
+      
         <div class="row pt-5">
           <div class="col">
             <h1 class="fw-bold text-center mb-5" >Turné i Danmark</h1>
           </div>
         </div>
-  
-  
-      <div class="row pt-5">
-        <div class="col">
-          <h1 class="fw-bold">August</h1>
-        </div>
-      </div>
 
-      <div class="card text-white text-center mb-4">
-        <picture>
-          <source media="(min-width: 700px)" 
-                  srcset="/img/frikaAmarMain.jpg">
-        
-          <source media="(min-width: 450px)" 
-                  srcset="/img/frikaAmarMain.jpg" class="img-fluid">
-        
-          <img src="/img/frikaAmarMain.jpg"
-              alt="GFG" class="img-fluid card-img rounded" style="filter: brightness(75%);">
-        </picture>
-          <div class="card-img-overlay align-center">
-                <h1 class="">FRIKADELLE</h1>
-                <div class="col-md-5 mx-auto py-2">
-                <table class="table text-white">
-                  <tr class="table-secondary" style="opacity: 70%;">
-                    <td class="text-start">Sønderborg Bibliotek<br>Biblioteket Hørup</td>
-                    <td>Aug. 7.</td>
-                    <td>10:00<br>13:00</td>
-                    </tr>
-                    <tr class="table-secondary" style="opacity: 70%;">
-                      <td class="text-start">Street Cut festival<br>
-                      4700 Næstved</td>
-                      <td>Aug. 11.</td>
-                      <td>11:15<br>13:30</td>
-                      </tr>
-                      <tr class="table-secondary" style="opacity: 70%;">
-                        <td class="text-start">Børnekulturstedet Karens
-                        Minde<br>København SV</td>
-                        <td>Aug. 29</td>
-                        <td>16:00</td>
-                      </tr>
-                </table>
-              </div>
-          </div>
-        </div>
+        <table class="table">
+          <thead>
+            <tr>
+            <th scope="col"><object type="image/svg+xml" data="assets/svg_elements/icon_calender.svg"></object></th>
+            <th scope="col"><object type="image/svg+xml" data="assets/svg_elements/icon_theater.svg"></object></th>
+              <th scope="col"><object type="image/svg+xml" data="assets/svg_elements/icon_geo-alt.svg"></object></th>
+              <th scope="col"><object type="image/svg+xml" data="assets/svg_elements/icon_clock.svg"></object></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">7. Aug</th>
+              <td>Frikadelle</td>
+              <td>Sønderborg Bibliotek<br>Biblioteket Hørup</td>
+              <td>10:00<br>13:00</td>
+            </tr>
+            <tr>
+              <th scope="row">11. Aug</th>
+              <td>Frikadelle</td>
+              <td><a href="https://www.streetcutfestival.dk/art-farm-frikadelle" target="_blank">Street Cut festival<br></a>
+                Festivalpladsen</td>
+              <td>11.35<br>12.55</td>
+            </tr>
+            <tr>
+            <th scope="row">22. Aug</th>
+            <td>Den Lille Pige Med Svovlstikkerne</td>
+            <td><a href="https://www.hcafestivals.dk/program-2024/den-lille-pige-med-svovlstikkerne-189133" target="_blank">HC Andersen Festivals</a>
+            </td>
+            <td>19:00</td>
+          </tr>
+            <tr>
+            <th scope="row">23. Aug</th>
+            <td>Den Lille Pige Med Svovlstikkerne</td>
+            <td><a href="https://www.hcafestivals.dk/program-2024/den-lille-pige-med-svovlstikkerne-189134" target="_blank">HC Andersen Festivals</a>
+            </td>
+            <td>20:00</td>
+          </tr>
+            <tr>
+              <th scope="row">23. Aug</th>
+              <td>danceOmatic</td>
+              <td><a href="https://maps.app.goo.gl/JpiDraCHkyq4r2418" target="_blank">Det gamle Rådhus<br>Ebeltoft</a>
+            </td>
+            <td>14:30</td>
+          </tr>
+          <tr>
+            <th scope="row">24. Aug</th>
+            <td>Den Lille Pige Med Svovlstikkerne</td>
+            <td><a href="https://www.hcafestivals.dk/program-2024/den-lille-pige-med-svovlstikkerne-189135" target="_blank">HC Andersen Festivals</a>
+            </td>
+            <td>13:00<br>16:00</td>
+          </tr>
+          <tr>
+              <th scope="row">29. Aug.</th>
+              <td>Frikadelle</td>
+              <td><span style=font-size:smaller>Børnekulturstedet</span> Karens
+              Minde<br>København SV</td>
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">14. Sep</th>
+              <td>Frikadelle</td>
+              <td><a href="https://frugtfestival.dk/" target="_blank">Sydhavsøernes Frugtfestival</a><br>Torvet, 4990 Sakskøbing
+              </td>
+              <td>11:00<br>14:00</td>
+            </tr>
+            <tr>
+              <th scope="row">20. Sep</th>
+              <td>danceOmatic</td>
+              <td><a href="https://horsensteaterfestival.dk/events/danceomatic/" target="_blank">Horsens Teaterfestival</a>
+              </td>
+              <td>16:00</td>
+            </tr>
+          </tbody>
+        </table>
 
-        <div class="row pt-5">
-        <div class="col">
-          <h1 class="fw-bold">September</h1>
-        </div>
-      </div>
-
-        <div class="card text-white text-center mb-4">
-        <picture>
-          <source media="(min-width: 700px)" 
-                  srcset="/img/2017_dmaskine.jpg">
-        
-          <source media="(min-width: 450px)" 
-                  srcset="/img/2017_dmaskine.jpg" class="img-fluid">
-        
-          <img src="/img/2017_dmaskine.jpg"
-              alt="GFG" class="img-fluid card-img rounded" style="filter: brightness(75%);">
-        </picture>
-          <div class="card-img-overlay align-center">
-                <h1 class="">DANCEOMATIC</h1>
-                <div class="col-md-5 mx-auto py-2">
-                <table class="table text-white">
-                  <tr class="table-secondary" style="opacity: 70%;">
-                    <td class="text-start">Horsens teaterfestival<br>Pladsen foran Søndergade 26</td>
-                    <td>Sep. 20</td>
-                    <td>16.00-17.30</td>
-                    </tr>
-                </table>
-              </div>
-          </div>
-        </div>
-
-        <!-- <div class="row pt-5">
-          <div class="col">
-            <h1 class="fw-bold">International</h1>
-          </div>
-        </div> -->
   
       
       
   
 
-  </div>
+  
 
   
  
@@ -137,6 +130,7 @@
     ?>
   
 </main>
+</div>
   
   <!-- <div class="d-sm-inline-flex p-2 bd-highlight bg-danger">I'm a flexbox container!</div> -->
   <script src="/js/bootstrap.bundle.min.js"></script>   

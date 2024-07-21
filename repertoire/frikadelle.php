@@ -1,173 +1,194 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
   <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'head.php';
-    ?>
-  </head>
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+  include $IPATH . 'head.php';
+  ?>
+</head>
 
-  <body class="bg-light">
+<body class="bg-light">
 
   <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'header.php';
-    ?>
-      
-<main>
-<div class="container-fluid;">
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+  include $IPATH . 'header.php';
+  ?>
 
-  <div class="card text-white text-uppercase"> 
-    <img src="/img/frikaAmarMain.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
-    <div class="card-img-overlay">
-      <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Frikadelle</h1>
-    </div>
-  </div>
-  
-  <div class="container my-5" id="skeleton">
-    <div class="row align-items-center">
+  <main>
+    <div class="container-fluid;">
 
-      <div class="col-12 mb-5">
-        <h2 class="text-center">Se billederne fra den overdådige kreation af en frikadelle.</h2>
-      </div>
-      
-      <div class="col-lg-12 ">
-        <h2 class="featurette-heading">Beretning fra <span class="text-muted">sidste forestilling</span></h2>
-        <p class="lead mt-3 mx-3">Den 15. oktober oplevede vi den foreløbige sidste forestilling af 'Frikadelle'. Vi var med til den fantastiske begivenhed som en del af Amager børneteater festival, med et stort antal entusiastiske publikummer - både store og små! &#x1F60A</p>
+      <div class="card text-white text-uppercase">
+      <img src="/img/frikaAmarMain.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
+        <div class="card-img-overlay">
+          <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Frikadelle</h1>
+        </div>
       </div>
 
-      
-      
-      <p>Billeder af Kristina Pedersen</p>
-      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
-        <img src="/img/frikadelle/compressjpeg/flatBrushOut-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/compressjpeg/tallHandstand-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/compressjpeg/tallAudienceBack-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4"> 
+      <div class="container my-5" id="skeleton">
+
+        <div class="col-12 mb-5">
+          <h2 class="text-center">Oplev en overdådig kreation af en frikadelle!</h2>
+        </div>
+
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12">
+            <h2 class="featurette-heading">Beskrivelse <span class="text-muted">forestilling</span></h2>
+            <p class="lead mt-3 mx-lg-3">Oplev en unik og overdådig kreation af en frikadelle med musik af Vivaldi, professionel dans og ægte madlavning på scenen. Forestillingen varer 15 minutter og henvender sig til alle fra 4 år og opefter.</p>
+          </div>
+          <div class="col-lg-5 col-12 m-lg-3 mb-5">
+            <img src="/img/frikadelle/compressjpeg/flatBrushOut-min.jpg" alt="" class="img-fluid rounded shadow">
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <h2 class="featurette-heading">Trailer</h2>
+
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/794539604?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7 ">
+            <p class="lead mt-3 mx-lg-3">Med musik af Vivaldi, professionel dans, og rigtig mad på scenen, følger vi den overdådige kreation af en frikadelle.</p>
+            <p class="lead mt-3 mx-lg-3">Koreografen, <a href="/artists">Meng Ting Liu</a> er oprindelig fra Taiwan. Hendes perspektiv på dansk kultur, og hendes evne til at bruge et letforståeligt emne og præsentere det gennem dans, har skabt dette lille mesterværk der indkapsler forståelsen af dansk mad-kultur.</p>
+          </div>
+        </div>
+
+        <div class="p-sm-2">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Dato</th>
+                <th scope="col">By</th>
+                <th scope="col">Hvor</th>
+                <th scope="col">Tid</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">7. Aug</th>
+                <td>Sønderborg</td>
+                <td>Sønderborg Bibliotek<br>Biblioteket Hørup</td>
+                <td>10:00<br>13:00</td>
+              </tr>
+              <tr>
+                <th scope="row">11. Aug</th>
+                <td>Næstved</td>
+                <td><a href="https://www.streetcutfestival.dk/art-farm-frikadelle" target="_blank">Street Cut festival<br></a>
+                  Festivalpladsen</td>
+                <td>11.35<br>12.55</td>
+              </tr>
+              <tr>
+                <th scope="row">Aug. 29</th>
+                <td>København SV</td>
+                <td>Børnekulturstedet Karens
+                  Minde<br>København SV
+                </td>
+                <td>16:00</td>
+              </tr>
+              <tr>
+                <th scope="row">14. Sep</th>
+                <td>Nykøbing Falster</td>
+                <td><a href="https://frugtfestival.dk/" target="_blank">Sydhavsøernes Frugtfestival</a></td>
+                <td>11:00<br>14:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="row align-items-center my-md-5">
+          <div class="col-lg-2 col-4">
+            <h2 class="featurette-heading">Baggrund: <span class="text-muted"></span></h2>
+            <img src="/img/team/MT_sqr.jpg" class="img-fluid rounded-circle float-lg-none float-start me-3" alt="Billede af Meng-Ting">
+          </div>
+          <div class="col-lg-10 col-12">
+            <p class="lead mt-3 mx-3">Frikadelle blev produceret i 2022 af den taiwanske koreograf Meng-Ting Liu. Med hendes unikke perspektiv på dansk kultur har hun skabt en underholdende og sofistikeret forestilling, der fremhæver vigtigheden af madkultur. Dette har gjort forestillingen til en umiddelbar klassiker.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <p>Billeder af Kristina Pedersen</p>
+          <div class="col-lg-4 col-md-12 ">
+            <img src="/img/frikadelle/compressjpeg/flatBrushOut-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+            <img src="/img/frikadelle/compressjpeg/tallHandstand-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+            <img src="/img/frikadelle/compressjpeg/tallAudienceBack-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <img src="/img/frikadelle/compressjpeg/tallFreeze-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+            <img src="/img/frikadelle/compressjpeg/flatBow-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+            <img src="/img/frikadelle/compressjpeg/tallFlipOver-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <img src="/img/frikadelle/compressjpeg/tallBlowUp-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
+            <img src="/img/frikadelle/compressjpeg/tallFly-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
+            <img src="/img/frikadelle/compressjpeg/flatAudience-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">
+          </div>
+
+
+        </div>
+        <div class="col-12">
+          <h2 class="featurette-heading">Praktisk <span class="text-muted"> info </span></h2>
+          <ul class="list-praktisk-info">
+            <li><strong>Producent:</strong> Art Farm</li>
+            <li><strong>Komponist:</strong> Antonio Vivaldi</li>
+            <li><strong>Koreograf:</strong> Meng-Ting Liu</li>
+            <li><strong>Medinstruktør:</strong> Marko E. Weigert</li>
+            <li><strong>Medvirkende:</strong> Martin Schultz Kristensen, Meng-Ting Liu, Alexandre May</li>
+            <li><strong>Længde:</strong>15 minutter</li>
+          </ul>
+        </div>
       </div>
-      
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">          
-        <img src="/img/frikadelle/compressjpeg/tallFreeze-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/compressjpeg/flatBow-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/compressjpeg/tallFlipOver-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4">  
-      </div>
-      
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"> 
-        <img src="/img/frikadelle/compressjpeg/tallBlowUp-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/compressjpeg/tallFly-min.jpg" class="w-100 shadow-1-strong rounded mb-4 ">
-        <img src="/img/frikadelle/compressjpeg/flatAudience-min.jpg" alt="" class="w-100 shadow-1-strong rounded mb-4"> 
-      </div>
-      
-
-    </div>
-  
-
-
-      
-    <div class="p-sm-2">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Dato</th>
-            <th scope="col">By</th>
-            <th scope="col">Hvor</th>
-            <th scope="col">Tid</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1. Aug</th>
-            <td>Kbh NV</td>
-            <td>Børnekulturhuset Sokkelundlille <br>Utterslev Torv 9 2400 København NV </td>
-            <td>10:00</td>
-          </tr>
-          <tr>
-            <th scope="row">15. Sep</th>
-            <td>Horsens</td>
-            <td><a href="https://horsensteaterfestival.dk/events/frikadelle/" target="_blank">Teaterfestival</a><br>
-            Pladsen foran Søndergade 26</td>
-            <td>16:00 <br> 17:00</td>
-          </tr>
-          <tr>
-            <th scope="row">18. Sep</th>
-            <td>Hjørring</td>
-            <td>Vendsyssel Teater<br>Kulturfrikadellen
-            </td>
-            <td>17:00</td>
-          </tr>
-          <tr>
-            <th scope="row">15. Okt</th>
-            <td>Amager</td>
-            <td>Børneteater Festival<br>
-            Amagercenteret
-            </td>
-            <td>11:00<br>13:00</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="row align-items-center">
-      <div class="col-lg-5">
-        <p class="lead text-left">Trailer</p>
-        
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/794539604?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe>
-        </div>    
-      </div>
-
-      <div class="col-lg-7 ">
-        <h2 class="featurette-heading">Om <span class="text-muted">forestillingen</span></h2>
-        <p class="lead mt-3 mx-3">Med musik af Vivaldi, professionel dans, og rigtig mad på scenen, følger vi den overdådige kreation af en frikadelle.</p>
-        <p class="lead mt-3 mx-3">Koreografen, <a href="/artists">Meng Ting Liu</a> er oprindelig fra Taiwan. Hendes perspektiv på dansk kultur, og hendes evne til at bruge et letforståeligt emne og præsentere det gennem dans, har skabt dette lille mesterværk der indkapsler forståelsen af dansk mad-kultur.</p>
-      </div>
-    </div>
-    
 
 
 
 
 
 
-            
-
-    <div class="col-12">
-      <h2 class="featurette-heading">Praktisk <span class="text-muted"> info </span></h2>
-      <ul class="list-praktisk-info">
-        <li><strong>Producent:</strong> Art Farm</li>
-        <li><strong>Komponist:</strong> Antonio Vivaldi</li>
-        <li><strong>Koreograf:</strong> Meng-Ting Liu</li>
-        <li><strong>Medinstruktør:</strong> Marko E. Weigert</li>
-        <li><strong>Medvirkende:</strong> Martin Schultz Kristensen, Meng-Ting Liu, Alexandre May</li>
-        <li><strong>Længde:</strong>15 minutter</li>
-      </ul>
-    </div>
-              
-     
-
-          
-             
 
 
-  
-
-  
- 
 
 
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div> <!-- end nested container -->
-  </div> <!-- container -->
-    
+    </div> <!-- container -->
+
     <!-- Footer -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'footer.php';
     ?>
-  
-</main>
-  
+
+  </main>
+
   <!-- <div class="d-sm-inline-flex p-2 bd-highlight bg-danger">I'm a flexbox container!</div> -->
   <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="https://player.vimeo.com/api/player.js"></script>
@@ -175,4 +196,3 @@
 
 
 </html>
-  

@@ -158,3 +158,6 @@
   left: 10px;  /* Adjust position as needed */
 }
 
+.icon_calender {
+  background: url(/assets/svg_elements/icon_calender.svg) no-repeat;
+}
