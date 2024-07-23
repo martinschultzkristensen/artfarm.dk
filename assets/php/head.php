@@ -32,7 +32,7 @@
   }
 
   .bi-arrow-right-short {
-    animation: moveRight 5s infinite;
+    animation: moveRight 1.5s infinite;
   }
 
   .btn-blur {
@@ -40,7 +40,7 @@
 }
 
 .bi-arrow-down-short {
-  animation: moveDown 2s infinite;
+  animation: moveDown 1.5s infinite;
 }
   
 </style>

@@ -1,36 +1,36 @@
 <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand:focusable" href="/index"><img src="/img/artfarm_zeromargin_invert.png" height="40px" alt="Art Farm logo" class="ms-1"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="/artists">Team</a></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/about">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="/tourplan">Tourplan</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Repertoire
-                    </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/repertoire/terminus">Terminus</a></li>
-                        <li><a class="dropdown-item" href="/repertoire/frikadelle">Frikadelle</a></li>
-                        <li><a class="dropdown-item" href="/repertoire/danceomatic">danceOmatic</a></li>
-                        <li><a class="dropdown-item" href="/repertoire/akrylarium">Akrylarium</a></li>
-                      </ul>
-                  </li>
-              </ul>
-              
-             
-            </div>
-          </div>
-        </nav>
-      </header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand:focusable" href="/index"><img src="/img/artfarm_zeromargin_invert.png" height="40px" alt="Art Farm logo" class="ms-1"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/artists">Team</a></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tourplan">Tourplan</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Repertoire
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/repertoire/terminus">Terminus</a></li>
+              <li><a class="dropdown-item" href="/repertoire/frikadelle">Frikadelle</a></li>
+              <li><a class="dropdown-item" href="/repertoire/danceomatic">danceOmatic</a></li>
+              <li><a class="dropdown-item" href="/repertoire/akrylarium">Akrylarium</a></li>
+            </ul>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+</header>

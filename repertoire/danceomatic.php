@@ -21,11 +21,11 @@ include $IPATH . 'head.php';
 
     
     <img src="/img/2017_dmaskine.jpg" alt="picture of danceOmatic machine" class="header-img">
-    <div class="card-img-overlay"></div>
-          <!-- The danceOmatic overlay logo
-            <object class="centered-svg" type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo" >
+    <div class="card-img-overlay">
+          <!-- The danceOmatic overlay logo -->
+            <object type="image/svg+xml" data="/assets/danceOmatic_logoT2.svg" id="danceOmatic_logo" >
             <script src="/js/my_script.js"></script>
-          </object> -->
+          </object>
         </div>
      
 
