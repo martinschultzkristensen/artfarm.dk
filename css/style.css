@@ -271,3 +271,21 @@ body, html {
 }
 
 
+#Arcade #Screen {
+  animation: flicker 0.1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.9;
+    filter: contrast(100%) brightness(100%);
+  }
+  50% {
+    opacity: 0.8;
+    filter: contrast(110%) brightness(110%);
+  }
+  100% {
+    opacity: 1;
+    filter: contrast(90%) brightness(90%);
+  }
+}

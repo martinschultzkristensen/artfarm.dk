@@ -69,31 +69,11 @@
             </thead>
             <tbody>
               <tr>
-                <th scope="row">7. Aug</th>
-                <td>Sønderborg</td>
-                <td>Sønderborg Bibliotek<br>Biblioteket Hørup</td>
-                <td>10:00<br>13:00</td>
-              </tr>
-              <tr>
-                <th scope="row">11. Aug</th>
-                <td>Næstved</td>
-                <td><a href="https://www.streetcutfestival.dk/art-farm-frikadelle" target="_blank">Street Cut festival<br></a>
-                  Festivalpladsen</td>
-                <td>11.35<br>12.55</td>
-              </tr>
-              <tr>
-                <th scope="row">Aug. 29</th>
-                <td>København SV</td>
-                <td>Børnekulturstedet Karens
-                  Minde<br>København SV
-                </td>
-                <td>16:00</td>
-              </tr>
-              <tr>
-                <th scope="row">14. Sep</th>
-                <td>Nykøbing Falster</td>
-                <td><a href="https://frugtfestival.dk/" target="_blank">Sydhavsøernes Frugtfestival</a></td>
-                <td>11:00<br>14:00</td>
+                <th scope="row">7. Jun</th>
+                <td>Horsens</td>
+                <td>Søndergade 26<br><a href="https://horsensholder.dk/mec-category/arr-teater/" target="_blank">Horsens Holder</a></td>
+                <td>10:30<br>11:30<br>13:00<br>14:00</td>
+              
               </tr>
             </tbody>
           </table>

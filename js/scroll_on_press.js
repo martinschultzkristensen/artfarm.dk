@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sections = [
-    "#matchGirl",
     "#frikadelle",
     "#danceomatic",
+    "#matchGirl",
     "#censorship",
     "#terminus",
     "#akyrlarium",
   ];
-  let currentIndex = 5;
+  let currentIndex = 0;
 
   document
     .getElementById("scroll-btn")
