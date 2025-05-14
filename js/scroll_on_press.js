@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const sections = [
     "#frikadelle",
     "#danceomatic",
-    "#matchGirl",
     "#censorship",
     "#terminus",
     "#akyrlarium",

@@ -47,9 +47,9 @@ include $IPATH . 'head.php';
       <img src="/img/frikaAmarMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-          <p class="card-text"></span>Frikadelle på tur 2024!</p>
-          <h1 class="card-title;">Alt om Frikadellen</h1>
-          <a href="/repertoire/frikadelle" class="btn btn-outline-light btn-lg shadow">Oversigt</a>
+          <p class="card-text"></span>En Kulinarisk Forestilling</p>
+          <h1 class="card-title;">Frikadelle!</h1>
+          <a href="/repertoire/frikadelle" class="btn btn-outline-light btn-lg shadow">Info</a>
         </div>
       </div>
     </div>

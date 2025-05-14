@@ -34,13 +34,22 @@
 
         <div class="row align-items-center">
           <div class="col-lg-6 col-12">
-            <h2 class="featurette-heading">Beskrivelse <span class="text-muted">forestilling</span></h2>
-            <p class="lead mt-3 mx-lg-3">Oplev en unik og overdådig kreation af en frikadelle med musik af Vivaldi, professionel dans og ægte madlavning på scenen. Forestillingen varer 15 minutter og henvender sig til alle fra 4 år og opefter.</p>
+            <h2 class="featurette-heading">Beskrivelse</h2>
+            <!-- <p class="lead mt-3 mx-lg-3">Oplev en unik og overdådig kreation af en frikadelle med musik af Vivaldi, professionel dans og ægte madlavning på scenen.</p> -->
+            <p class="lead mt-3 mx-lg-3">Denne 15 minutter lange forestilling fænger hjertet hos publikum i alle aldre, fra 4 år og op til selv de ældste publikummer. Det er en fejring af kultur, kreativitet og kulinarisk kunst, der lover at efterlade dig med et smil på læben og en fornyet appetit på livets glæder.</p>
           </div>
           <div class="col-lg-5 col-12 m-lg-3 mb-5">
             <img src="/img/frikadelle/compressjpeg/flatBrushOut-min.jpg" alt="" class="img-fluid rounded shadow">
           </div>
         </div>
+
+        <div class="row align-items-center">
+  <!-- This section takes over from any screen under lg -->
+  <div class="col-lg-7 order-lg-2">
+    <p class="lead mt-3 pb-3">Med musik af Vivaldi, professionel dans, og rigtig mad på scenen, følger vi den overdådige kreation af en frikadelle.</p>
+  </div>
+  <!-- comment end -->
+
 
         <div class="row align-items-center">
           <div class="col-lg-5">
@@ -51,12 +60,15 @@
             </div>
           </div>
 
-          <div class="col-lg-7 ">
-            <p class="lead mt-3 mx-lg-3">Med musik af Vivaldi, professionel dans, og rigtig mad på scenen, følger vi den overdådige kreation af en frikadelle.</p>
-            <p class="lead mt-3 mx-lg-3">Koreografen, <a href="/artists">Meng Ting Liu</a> er oprindelig fra Taiwan. Hendes perspektiv på dansk kultur, og hendes evne til at bruge et letforståeligt emne og præsentere det gennem dans, har skabt dette lille mesterværk der indkapsler forståelsen af dansk mad-kultur.</p>
+          <div class="col-lg-7 mt-5 mb-5">
+           <!-- underneat <p> repeated text becomes invisible when screen under lg -->
+            <p class="lead  d-none d-lg-block">Med musik af Vivaldi, professionel dans, og rigtig mad på scenen, følger vi den overdådige kreation af en frikadelle.</p>
+           <!-- comment end  -->
+            <p class="lead">Koreografen, <a href="/artists">Meng Ting Liu</a>, oprindeligt fra Taiwan, bringer et unikt perspektiv på dansk kultur. Med sin evne til at transformere et letforståeligt emne til et dansemæssigt mesterværk, indkapsle hun essensen af dansk madkultur på en innovativ og engagerende måde.</p>
           </div>
         </div>
 
+        <h2 class="featurette-heading mt-lg-5">Se forestilling</h2>
         <div class="p-sm-2">
           <table class="table">
             <thead>
