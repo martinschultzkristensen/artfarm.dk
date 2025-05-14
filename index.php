@@ -57,11 +57,11 @@ include $IPATH . 'head.php';
 
 
     <div class="card text-white text-uppercase" id="danceomatic">
-      <img src="/img/dmaskine_1.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <img src="/img/dOm_HTF2024cFotoFrankRosgaard.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-          <p class="card-text">Start en dans</p>
-          <h1 class="card-title;">Med danceomatic</h1>
+          <p class="card-text">danceomatic...</p>
+          <h1 class="card-title;">Start en dans</h1>
           <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg btn-blur shadow">Start</a>
         </div>
       </div>
@@ -74,13 +74,13 @@ include $IPATH . 'head.php';
         <div class="card-img-overlay">
           <div class="top-0 p-md-5 px-3 my-5 py-5">
             <p class="card-text">Den Lille Pige med Svovlstikkerne<br>på HC Andersen festival</p>
-            <!-- <h1 class="card-title;">22.- 23.- 24. Aug. Odense </h1>
+            <h1 class="card-title;">22.- 23.- 24. Aug. Odense </h1>
           <a href="https://www.hcafestivals.dk/program-2024/den-lille-pige-med-svovlstikkerne-189133" class="btn btn-lg btn-blur text-white shadow" style="background-color: rgb(229, 0, 131);">Køb Billet
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi-arrow-right-short" viewBox="0 0 16 18">
               <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
             </svg>
           </a>
-        </div> -->
+        </div>
             <div class="p-md-5 px-3 my-5 col-6 col-sm-3">
               <p class="">Samarbejde med</p>
               <a href="https://www.g-h-t.de/" class="" target="_blank">

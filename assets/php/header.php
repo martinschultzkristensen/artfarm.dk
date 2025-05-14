@@ -10,8 +10,16 @@
           <li class="nav-item">
             <a class="nav-link" href="/artists">Team</a></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+          <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/artikler">Artikler</a></li>
+              <li><a class="dropdown-item" href="/about">Tidslinje</a></li>
+              <li><a class="dropdown-item" href="/paragraffer">Paragraffer</a></li>
+</ul>
+          </li>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/tourplan">Tourplan</a>

@@ -1,70 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Art Farm</title>
+<!doctype html>
+<html lang="da">
+<?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'head.php';
+    ?>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  <body class="bg-light">
 
-    
+  <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'header.php';
+    ?>
 
-    <!-- Bootstrap core CSS -->
-<link href="../css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-<body>
-
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand:focusable" href="/index.html"><img src="../img/artfarm_zeromargin_ivert.png" height="40px" alt="Art Farm logo" class="ms-1"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/Repetoire.html">Repetoire</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="/pages/tourplan.html">Tourplan</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  About
-                </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="/pages/artists.html">Artists</a></li>
-                    <li><a class="dropdown-item" href="/pages/organization.html">Organisation</a></li>
-               
-                  </ul>
-              </li>
-          </ul>
-          
-         
-        </div>
-      </div>
-    </nav>
-  </header>
 
 
 
@@ -104,7 +51,7 @@
                   <div class="accordion-body">
                     <ol>
                       <li>Foreningens navn er Art Farm.</li>
-                      <li>Foreningen har hjemme i Aarhus Kommune.</li>
+                      <li>Foreningen har hjemme i Kolding Kommune</li>
                   </ol>
                   </div>
                 </div>
@@ -394,19 +341,24 @@
             <hr>
           </article>
           <p>Referater</p>
-         <a href="pdf/gen2018_referat.pdf" target="_blank">Stiftende generalforsamlingen 2018</a><br>
-         <a href="pdf/gen2019_referat.pdf" target="_blank">Generalforsamlingen 2019</a><br>
-         <a href="pdf/gen2020_referat.pdf" target="_blank">Generalforsamlingen 2020</a><br>
-         <a href="pdf/gen2021_referat.pdf" target="_blank">Generalforsamlingen 2021</a>
+          <a href="/pdf/vedtægter.pdf" target="_blank">vedtægter</a><br> 
+         <a href="/pdf/gen2018_referat.pdf" target="_blank">Founding General Assembly 2018</a><br>
+         <a href="/pdf/gen2019_referat.pdf" target="_blank">General Assembly 2019</a><br>
+         <a href="/pdf/gen2020_referat.pdf" target="_blank">General Assembly 2020</a><br>
+         <a href="/pdf/gen2021_referat.pdf" target="_blank">General Assembly 2021</a><br>
+         <a href="/pdf/gen2022_referat.pdf" target="_blank">General Assembly 2022</a><br>
+         <a href="/pdf/xtraOrdnGen2022_referat.pdf" target="_blank">Ekstraordinær General Forsamling 2022</a><br>
+         <a href="/pdf/gen2023_referat.pdf" target="_blank">General Assembly 2023</a>
       </div>
     </div>
 
 
       <!-- Footer -->
-      <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>Art Farm<br>info@artfarm.dk<br>cvr: 39563886</p>
-      </footer>
+      <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'footer.php';
+    ?>
+  
   
 </main>
 <script src="../js/bootstrap.bundle.min.js"></script>

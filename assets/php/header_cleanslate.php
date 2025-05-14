@@ -17,8 +17,16 @@
             />
     
           <li><a href="/artists">Team</a></li>
-          <li><a href="/about">About</a></li>
           <li class="dropdown">
+            <a class="dropbtn" href="javascript:void(0)">About</a>
+            <div class="dropdown-content">
+          <li><a href="/artikler">Artikler</a></li>
+          <li><a href="/about">tidslinje</a></li>
+          <li><a href="/paragraffer">paragraffer</a></li>
+          <li class="dropdown">
+            </div>
+          </li>
+        </ul>
             <a class="dropbtn" href="javascript:void(0)">Repertoire</a>
             <div class="dropdown-content">
               <a href="/repertoire/terminus">Terminus</a>
