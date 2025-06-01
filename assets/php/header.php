@@ -29,10 +29,20 @@
               Repertoire
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/repertoire/terminus">Terminus</a></li>
               <li><a class="dropdown-item" href="/repertoire/frikadelle">Frikadelle</a></li>
               <li><a class="dropdown-item" href="/repertoire/danceomatic">danceOmatic</a></li>
               <li><a class="dropdown-item" href="/repertoire/akrylarium">Akrylarium</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              co-lab
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/co-lab/terminus.php">Terminus</a></li>
+              <li><a class="dropdown-item" href="/co-lab/blog_conTPv2.php">conTEMPORARY PAINTER</a></li>
+              <li><a class="dropdown-item" href="/co-lab/ntwrkTW.php">netwærk Taiwan</a></li>
+
             </ul>
           </li>
         </ul>
