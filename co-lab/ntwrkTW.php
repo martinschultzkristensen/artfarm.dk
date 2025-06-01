@@ -16,7 +16,7 @@
 <div class="container-fluid;">
 
   <div class="card text-white text-uppercase"> 
-  <img src="../img/ntvrkTW.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
+  <img src="../img/ntvrkTW.jpg" alt="billede af danser med censureret øjene eller mund" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
   <div class="card-img-overlay">
           <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);"></h1>
     </div>
