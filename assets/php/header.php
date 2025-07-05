@@ -11,14 +11,14 @@
             <a class="nav-link" href="/artists">Team</a></a>
           </li>
           <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="/artikler">Artikler</a></li>
               <li><a class="dropdown-item" href="/about">Tidslinje</a></li>
               <li><a class="dropdown-item" href="/paragraffer">Paragraffer</a></li>
-</ul>
+            </ul>
           </li>
           </li>
           <li class="nav-item">
@@ -39,9 +39,9 @@
               co-lab
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/co-lab/terminus.php">Terminus</a></li>
-              <li><a class="dropdown-item" href="/co-lab/blog_conTPv2.php">conTEMPORARY PAINTER</a></li>
-              <li><a class="dropdown-item" href="/co-lab/ntwrkTW.php">netwærk Taiwan</a></li>
+              <li><a class="dropdown-item" href="/co-lab/terminus">Terminus</a></li>
+              <li><a class="dropdown-item" href="/co-lab/blog_conTPv2">conTEMPORARY PAINTER</a></li>
+              <li><a class="dropdown-item" href="/co-lab/ntwrkTW">netwærk Taiwan</a></li>
 
             </ul>
           </li>
