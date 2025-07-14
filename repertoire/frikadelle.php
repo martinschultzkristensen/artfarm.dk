@@ -35,7 +35,6 @@
         <div class="row align-items-center">
           <div class="col-lg-6 col-12">
             <h2 class="featurette-heading">Beskrivelse</h2>
-            <!-- <p class="lead mt-3 mx-lg-3">Oplev en unik og overdådig kreation af en frikadelle med musik af Vivaldi, professionel dans og ægte madlavning på scenen.</p> -->
             <p class="lead mt-3 mx-lg-3">Denne 15 minutter lange forestilling fænger hjertet hos publikum i alle aldre, fra 4 år og op til selv de ældste publikummer. Det er en fejring af kultur, kreativitet og kulinarisk kunst, der lover at efterlade dig med et smil på læben og en fornyet appetit på livets glæder.</p>
           </div>
           <div class="col-lg-5 col-12 m-lg-3 mb-5">
