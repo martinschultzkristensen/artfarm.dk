@@ -94,22 +94,54 @@ include $IPATH . 'head.php';
               </figure>
             </div>
           </div>
+          <div class="row align-items-center">
+            <div class="col-12 my-5">
+              <h2 class="text-center">Forestillingsplan</p>
+            </div>
+          </div>
+          <div class="p-sm-2">
+            <?php
+            $tourplan = include '../tourplan_data.php'; // Adjust path as needed
+            $filtered = array_filter($tourplan, fn($item) => strtolower($item['title']) === 'danceomatic');
+            ?>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Dato</th>
+                  <th scope="col">By</th>
+                  <th scope="col">Hvor</th>
+                  <th scope="col">Tid</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php foreach ($filtered as $row): ?>
+                  <tr>
+                    <th scope="row"><?= $row['date'] ?></th>
+                    <td><?= $row['city'] ?></td>
+                    <td><?= $row['location'] ?></td>
+                    <td><?= $row['time'] ?></td>
+                  </tr>
+                <?php endforeach; ?>
+              </tbody>
+            </table>
+          </div>
 
           <div class="row align-items-center">
-            <div class="col-12">
+            <div class="col-12 mt-5">
               <h2 class="text-center">Trailer og Anmeldelse</p>
             </div>
           </div>
           <div class="row align-items-center">
-            <div class="col-md-5 py-5">
+            <div class="col-md-5 mb-5">
               <p class="lead text-left">Trailer</p>
               <div style="padding:56.25% 0 0 0;position:relative;">
                 <iframe src="https://player.vimeo.com/video/1076920149?h=d6381d10a8&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Kender du danceOmatic"></iframe>
                 <!-- <iframe src="https://player.vimeo.com/video/1076920149?h=d6381d10a8&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="3840" height="2160" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Hvad er danceOmatic"></iframe> -->
-                </div>
+              </div>
               <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
-            <div class="col-md-7 py-5">
+            <div class="col-md-7">
               <h2 class="featurette-heading">Beskrivelse<span class="text-muted"></span></h2>
               <p class="lead mt-3 mx-3">Se hvordan publikum ved hjælp af specialudviklet software bestiller professionel dans! Ved at indkaste en mønt aktiveres programmet, hvorefter publikum får mulighed for at vælge mellem et udvalg af korte dansekoreografier, hver med sit eget tema og udtryk.</p>
               <a href="/pdf/danceOmatic_expl_da.pdf" class="link-container p-3 border rounded" target="_blank">
@@ -135,6 +167,8 @@ include $IPATH . 'head.php';
 
           </div>
 
+
+
           <hr>
 
           <div class="row pt-5 align-items-center">
@@ -149,7 +183,7 @@ include $IPATH . 'head.php';
               <h2 class="featurette-heading">Turné i <span class=""><img src="../img/taiwanTxt.png" width="115" height="45" class="d-inline-block align-text-bottom"></a></span></h2>
               <p class="lead mt-3 mx-3">I 2019 optrådte vi med danceOmatic i Taiwan. Se en hurtig opsummering af turen i denne video<object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="" type="image/svg+xml"></object></p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 my-3">
               <div style="padding:100% 0 0 0;position:relative;">
                 <iframe src="https://player.vimeo.com/video/792985911?h=9a0a695931&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CarryTheArtDocVideo.mp4"></iframe>
               </div>
