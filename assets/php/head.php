@@ -49,4 +49,13 @@
       .bi-arrow-down-short {
         animation: moveDown 1.5s infinite;
       }
+
+      
+      /* used to reduce the font size of the table on smaller screens. Active in tourplan.php */
+      @media (max-width: 768px) {
+        .small-screen-font {
+          font-size: 0.85rem;
+          /* or fs-6 equivalent */
+        }
+      }
     </style>
