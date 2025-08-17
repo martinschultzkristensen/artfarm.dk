@@ -122,7 +122,7 @@
           </div>
         </div>
         <div class="col-lg-4 mt-lg-5 col-md-12 d-flex p-2">
-          <img src="/img/TerminusTwTourMap.png" alt="picture of Taiwan Tour Map" class="img-fluid my-2 shadow-1-strong rounded">
+          <img src="/img/TERMINUSTwTourPicBG.png" alt="picture of Taiwan Tour Map" class="img-fluid my-2 shadow-1-strong rounded">
         </div>
       </div>
 

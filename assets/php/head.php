@@ -50,12 +50,34 @@
         animation: moveDown 1.5s infinite;
       }
 
-      
-      /* used to reduce the font size of the table on smaller screens. Active in tourplan.php */
+
+      /* used to reduce the font size of the table on smaller screens. Active in table on tourplan.php and terminus.php*/
       @media (max-width: 768px) {
         .small-screen-font {
           font-size: 0.85rem;
           /* or fs-6 equivalent */
         }
+      }
+
+      /* Hover effect for images */
+      .hover-image 
+      {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .hover-image:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+      }
+ 
+      /* Gallery image styles used in billedbank.php */
+      .gallery-img {
+        cursor: zoom-in;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .gallery-img:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
       }
     </style>

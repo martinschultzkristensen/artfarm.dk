@@ -5,17 +5,6 @@ $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
 include $IPATH . 'head.php';
 ?>
 
-<style>
-  .gallery-img {
-    cursor: zoom-in;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  .gallery-img:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-  }
-</style>
 
 <body>
 
