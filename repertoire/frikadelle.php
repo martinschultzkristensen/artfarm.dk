@@ -55,7 +55,7 @@
               <h2 class="featurette-heading">Trailer</h2>
 
               <div style="padding:56.25% 0 0 0;position:relative;">
-                <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/794539604?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="what is danceomatic"></iframe>
+                <iframe src="https://player.vimeo.com/video/1096375240?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Frikadelle Trailer"></iframe>
               </div>
             </div>
 
