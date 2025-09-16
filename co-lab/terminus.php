@@ -63,6 +63,17 @@
           </div>
         </div>
 
+        <div class="col-12">
+          <a href="https://teateravisen.dk/en-forrygende-ventetid/" class="link-container p-3 border rounded" target="_blank">
+            <img src="https://teateravisen.dk/wp-content/uploads/2024/06/Human-Lab-Terminus.jpg" alt="Anmeldelse Teater Avisen" class="link-image">
+            <div>
+              <p class="mb-0">Randi K. Pedersen, teaterjournalist og anmelder:</p>
+              <p class="mb-0 text-muted fst-italic">"En forrygende ventetid HumanLabs forestilling ’Terminus’ er et medrivende snapshot af et samfund, der er kørt af (tog)sporet."</p>
+              <h5 class="mb-1 text-with-icon">Læs hele anmeldelsen<object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="bi-arrow-right-short" type="image/svg+xml"></object></h5>
+            </div>
+          </a>
+        </div>
+
         <div class="col-12 my-5">
           <h2 class="featurette-heading">Praktisk <span class="text-muted">info</span></h2>
           <ul class="list-praktisk-info">

@@ -44,7 +44,7 @@ include $IPATH . 'head.php';
 
   <div class="container-fluid;" id="frikadelle">
     <div class="card text-white text-uppercase">
-      <img src="/img/frikaAmarMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <img src="/img/frikadelleMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
           <p class="card-text"></span>En Kulinarisk Forestilling</p>
@@ -72,44 +72,44 @@ include $IPATH . 'head.php';
 
 
 
-      <div class="card text-white text-uppercase" id="censorship">
-        <img src="/img/ntvrkTW.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+    <div class="card text-white text-uppercase" id="censorship">
+      <img src="/img/ntvrkTW.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <div class="card-img-overlay">
+        <div class="position-absolute top-50 p-md-5 px-3">
+          <p class="card-text"></span>Worskhop & netværk i Taiwan</p>
+          <h1 class="card-title;">Co-Laboratorie omkring censur</h1>
+          <a href="/co-lab/ntwrkTW.php" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="terminus">
+      <div class="card text-white text-uppercase">
+        <img src="/img/terminusHorsensTogstation.png" alt="" class="card-img index-img" style="height: 100svh ; object-fit:cover; filter: brightness(70%);">
         <div class="card-img-overlay">
-          <div class="position-absolute top-50 p-md-5 px-3">
-            <p class="card-text"></span>Worskhop & netværk i Taiwan</p>
-            <h1 class="card-title;">Co-Laboratorie omkring censur</h1>
-            <a href="/co-lab/ntwrkTW.php" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div id="terminus">
-        <div class="card text-white text-uppercase">
-          <img src="/img/terminusHorsensTogstation.png" alt="" class="card-img index-img" style="height: 100svh ; object-fit:cover; filter: brightness(70%);">
-          <div class="card-img-overlay">
-            <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-              <p class="card-text">Netop afsluttet forestillings Turné:</p>
-              <h1 class="card-title;">Terminus i Taiwan </h1>
-              <a href="/repertoire/terminus" class="btn btn-lg btn-blur btn-outline-light shadow">Info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card text-white text-uppercase" id="akyrlarium">
-        <img src="/img/akryla_shan_structure1.jpg" alt="" class="card-img vh-100" style="object-fit: cover; filter: brightness(70%);">
-        <div class="card-img-overlay position-absolute">
           <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-            <p class="card-text">Forestilling formidler Hudsult</p>
-            <h1 class="card-title;">AKRYLARIUM</h1>
-            <a href="/repertoire/akrylarium" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
+            <p class="card-text">Netop afsluttet forestillings Turné:</p>
+            <h1 class="card-title;">Terminus i Taiwan </h1>
+            <a href="/co-lab/terminus.php" class="btn btn-lg btn-blur btn-outline-light shadow">Info</a>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="card text-white text-uppercase" id="akyrlarium">
+      <img src="/img/akryla_shan_structure1.jpg" alt="" class="card-img vh-100" style="object-fit: cover; filter: brightness(70%);">
+      <div class="card-img-overlay position-absolute">
+        <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
+          <p class="card-text">Forestilling formidler Hudsult</p>
+          <h1 class="card-title;">AKRYLARIUM</h1>
+          <a href="/repertoire/akrylarium" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
+        </div>
+      </div>
+    </div>
 
 
-      <!-- 
+    <!-- 
   <div class="card text-white text-uppercase">  
     <img src="/img/kinaShow2BigScreen.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
@@ -121,17 +121,17 @@ include $IPATH . 'head.php';
       </div>
   </div> 
   -->
-      <!-- Footer -->
+    <!-- Footer -->
 
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'footer.php';
-        ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'footer.php';
+    ?>
 
 
 
-      <script src="/js/bootstrap.bundle.min.js"></script>
-      <script src="/js/scroll_on_press.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/scroll_on_press.js"></script>
 
 </body>
 
