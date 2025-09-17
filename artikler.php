@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="da">
 <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'head.php';
+$IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+include $IPATH . 'head.php';
 ?>
+
 <body class="bg-light">
   <?php
-    include $IPATH . 'header.php';
+  include $IPATH . 'header.php';
   ?>
 
   <!-- !PAGE CONTENT! -->
@@ -32,61 +33,123 @@
       <div class="container py-5">
         <div class="row g-5">
 
+          <!-- Artikel September 2025 -->
+          <div class="col-12 col-lg-8 mx-auto">
+            <article class="card shadow-lg border-0">
+              <div class="card-body bg-light rounded">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="../img/team/LetsDuetMartSqr.jpg" class="rounded-circle me-3" alt="Martin" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div>
+                    <h5 class="card-title mb-0">Martin S. Kristensen</h5>
+                    <small class="text-muted">Artistic Director – 17. September 2025</small>
+                  </div>
+                </div>
+                <h2 class="mb-3">Last performance of 2025! 🎉 🥲</h2>
+                <p class="lh-lg">
+                  Det er altid med en vis melankoli i blodet, når den sidste planlagte forestilling fra Art Farm løber af programmet. Dette år falder datoen tidligere end i de foregående år, hvilket heldigvis falder godt sammen med, at vi har midler til at kunne fortsætte det administrative arbejde og dermed fokusere på salg af eksisterende forestillinger samt fundraising af nye projekter.
+                </p>
+
+                <blockquote class="blockquote fst-italic ps-3 border-start border-3 border-dark">
+                  <strong>Prøver på EWII House</strong><br>
+                  1.-4. september havde vi prøver med et nyt cast af dansere på EWII house + to dansere som trænede med os
+                </blockquote>
+
+                <div class="row mb-4">
+                  <div class="col-lg-8 col-12">
+                    <p class="lh-lg">
+                      Vores nye dansere: Timothy, Nikoline & Lilli, bor alle i Danmark. Det var en fornøjelse at arbejde med dem og udvide vores netværk til det danske danse‑miljø. De leverede et fantastisk stykke arbejde og lærte <a href="/repertoire/danceomatic.php">danceOmatic&nbsp;forestillingen</a> på kort tid.
+                    </p>
+                    <p class="lh-lg">
+                      Vi havde også to dansere, som trænede med os i løbet af ugen: den ene var en lokal, meget ung danser med en lovende fremtid foran sig, mens den anden var en engelsk danser, som er ved at etablere sig i Aarhus, Danmark.
+                      De er nu tilføjet vores hold af kunstnere vi arbejder med: <a href="/artists.php">team</a>
+                    </p>
+                  </div>
+                  <div class="col-lg-4 col-12">
+                    <img src="/img/dOmCastSep2025.jpg" class="img-fluid rounded shadow">
+                  </div>
+                </div>
+
+                <p class="lh-lg">
+                  Forestillingen blev opført 6. september for et publikum bestående af børn og familier i et udsat boligområde i København. Det skabte en enorm begejstring hos børnende som ikke normalt ser dans som scenekunst. Det var en fornøjelse at se, hvordan dansen bidrog til boligområdets fællesskab.
+                </p>
+
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-4 col-8 mb-3">
+                    <img src="/img/crewAndMachine6sep25.jpg" alt="picture of dancecrew with danceOmatic machine" class="img-fluid rounded shadow mb-3">
+                    <img src="/img/dOmMapPeformVenue6sep.jpg" alt="map of copenhagen, showing the performance venue" class="img-fluid rounded shadow">
+                  </div>
+                  <div class="col-lg-4 col-8">
+                    <img src="/img/LetsDuet6Sep.jpg" alt="piture of danceperformance" class="img-fluid rounded shadow mb-3">
+                    <img src="/img/3chefs6sep25.jpg" alt="piture of danceperformance" class="img-fluid rounded shadow">
+                  </div>
+
+
+                  <footer class="mt-4 pt-3 border-top">
+                    <p class="mb-0 text-muted">
+                      <strong>danceOmatic:</strong> skabes første gang af Martin Schultz Kristensens 2013, Aarhus. <br>
+                      2025 modtager danceOmatic kulturhovedstadens fond <a href="https://www.aarhus2017.dk/da/nyheder/danceomatic--smid-en-mnt-i-danseautomaten/4472/" target="_blank" rel="noopener noreferrer"><i>Aarhus2017</i></a> til at udvikle konceptet yderligere med Taiwan Danmark kulturudvæksling. <br>
+                      2025 fremføres danceOmatic første gang med ny software, omskrevet fra C# til Rust Lang.
+                    </p>
+                  </footer>
+                </div>
+            </article>
+          </div>
+
           <!-- Artikel 1 -->
           <div class="col-12 col-lg-8 mx-auto">
             <article class="card shadow-lg border-0">
               <div class="card-body bg-light rounded">
-<div class="d-flex align-items-center mb-4">
-              <img src="../img/team/LetsDuetMartSqr.jpg" class="rounded-circle me-3" alt="Martin" style="width: 60px; height: 60px; object-fit: cover;">
-              <div>
-                <h5 class="card-title mb-0">Martin S. Kristensen</h5>
-                <small class="text-muted">Artistic Director – 29. Maj 2025</small>
-              </div>
-            </div>
-            <h2 class="mb-3">Dage på CPH STAGE</h2>
-            <p class="lh-lg">
-  CPH STAGE er Danmarks årlige festival for scenekunst i København og på Frederiksberg. Festivalen strækker sig over 10 dage og præsenterer både nye forestillinger og tidligere teatersucceser – suppleret af talks, koncerter og debatter, der bringer scenekunsten i centrum.
-</p>
+                <div class="d-flex align-items-center mb-4">
+                  <img src="../img/team/LetsDuetMartSqr.jpg" class="rounded-circle me-3" alt="Martin" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div>
+                    <h5 class="card-title mb-0">Martin S. Kristensen</h5>
+                    <small class="text-muted">Artistic Director – 29. Maj 2025</small>
+                  </div>
+                </div>
+                <h2 class="mb-3">Dage på CPH STAGE</h2>
+                <p class="lh-lg">
+                  CPH STAGE er Danmarks årlige festival for scenekunst i København og på Frederiksberg. Festivalen strækker sig over 10 dage og præsenterer både nye forestillinger og tidligere teatersucceser – suppleret af talks, koncerter og debatter, der bringer scenekunsten i centrum.
+                </p>
 
-<p class="lh-lg">
-  I år deltog jeg sammen med koreograf Meng-Ting Liu fra Art Farm til Scenekunstens Årsmøde under CPH STAGE. Vi blev især grebet af de tankevækkende samtaler om ytringsfrihed og censur. En talk, der gjorde særligt indtryk, havde titlen:
-</p>
+                <p class="lh-lg">
+                  I år deltog jeg sammen med koreograf Meng-Ting Liu fra Art Farm til Scenekunstens Årsmøde under CPH STAGE. Vi blev især grebet af de tankevækkende samtaler om ytringsfrihed og censur. En talk, der gjorde særligt indtryk, havde titlen:
+                </p>
 
-<blockquote class="blockquote fst-italic ps-3 border-start border-3 border-dark">
-  <strong>Ytringsfrihed & Selvcensur: Er der historier vi ikke længere tør fortælle?</strong><br>
-  “Med koranloven, retningslinjer for brug af kommunale kulturhuse m.m. oplever mange kunstnere, at ytringsfriheden sættes under pres… Udøver man som kunstner selvcensur – bevidst eller ubevidst?”
-</blockquote>
+                <blockquote class="blockquote fst-italic ps-3 border-start border-3 border-dark">
+                  <strong>Ytringsfrihed & Selvcensur: Er der historier vi ikke længere tør fortælle?</strong><br>
+                  “Med koranloven, retningslinjer for brug af kommunale kulturhuse m.m. oplever mange kunstnere, at ytringsfriheden sættes under pres… Udøver man som kunstner selvcensur – bevidst eller ubevidst?”
+                </blockquote>
 
-<p class="lh-lg">
-  Panelet bestod af Jesper Frølund Hansen (HiLS DiN MOR), Anna Andrea Malzer (Mungo Park), og dramatiker Joan Rang Christensen – modereret af Rie Hammer (ISCENE). Især Joan Rang Christensens oplevelser med shitstorms og hendes perspektiver på at vende kritik til en styrke, var stærkt inspirerende.
-</p>
+                <p class="lh-lg">
+                  Panelet bestod af Jesper Frølund Hansen (HiLS DiN MOR), Anna Andrea Malzer (Mungo Park), og dramatiker Joan Rang Christensen – modereret af Rie Hammer (ISCENE). Især Joan Rang Christensens oplevelser med shitstorms og hendes perspektiver på at vende kritik til en styrke, var stærkt inspirerende.
+                </p>
 
-<p class="lh-lg">
-  Temaerne talte direkte ind i vores afholdte<a href="https://artfarm.dk/repertoire/ntwrkTW" target="_blank"> laboratorium om censur i Taiwan</a>, støttet af Nordisk Kulturfond. Her undersøgte vi netop, hvordan kunstnere håndterer det ydre pres fra autoritære systemer, og om der er historier de taiwanske kunstnere ikke længere tør give sige i kast med. Det er vores ambition at udvikle et 50 minutters scenekunstværk med dansere fra både Danmark og Taiwan – med fokus på demokrati og censur. Oplevelserne fra CPH STAGE gav os vigtig inspiration og ny energi til arbejdet med fondsansøgningen, der har deadline i september.
-</p>
+                <p class="lh-lg">
+                  Temaerne talte direkte ind i vores afholdte<a href="https://artfarm.dk/repertoire/ntwrkTW" target="_blank"> laboratorium om censur i Taiwan</a>, støttet af Nordisk Kulturfond. Her undersøgte vi netop, hvordan kunstnere håndterer det ydre pres fra autoritære systemer, og om der er historier de taiwanske kunstnere ikke længere tør give sige i kast med. Det er vores ambition at udvikle et 50 minutters scenekunstværk med dansere fra både Danmark og Taiwan – med fokus på demokrati og censur. Oplevelserne fra CPH STAGE gav os vigtig inspiration og ny energi til arbejdet med fondsansøgningen, der har deadline i september.
+                </p>
 
-<p class="lh-lg">
-  En anden talk, vi deltog i, bar titlen:
-</p>
+                <p class="lh-lg">
+                  En anden talk, vi deltog i, bar titlen:
+                </p>
 
-<blockquote class="blockquote fst-italic ps-3 border-start border-3 border-dark">
-  <strong>Ytringsfrihed: Forfulgt – når kunsten stemples som fjenden</strong><br>
-  “En samtale om de dybe konsekvenser ved at få krænket sine kulturelle rettigheder og hvad verdenssamfundet kan gøre for at undgå, at det sker igen.”
-</blockquote>
+                <blockquote class="blockquote fst-italic ps-3 border-start border-3 border-dark">
+                  <strong>Ytringsfrihed: Forfulgt – når kunsten stemples som fjenden</strong><br>
+                  “En samtale om de dybe konsekvenser ved at få krænket sine kulturelle rettigheder og hvad verdenssamfundet kan gøre for at undgå, at det sker igen.”
+                </blockquote>
 
-<p class="lh-lg">
-  Scenekunstner Volha Kulikouskaya (INEXKULT Foundation) og direktør Camilla Mordhorst (Dansk Kulturinstitut) delte erfaringer fra scenekunstens frontlinje. Særligt Volhas observation om, at kunsten taler til hjertet før bevidstheden, ramte mig. I stærkt censurerede samfund, hvor kritik kan medføre alvorlige konsekvenser, bliver det en overlevelsesstrategi at afvise intellektuelle debatter – du kan ikke tale til hovedet. Kun hjertet kan åbne døren.
-</p>
+                <p class="lh-lg">
+                  Scenekunstner Volha Kulikouskaya (INEXKULT Foundation) og direktør Camilla Mordhorst (Dansk Kulturinstitut) delte erfaringer fra scenekunstens frontlinje. Særligt Volhas observation om, at kunsten taler til hjertet før bevidstheden, ramte mig. I stærkt censurerede samfund, hvor kritik kan medføre alvorlige konsekvenser, bliver det en overlevelsesstrategi at afvise intellektuelle debatter – du kan ikke tale til hovedet. Kun hjertet kan åbne døren.
+                </p>
 
-<p class="lh-lg">
-  CPH STAGE byder i skrivende stund på de sidste dages danseforestillinger – og vi rejser hjem med fornyet mod og klarhed over, hvor vigtigt det er, at vi fortsætter med at skabe kunst, der tør tage stilling.
-</p>
+                <p class="lh-lg">
+                  CPH STAGE byder i skrivende stund på de sidste dages danseforestillinger – og vi rejser hjem med fornyet mod og klarhed over, hvor vigtigt det er, at vi fortsætter med at skabe kunst, der tør tage stilling.
+                </p>
 
-<footer class="mt-4 pt-3 border-top">
-  <p class="mb-0 text-muted">
-    <strong>Om CPH STAGE:</strong> Festivalen har eksisteret siden 2013 og byder på intense dramaer, aktuelle debatforestillinger og et mangfoldigt eventprogram. Læs mere på <a href="https://www.cphstage.dk" target="_blank">cphstage.dk</a>.
-  </p>
-</footer>
+                <footer class="mt-4 pt-3 border-top">
+                  <p class="mb-0 text-muted">
+                    <strong>Om CPH STAGE:</strong> Festivalen har eksisteret siden 2013 og byder på intense dramaer, aktuelle debatforestillinger og et mangfoldigt eventprogram. Læs mere på <a href="https://www.cphstage.dk" target="_blank">cphstage.dk</a>.
+                  </p>
+                </footer>
               </div>
             </article>
           </div>
@@ -95,33 +158,33 @@
           <div class="col-12 col-lg-8 mx-auto">
             <article class="card shadow-lg border-0">
               <div class="card-body bg-light rounded">
-<div class="d-flex align-items-center mb-4">
-              <img src="../img/team/LetsDuetMartSqr.jpg" class="rounded-circle me-3" alt="Martin" style="width: 60px; height: 60px; object-fit: cover;">
-              <div>
-                <h5 class="card-title mb-0">Martin S. Kristensen</h5>
-                <small class="text-muted">Artistic Director – 30. April 2025</small>
-              </div>
-            </div>
-            <h2 class="mb-3">Hvorfor jeg har valgt at sende et nyhedsbrev</h2>
-            <p class="fst-italic lh-lg">
-              Som kunstnerisk leder i Art Farm har jeg i noget tid været skeptisk over for at bruge for meget tid på sociale medier. Jeg vil bruge min tid på det, der virkelig rykker: udviklingen af forestillinger, nye samarbejder og det opsøgende arbejde, der bringer os ud til endnu flere scener og publikummer! Dog nytter det ikke at have et fantastisk produkt, hvis ingen kender til det (som min far altid sagde).
-            <br>
-            <br>
-              Anerkendelsen af, at det er vigtigt at holde kontakten til jer, der følger vores arbejde, og at give jer et indblik i alt det, der foregår bag kulisserne, gør, at jeg har besluttet at starte dette månedlige nyhedsbrev.
-            <br>
-            <br>
-            Det bliver kort og præcist, og det vil give jer en fornemmelse af, hvad vi har arbejdet med i den forgangne måned.
-            <br>
-            <br>
-            Vi laver en masse spændende ting i Art Farm, men som publikum ser man ofte kun toppen af isbjerget. Med nyhedsbrevet ønsker jeg at dele mere af den drivkraft, der ligger bag – den skaberkraft, som udspringer af dansens urkraft og driver projektet fremad.
-            <br>
-            <br>
-            Det er min forhåbning, at nyhedsbrevet vil skabe en stærkere forbindelse mellem os og jer og give publikum, samarbejdspartnere og andre interesserede et mere nuanceret billede af, hvem vi er, hvad vi gør og hvorfor vi gør det.
-            Vi vil stadig være til stede på sociale medier – måske med lidt færre opslag, men med en mere regelmæssig tilstedeværelse.
-            <br>
-            <br>
-            Men nyhedsbrevet bliver det sted, hvor du kan danne dig et overblik over, hvad vi gør og laver.
-          </p>
+                <div class="d-flex align-items-center mb-4">
+                  <img src="../img/team/LetsDuetMartSqr.jpg" class="rounded-circle me-3" alt="Martin" style="width: 60px; height: 60px; object-fit: cover;">
+                  <div>
+                    <h5 class="card-title mb-0">Martin S. Kristensen</h5>
+                    <small class="text-muted">Artistic Director – 30. April 2025</small>
+                  </div>
+                </div>
+                <h2 class="mb-3">Hvorfor jeg har valgt at sende et nyhedsbrev</h2>
+                <p class="fst-italic lh-lg">
+                  Som kunstnerisk leder i Art Farm har jeg i noget tid været skeptisk over for at bruge for meget tid på sociale medier. Jeg vil bruge min tid på det, der virkelig rykker: udviklingen af forestillinger, nye samarbejder og det opsøgende arbejde, der bringer os ud til endnu flere scener og publikummer! Dog nytter det ikke at have et fantastisk produkt, hvis ingen kender til det (som min far altid sagde).
+                  <br>
+                  <br>
+                  Anerkendelsen af, at det er vigtigt at holde kontakten til jer, der følger vores arbejde, og at give jer et indblik i alt det, der foregår bag kulisserne, gør, at jeg har besluttet at starte dette månedlige nyhedsbrev.
+                  <br>
+                  <br>
+                  Det bliver kort og præcist, og det vil give jer en fornemmelse af, hvad vi har arbejdet med i den forgangne måned.
+                  <br>
+                  <br>
+                  Vi laver en masse spændende ting i Art Farm, men som publikum ser man ofte kun toppen af isbjerget. Med nyhedsbrevet ønsker jeg at dele mere af den drivkraft, der ligger bag – den skaberkraft, som udspringer af dansens urkraft og driver projektet fremad.
+                  <br>
+                  <br>
+                  Det er min forhåbning, at nyhedsbrevet vil skabe en stærkere forbindelse mellem os og jer og give publikum, samarbejdspartnere og andre interesserede et mere nuanceret billede af, hvem vi er, hvad vi gør og hvorfor vi gør det.
+                  Vi vil stadig være til stede på sociale medier – måske med lidt færre opslag, men med en mere regelmæssig tilstedeværelse.
+                  <br>
+                  <br>
+                  Men nyhedsbrevet bliver det sted, hvor du kan danne dig et overblik over, hvad vi gør og laver.
+                </p>
               </div>
             </article>
           </div>
@@ -133,9 +196,10 @@
 
   <!-- Footer -->
   <?php
-    include $IPATH . 'footer.php';
+  include $IPATH . 'footer.php';
   ?>
 
   <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
