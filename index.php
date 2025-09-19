@@ -60,9 +60,10 @@ include $IPATH . 'head.php';
       <img src="/img/dOm_HTF2024cFotoFrankRosgaard.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-          <p class="card-text">danceomatic...</p>
+          <p class="card-text">danceomatic!</p>
           <h1 class="card-title;">Start en dans</h1>
           <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg btn-blur shadow">Start</a>
+ 
         </div>
       </div>
     </div>
@@ -89,8 +90,8 @@ include $IPATH . 'head.php';
         <img src="/img/terminusHorsensTogstation.png" alt="" class="card-img index-img" style="height: 100svh ; object-fit:cover; filter: brightness(70%);">
         <div class="card-img-overlay">
           <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-            <p class="card-text">Netop afsluttet forestillings Turné:</p>
-            <h1 class="card-title;">Terminus i Taiwan </h1>
+            <p class="card-text">Et samfund, der er kørt af (tog)sporet</p>
+            <h1 class="card-title;">Terminus</h1>
             <a href="/co-lab/terminus.php" class="btn btn-lg btn-blur btn-outline-light shadow">Info</a>
           </div>
         </div>
