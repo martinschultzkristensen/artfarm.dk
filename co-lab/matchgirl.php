@@ -15,19 +15,21 @@
 <section class="py-5 text-center container">
       <div class="row pt-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">billeder og andet relevant</h1>  
+          <h1 class="fw-light">Pressemateriale</h1>  
         <div class="col">
           <p>Den Lille Pige Med Svovlstikkerne</p>
         </div>
       </div>
     </section>
     <div >
-        <img src="/img/matchGirlSlide1.jpg" alt="Billede 1">
-        <img src="/img/matchGirlSlide2.jpg" alt="Billede 2">
-        <img src="/img/matchGirlSlide3.jpg" alt="Billede 3">
+
         <!-- Tilføj flere billeder her -->
     </div>
     
+    </div>
+    <!-- pressemateriale til download i pdf format -->
+    <div class="container text-center my-5">
+        <a href="/pdf/DenLillePige_Flyer.pdf" class="btn btn-primary" download>Download pressemateriale (PDF)</a>
     </div>
 </body>
 </html>
