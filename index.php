@@ -12,23 +12,11 @@ include $IPATH . 'head.php';
   include $IPATH . 'header.php';
   ?>
 
+  <div class="position-absolute top-50 start-50 translate-middle">
+    <img src="/assets/svg_elements/artfarm_zeromargin_white.svg" alt="Art Farm" class="img-fluid" style="max-width: 400px;">
+  </div>
 
 
-  <!-- <div class="grid">
-    <div class="grid-item1"></div>
-    <div class="grid-item2"></div>
-    <div class="grid-item3"></div>
-    <div class="card-img-overlay">
-      <div class="m-3 py-5 text-lg-center text-end">
-        <a href="/tourplan.php" class="btn btn-lg btn-outline-light shadow btn-blur">Tour plan
-          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi-arrow-right-short" viewBox="0 0 16 18">
-            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-          </svg>
-        </a>
-      </div>
-      
-    </div>
-  </div> -->
 
 
   <div class="fixed-bottom text-center my-5">
@@ -63,7 +51,7 @@ include $IPATH . 'head.php';
           <p class="card-text">danceomatic!</p>
           <h1 class="card-title;">Start en dans</h1>
           <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg btn-blur shadow">Start</a>
- 
+
         </div>
       </div>
     </div>
