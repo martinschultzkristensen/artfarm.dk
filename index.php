@@ -7,14 +7,16 @@ include $IPATH . 'head.php';
 
 <body class="bg-light">
 
+  <div id="intro-logo" class="intro-logo">
+    <img src="/assets/svg_elements/artfarm_zeromargin_white.svg" alt="Art Farm Intro Logo">
+  </div>
+
+
   <?php
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
   include $IPATH . 'header.php';
   ?>
 
-  <div class="position-absolute top-50 start-50 translate-middle">
-    <img src="/assets/svg_elements/artfarm_zeromargin_white.svg" alt="Art Farm" class="img-fluid" style="max-width: 400px;">
-  </div>
 
 
 
@@ -121,6 +123,30 @@ include $IPATH . 'head.php';
 
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scroll_on_press.js"></script>
+<script>
+window.addEventListener('load', () => {
+  const intro = document.getElementById('intro-logo');
+
+  // 1️⃣ Fade‑in
+  requestAnimationFrame(() => {           // ensures the style change happens after paint
+    intro.style.opacity = '1';
+  });
+
+  // 2️⃣ Keep it visible for 1.5 s (adjust as you like)
+  const visibleTime = 1500;
+
+  // 3️⃣ After the visible period, start fade‑out
+  setTimeout(() => {
+    intro.style.opacity = '0';
+
+    // 4️⃣ Remove the element after the fade‑out transition (1 s here)
+    setTimeout(() => intro.remove(), 1000);
+  }, visibleTime + 1000);   // +1000 accounts for the 1 s fade‑in duration
+});
+</script>
+
+
+
 
 </body>
 

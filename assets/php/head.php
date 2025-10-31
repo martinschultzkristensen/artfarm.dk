@@ -11,6 +11,7 @@
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/tourbus.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/timeline.css">
+    <link rel="stylesheet" href="/css/openinglogo.css">
 
     <style>
       @keyframes moveRight {

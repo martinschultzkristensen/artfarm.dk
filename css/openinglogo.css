@@ -1,0 +1,15 @@
+.intro-logo {
+  position: fixed;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999; /* make sure it's above EVERYTHING */
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.intro-logo img {
+  width: 200px; /* adjust as needed */
+  height: auto;
+}
