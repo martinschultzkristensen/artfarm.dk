@@ -1,15 +1,85 @@
 .intro-logo {
-  position: fixed;
+  position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 99999; /* make sure it's above EVERYTHING */
-  opacity: 0;
+  z-index: 1;
   transition: opacity 1s ease-out;
 }
 
-.intro-logo img {
+.intro-logo svg {
   width: 200px; /* adjust as needed */
   height: auto;
+}
+
+#intro-logo > svg path {
+  stroke: white;
+}
+
+/* Animation for the colored parallelograms */
+.animated-swipe {
+  /* Initially invisible */
+  transform: translateX(-200%);
+  animation: swipeMove 2s linear forwards;
+  transform-origin: center;
+  animation-delay: 0.75s;
+
+  
+}
+@keyframes swipeMove {
+  0% {
+
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Animation for drawing the logo paths */
+
+#Lille-R,
+#Store-R {
+  stroke-dasharray: 600; /* total path length */
+  stroke-dashoffset: 600; /* hide it */
+  animation: draw 3s ease forwards;
+}
+#M {
+  stroke-dasharray: 700; /* total path length */
+  stroke-dashoffset: 700; /* hide it */
+  animation: draw 3s ease forwards;
+}
+
+#T path {
+  stroke-dasharray: 1334;
+  stroke-dashoffset: 1334;
+  animation: draw 2s ease forwards;
+  animation-delay: 0.8s;
+}
+
+#FA path {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: draw 2s ease forwards;
+}
+
+#Lille-A path {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 2s ease forwards;
+  animation-delay: 0.4s;
+}
+
+#Store-A {
+  stroke-dasharray: 2000; /* path length */
+  stroke-dashoffset: 2000; /* start hidden */
+  animation: draw 1.4s ease forwards;
+  animation-delay: 0.6s; /* optional stagger with other letters */
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0; /* reveal it */
+  }
 }

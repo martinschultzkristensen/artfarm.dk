@@ -8,7 +8,6 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Costume css -->
-    <link href="/css/style.css" rel="stylesheet">
     <link href="/css/tourbus.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/timeline.css">
     <link rel="stylesheet" href="/css/openinglogo.css">
@@ -61,8 +60,7 @@
       }
 
       /* Hover effect for images */
-      .hover-image 
-      {
+      .hover-image {
         transition: transform 0.2s ease, box-shadow 0.2s ease;
       }
 
@@ -70,7 +68,7 @@
         transform: scale(1.05);
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
       }
- 
+
       /* Gallery image styles used in billedbank.php */
       .gallery-img {
         cursor: zoom-in;

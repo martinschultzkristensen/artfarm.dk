@@ -8,10 +8,49 @@ include $IPATH . 'head.php';
 <body class="bg-light">
 
   <div id="intro-logo" class="intro-logo">
-    <img src="/assets/svg_elements/artfarm_zeromargin_white.svg" alt="Art Farm Intro Logo">
-  </div>
+
+    <svg width="3000" height="2200" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <mask id="mask1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="100%" height="auto">
+          <?php echo file_get_contents("assets/svg_elements/ArtFarmLogoMask.svg"); ?>
+        </mask>
+        <style>
+          .a {
+            fill: #e82827;
+          }
+
+          .b {
+            fill: #fcc326;
+          }
+
+          .c {
+            fill: #fdf600;
+          }
+
+          .d {
+            fill: #4069af;
+          }
+
+          .e {
+            fill: #ed64a3;
+          }
+        </style>
+      </defs>
+     <?php echo file_get_contents("assets/svg_elements/ArtFarmLogoTracing.svg"); ?>
+      <!-- Simplified parallelograms -->
+      <g mask="url(#mask1)">
+        <g class="animated-swipe">
+          <?php echo file_get_contents("assets/svg_elements/colorSwipe.svg"); ?>
+        </g>
+      </g>
+    </svg>
 
 
+
+
+    
+    
+      </div>
   <?php
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
   include $IPATH . 'header.php';
@@ -28,7 +67,6 @@ include $IPATH . 'head.php';
       </svg>
     </a>
   </div>
-
 
 
 
@@ -133,7 +171,7 @@ window.addEventListener('load', () => {
   });
 
   // 2️⃣ Keep it visible for 1.5 s (adjust as you like)
-  const visibleTime = 1500;
+  const visibleTime = 1600;
 
   // 3️⃣ After the visible period, start fade‑out
   setTimeout(() => {
@@ -143,9 +181,18 @@ window.addEventListener('load', () => {
     setTimeout(() => intro.remove(), 1000);
   }, visibleTime + 1000);   // +1000 accounts for the 1 s fade‑in duration
 });
+
 </script>
 
 
+<script>
+window.addEventListener("load", function() {
+    const logo = document.querySelector(".intro-logo");
+    if (logo) {
+        logo.style.opacity = 1;
+    }
+});
+</script>
 
 
 </body>
