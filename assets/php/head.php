@@ -8,6 +8,7 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Costume css -->
+     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/tourbus.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/timeline.css">
     <link rel="stylesheet" href="/css/openinglogo.css">
