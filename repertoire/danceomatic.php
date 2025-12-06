@@ -57,6 +57,8 @@ include $IPATH . 'head.php';
               <div class="zoomed-svg">
                 <object data="/assets/svg_elements/arcade.svg" id="arcade" class="" type="image/svg+xml"></object>
                 <div class="svg-container">
+
+                <?php echo file_get_contents("assets/svg_elements/coin8bit.svg"); ?>
                   <object data="/assets/svg_elements/coin8bit.svg" type="image/svg+xml" id="coin8bit" class="overlay-coin"></object>
                   <object data="/assets/svg_elements/Bling.svg" type="image/svg+xml" id="bling" class="bling-container"></object>
                 </div>
