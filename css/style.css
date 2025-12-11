@@ -5,6 +5,21 @@
   height: 100vh;
 }
 
+.dropdown-item svg {
+    width: 1em;        /* same height as text */
+    height: 1em;
+    margin-left: 0.4em;  /* space between text and icon */
+    vertical-align: middle;
+}
+
+.inline-flag svg {
+    width: 1em;               /* match text height */
+    height: 1em;
+    vertical-align: -0.1em;   /* optical alignment with baseline */
+    margin-left: 0.25em;      /* spacing from previous word */
+    margin-right: 0.1em;
+}
+
 /*this is the danceOmatic logo*/
 .overlay-danceOmatic-logo {
   position: absolute;

@@ -39,7 +39,7 @@
 
       <div class="row pt-5">
         <div class="col-12">
-          <h1 class="fw-bold text-center mb-5">Turné i Danmark</h1>
+          <h1 class="fw-bold text-center mb-5">Aktivitetskalender</h1>
         </div>
       </div>
 

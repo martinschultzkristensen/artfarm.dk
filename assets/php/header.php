@@ -44,6 +44,7 @@
               <li><a class="dropdown-item" href="/co-lab/terminus">Terminus</a></li>
               <li><a class="dropdown-item" href="/co-lab/blog_conTPv2">conTEMPORARY PAINTER</a></li>
               <li><a class="dropdown-item" href="/co-lab/ntwrkTW">netwærk Taiwan</a></li>
+              <li><a class="dropdown-item" href="/co-lab/TWcultWeek">Taiwansk Kulturuge <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/assets/svg_elements/flag-tw.svg"); ?></a></li>
 
             </ul>
           </li>
