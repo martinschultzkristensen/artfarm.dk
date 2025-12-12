@@ -77,7 +77,7 @@
         <hr>
         <div class="col text-muted text-center">
           <h2 class="fw-bold my-5">Forrige års turné</h2>
-          <p>Få et overblik over hvor vi har været i sæson 2024/2025</p>
+          <p>Få et overblik over hvor vi har været i 2025</p>
         </div>
         <?php
         $tourplan = include 'past_tourplan_data.php';
@@ -87,44 +87,33 @@
         ?>
       </div>
 
+      <?php
+      $tourplan = include 'past_tourplan_data.php';
+      ?>
       <div class="row">
-        <div class="col-lg-8 col-md-12 d-flex">
-          <div class="flex-grow-1">
-            <table class="table h-100 text-muted">
-              <thead>
-                <tr>
-                  <th><object type="image/svg+xml" data="assets/svg_elements/icon_calender.svg"></object><span class="text-center"> 2024</span></th>
-                  <th><object type="image/svg+xml" data="assets/svg_elements/icon_theater.svg"></object></th>
-                  <th><object type="image/svg+xml" data="assets/svg_elements/icon_geo-alt.svg"></object></th>
+        <div class="col-12 align">
+          
+          <table class="table small-screen-font text-muted w-100">
+            <thead>
+              <tr>
+                <th><object type="image/svg+xml" data="assets/svg_elements/icon_calender.svg"></object><span class="text-center"> 2025</span></th>
+                <th><object type="image/svg+xml" data="assets/svg_elements/icon_theater.svg"></object></th>
+                <th><object type="image/svg+xml" data="assets/svg_elements/icon_geo-alt.svg"></object></th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($tourplan as $row): ?>
+                <tr >
+                  <th scope="row"><?= $row['date'] ?></th>
+                  <td><a href="/repertoire/<?= strtolower($row['title']) ?>.php"><?= $row['title'] ?></a></td>
+                  <td><?= $row['city'] ?><br><?= $row['location'] ?></td>
                 </tr>
-              </thead>
-              <tbody>
-                <?php foreach ($tourplan as $row): ?>
-                  <?php
-                  if ($currentTitle !== $row['title'] || $currentCountry !== 'Taiwan') {
-                    $currentTitle = $row['title'];
-                    $currentCountry = 'Taiwan';
-                  ?>
-                    <tr>
-                      <th colspan="3" class="text-center"><?= $currentTitle ?> - <?= $currentCountry ?></th>
-                    </tr>
-                  <?php
-                  }
-                  ?>
-                  <tr>
-                    <th scope="row"><?= $row['date'] ?></th>
-                    <td><?= $row['city'] ?></td>
-                    <td><?= $row['location'] ?></td>
-                  </tr>
-                <?php endforeach; ?>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-lg-5 col-md-12 d-flex p-2">
-          <img src="/img/TERMINUSTwTourPicBG.png" alt="picture of Taiwan Tour Map" class="img-fluid my-2 shadow-1-strong rounded">
+              <?php endforeach; ?>
+            </tbody>
+          </table>
         </div>
       </div>
+
 
     </div>
 

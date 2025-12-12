@@ -15,6 +15,7 @@
   include $IPATH . 'header.php';
   ?>
 
+
   <main>
     <div class="container-fluid;">
 
@@ -51,7 +52,7 @@
           <div class="col-12 col-md-6 order-1 order-md-2">
             <p class="lead text-left d-none d-md-block">Trailer</p>
             <div class="ratio ratio-16x9">
-              <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/444212004 " title="what is danceomatic" class="w-100"></iframe>
+              <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/444212004 " title="Taiwanese Performance" class="w-100"></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
@@ -112,7 +113,7 @@
           </div>
 
           <div class="col-lg-7 pb-5">
-            <p class="lead mt-3 mx-3"> <strong>Dans:</strong> Lær nogle af de Traditionelle Taiwanske Dansetrin, og dans med flotte rekvisitter som vifter, vimpler og spyd (legespyd), og få sat fantasien i gang.<br>
+            <p class="lead mt-3 mx-3"> <strong>Dans:</strong> Lær nogle af de traditionelle taiwanske dansetrin, dans sammen med danserne med flotte rekvisitter som vifter, vimpler og spyd (legespyd), og lad fantasien få frit spil.<br>
 
           </div>
 
@@ -121,114 +122,98 @@
         <hr>
 
 
+        <div class="row align-items-left my-5">
+          <div class="col-12">
+            <h2 class="featurette-heading">Aktivitets kalender<span class="text-muted"> Kolding, Vejle og Fredericia</span></h2>
+          </div>
+
+          <div class="p-sm-2">
+            <?php
+            $tourplan = include '../tourplan_data.php'; // Adjust path as needed
+
+            $validTitles = [
+              'Taiwansk Dans og Workshop',
+              'Workshop - Taiwansk Dans',
+              'Taiwansk Danseforestilling'
+            ];
+
+            $filtered = array_filter($tourplan, function ($item) use ($validTitles) {
+              return in_array($item['title'], $validTitles);
+            });
+            ?>
+
+            <table class="table small-screen-font text-muted w-100">
+              <thead>
+                <tr>
+                  <th scope="col">Dato</th>
+                  <th scope="col">Hvor</th>
+                  <th scope="col">Event</th>
+                  <th scope="col">Tid</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php foreach ($filtered as $row): ?>
+                  <tr>
+                    <th scope="row"><?= $row['date'] ?></th>
+                    <td><?= $row['location'] ?></td>
+                    <td><?= $row['title'] ?></td>
+                    <td><?= $row['time'] ?></td>
+                  </tr>
+                <?php endforeach; ?>
+              </tbody>
+            </table>
+          </div>
+
+
+          <p class="lead mt-3 mx-3 mb-2 mb-md-0">
+            Forestillinger og workshops præsenteres af Taiwanske Mai-Ti dance company. <span><a href="https://www.maitidancecompany.org" target="_blank"><img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" width="" height="30" class="d-inline-block align-text-center"></a></span>
+            <br>
+            <br>
+            Eventet er gratis at deltage i, og er støttet af:
+            <span><img src="/img/support_logo/van_fonden_logo1.png" alt="SC Van Fonden Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+            <span><img src="/assets/svg_elements/kildevaeld_logo.svg" alt="Kildevæld Efterskole Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+            <span><img src="https://static.moliri.dk/koldingkommune/dist/icons/headerLogo.svg" alt="Kolding Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+            <span><img src="https://www.dksfredericia.dk/media/5axjyhyp/denkreativeskole_black.svg" alt="Den Kreative Skole Fredericia Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+            <!-- <span><img src="https://www.fredericia.dk/themes/custom/fds_fredericia_main_theme/logo.png" alt="Fredericia Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                <span><img src="/assets/svg_elements/vejleKommuneLogo.svg" alt="Vejle Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>  -->
+            <span><img src="https://vejlebib.dk/sites/default/files/styles/logo/public/Navnetr%C3%A6k_Vejle_bibliotekerne_sort_100x220_web.png?itok=KLWCSSvA" alt="Vejle Bibliotek Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+
+
+          </p>
+
+        </div>
 
 
         <div class="col-12 my-5">
           <h2 class="featurette-heading">Praktisk <span class="text-muted">info</span></h2>
           <ul class="list-praktisk-info">
-            <li><strong>Producent: </strong><a href="http://www.humanlab.studio/" rel="nofollow" target="_blank">HumanLab</a></li>
-            <li><strong>Co-Producent: </strong>Art Farm</li>
-            <li><strong>Komponist: </strong>Domenico Mannelli</li>
-            <li><strong>Scenograf: </strong>Alessandra Faienza</li>
-            <li><strong>Instruktør: </strong>Anna Carla Maria Penati</li>
-            <li><strong>Medvirkende: </strong>Martin Schultz Kristensen, Meng-Ting Liu, Anna Carla Maria Penati, Marco Zavarise</li>
-            <li><strong>Længde: </strong>40 minutter</li>
+            <li><strong>Producent: </strong>Art Farm</li>
+            <li><strong>Co-Producent: </strong>Mai-Ti Dance Company</li>
+            <li><strong>Længde Forestilling: </strong>30 minutter</li>
+            <li><strong>Længde Workshop: </strong>45 minutter</li>
+            <li><strong>Deltager pris: </strong>Gratis</li>
+            <li><strong>Medvirkende: </strong>Dansere - Mai-Ti dance company + Martin Schultz Kristensen</li>
+            <li><strong>Støttegivere: </strong>Sc Van Fonden, Kildevæld Efterskole, Kolding Kommune, Fredericia Kommune, Vejle Bibliotek, Vejle Kommune</li>
           </ul>
         </div>
 
         <hr>
 
-        <div class="row align-items-left my-5">
-          <div class="col-12">
-            <h2 class="featurette-heading">Turné i Kolding, Vejle og Fredericia<span class="text-muted"> 28. Juni - 13. Juli 2024</span></h2>
-          </div>
-          <div class="col-12 d-flex flex-column flex-md-row align-items-center">
-            <p class="lead mt-3 mx-3 mb-2 mb-md-0">
-              Forestillingen Terminus turnerede i Taiwan 2024. En turné organiseret af Taiwanske Mai-Ti dance company.
-            </p>
-            <a href="https://www.maitidancecompany.org/%E4%BD%9C%E5%93%81%E8%88%87%E8%A8%88%E5%8A%83-project/terminus/"
-              target="_blank"
-              class="btn d-inline-block align-text-bottom px-2 hover-image ms-md-3">
-              <img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" height="85">
-            </a>
-          </div>
+        <div class="col-12 my-5 text-center">
+          <h2>Vi glæder os <span class="text-muted">til at se jer!</span></h2>
+          <img src="/img/TWshow_2.jpg" alt="" class="img-fluid shadow-1-strong rounded my-4">
         </div>
 
 
 
 
-        <?php
-        $tourplan = include '../past_tourplan_data.php';
-        $currentTitle = null;
-        $currentCountry = null;
-        $firstRow = true;
-        ?>
-        <div class="row">
-          <div class="col-lg-8 col-md-12 d-flex order-1 order-lg-0">
-            <div class="flex-grow-1">
-              <table class="table h-100 text-muted small-screen-font">
-                <thead>
-                  <tr>
-                    <th><object type="image/svg+xml" data="/assets/svg_elements/icon_calender.svg"></object></th>
-                    <th><object type="image/svg+xml" data="/assets/svg_elements/icon_geo-alt.svg"></object></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <?php foreach ($tourplan as $row): ?>
-                    <?php
-                    if ($currentTitle !== $row['title'] || $currentCountry !== 'Taiwan') {
-                      $currentTitle = $row['title'];
-                      $currentCountry = 'Taiwan';
-                    ?>
-                      <tr>
-                        <th colspan="2" class="text-center"><?= $currentTitle ?> - <?= $currentCountry ?></th>
-                      </tr>
-                    <?php
-                    }
-                    ?>
-                    <tr>
-                      <th scope="row"><?= $row['date'] ?></th>
-                      <td><?= $row['city'] ?></td>
-                    </tr>
-                  <?php endforeach; ?>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="col-lg-4 mt-lg-5 col-md-12 d-flex p-2 order-0 order-lg-1">
-            <img src="/img/TERMINUSTwTourPicBG.png" alt="picture of Taiwan Tour Map" class="img-fluid my-2 shadow-1-strong rounded">
-          </div>
-        </div>
-
-      </div>
 
 
 
 
 
-      <!-- Modal.. modal is hidden since there's no button trickering it -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Vælg presse materiale</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body p-3">
-              <a download href="/pdf/Kolding.png" target="_blank">Kolding.png</a><br>
-              <a download href="/pdf/Middelfart.png" target="_blank">Middelfart.png</a><br>
-              <a download href="/pdf/Vejen.png" target="_blank">Vejen.png</a><br>
-              <a download href="/pdf/Vojens.png" target="_blank">Vojens.png</a><br>
-              <a download href="/pdf/Fredericia.png" target="_blank">Fredericia.png</a><br>
-              <a download href="/pdf/Grindsted.png" target="_blank">Grindsted.png</a><br>
-              <a download href="/pdf/Jelling.png" target="_blank">Jelling.png</a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
+
+        <!-- Modal.. modal is hidden since there's no button trickering it -->
 
 
 
@@ -247,7 +232,7 @@
 
 
 
-    </div> <!-- container -->
+      </div> <!-- container -->
 
 
 
@@ -258,11 +243,11 @@
 
 
 
-    <!-- Footer -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'footer.php';
-    ?>
+      <!-- Footer -->
+      <?php
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+      include $IPATH . 'footer.php';
+      ?>
 
   </main>
 

@@ -109,7 +109,8 @@
 
 
         <?php
-        $tourplan = include '../past_tourplan_data.php';
+        $tourplan = include '../terminus_tourplan2024.php';
+        
         $currentTitle = null;
         $currentCountry = null;
         $firstRow = true;
@@ -120,8 +121,8 @@
               <table class="table h-100 text-muted small-screen-font">
                 <thead>
                   <tr>
-                    <th><object type="image/svg+xml" data="/assets/svg_elements/icon_calender.svg"></object></th>
-                    <th><object type="image/svg+xml" data="/assets/svg_elements/icon_geo-alt.svg"></object></th>
+                    <th><object type="image/svg+xml" data="/assets/svg_elements/icon_calender.svg"></object><span class="text-center"> 2024</span></th>
+                    <th><object type="image/svg+xml" data="/assets/svg_elements/icon_geo-alt.svg"></object><span class="text-center"> Taiwan</span></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -131,15 +132,12 @@
                       $currentTitle = $row['title'];
                       $currentCountry = 'Taiwan';
                     ?>
-                      <tr>
-                        <th colspan="2" class="text-center"><?= $currentTitle ?> - <?= $currentCountry ?></th>
-                      </tr>
                     <?php
                     }
                     ?>
                     <tr>
                       <th scope="row"><?= $row['date'] ?></th>
-                      <td><?= $row['city'] ?></td>
+                      <td><?= str_replace(', Taiwan', '', $row['city']) ?></td>
                     </tr>
                   <?php endforeach; ?>
                 </tbody>
