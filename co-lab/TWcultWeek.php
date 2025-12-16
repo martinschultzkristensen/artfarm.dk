@@ -164,22 +164,24 @@
             </table>
           </div>
 
+                  <div class="col-12">
 
-          <p class="lead mt-3 mx-3 mb-2 mb-md-0">
-            Forestillinger og workshops præsenteres af Taiwanske Mai-Ti dance company. <span><a href="https://www.maitidancecompany.org" target="_blank"><img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" width="" height="30" class="d-inline-block align-text-center"></a></span>
-            <br>
-            <br>
-            Eventet er gratis at deltage i, og er støttet af:
-            <span><img src="/img/support_logo/van_fonden_logo1.png" alt="SC Van Fonden Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-            <span><img src="/assets/svg_elements/kildevaeld_logo.svg" alt="Kildevæld Efterskole Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-            <span><img src="https://static.moliri.dk/koldingkommune/dist/icons/headerLogo.svg" alt="Kolding Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-            <span><img src="https://www.dksfredericia.dk/media/5axjyhyp/denkreativeskole_black.svg" alt="Den Kreative Skole Fredericia Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-            <!-- <span><img src="https://www.fredericia.dk/themes/custom/fds_fredericia_main_theme/logo.png" alt="Fredericia Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                <span><img src="/assets/svg_elements/vejleKommuneLogo.svg" alt="Vejle Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>  -->
-            <span><img src="https://vejlebib.dk/sites/default/files/styles/logo/public/Navnetr%C3%A6k_Vejle_bibliotekerne_sort_100x220_web.png?itok=KLWCSSvA" alt="Vejle Bibliotek Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-
-
-          </p>
+                    <p class="lead mt-3 mx-3 mb-2 mb-md-0">
+                      Forestillinger og workshops præsenteres af Taiwanske Mai-Ti dance company. <span><a href="https://www.maitidancecompany.org" target="_blank"><img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" width="" height="30" class="d-inline-block align-text-center"></a></span>
+                      <br>
+                      <br>
+                      Eventet er gratis at deltage i, og er støttet af:
+                      <span><img src="/img/support_logo/van_fonden_logo1.png" alt="SC Van Fonden Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                      <span><img src="/assets/svg_elements/kildevaeld_logo.svg" alt="Kildevæld Efterskole Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                      <span><img src="https://static.moliri.dk/koldingkommune/dist/icons/headerLogo.svg" alt="Kolding Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                      <span><img src="https://www.dksfredericia.dk/media/5axjyhyp/denkreativeskole_black.svg" alt="Den Kreative Skole Fredericia Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                      <!-- <span><img src="https://www.fredericia.dk/themes/custom/fds_fredericia_main_theme/logo.png" alt="Fredericia Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                      <span><img src="/assets/svg_elements/vejleKommuneLogo.svg" alt="Vejle Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>  -->
+                      <span><img src="https://vejlebib.dk/sites/default/files/styles/logo/public/Navnetr%C3%A6k_Vejle_bibliotekerne_sort_100x220_web.png?itok=KLWCSSvA" alt="Vejle Bibliotek Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+                      
+                      
+                    </p>
+                  </div>
 
         </div>
 
