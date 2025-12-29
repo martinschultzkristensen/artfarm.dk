@@ -18,7 +18,7 @@ include $IPATH . 'head.php';
       <section class="py-5 text-center container">
         <div class="row pt-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <img src="../img/artfarm_logo.svg" alt="Art Farm Logo" class="img-fluid" style="max-height: 100px;">
+            <img src="assets/svg_elements/artfarm_zeromargin.svg" alt="Art Farm Logo" class="img-fluid" style="max-height: 100px;">
           </div>
         </div>
 
