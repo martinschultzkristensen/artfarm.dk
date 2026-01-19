@@ -49,5 +49,11 @@ return [
     'location' => 'Kongensgade 111<br><a href="https://www.dksfredericia.dk/" target="_blank">Den Kreative Skole, Fredericia</a>',
     'time' => '16:00<br>17:00<br>18:00'
   ],
-  
+    [
+    'date' => '22. Mar',
+    'title' => 'danceOmatic',
+    'city' => 'Silkeborg',
+    'location' => 'Kulturhuset 1B, Amaliegade 1B, 8600 Silkeborg',
+    'time' => '10:30 - 13:00'
+  ],
 ];
