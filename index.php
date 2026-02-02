@@ -70,6 +70,19 @@ include $IPATH . 'head.php';
 
 
 
+  <div class="container-fluid;" id="twcultweek">
+    <div class="card text-white text-uppercase">
+      <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <div class="card-img-overlay">
+        <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
+          <p class="card-text"></span>Dans & Krea-workshops</p>
+          <h1 class="card-title;">Taiwansk Kulturuge</h1>
+          <a href="/co-lab/TWcultWeek.php" class="btn btn-outline-light btn-lg shadow">Info</a>
+        </div>
+      </div>
+    </div>
+
+
   <div class="container-fluid;" id="frikadelle">
     <div class="card text-white text-uppercase">
       <img src="/img/frikadelleMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">

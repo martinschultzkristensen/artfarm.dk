@@ -97,7 +97,7 @@
             </div>
 
             <div class="col-12 col-md-5 order-1 order-lg-2">
-              <img src="/img/twWorkshopClay.jpeg" alt="" class="img-fluid shadow-1-strong rounded">
+              <img src="/img/clay_TwcultWeek.JPG" alt="" class="img-fluid shadow-1-strong rounded">
             </div>
 
           </div>

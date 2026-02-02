@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sections = [
+    "#twcultweek",
     "#frikadelle",
     "#danceomatic",
     "#censorship",
@@ -13,10 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     .addEventListener("click", function (event) {
       event.preventDefault();
       currentIndex = (currentIndex + 1) % sections.length;
-      document
-        .getElementById("scroll-btn")
-        .setAttribute("href", sections[currentIndex]);
-
       document.querySelector(sections[currentIndex]).scrollIntoView({
         behavior: "smooth",
       });
