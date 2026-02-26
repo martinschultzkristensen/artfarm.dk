@@ -103,7 +103,9 @@ include $IPATH . 'head.php';
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
           <p class="card-text">danceomatic!</p>
           <h1 class="card-title;">Start en dans</h1>
-          <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg btn-blur shadow">Start</a>
+          <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg">Start
+            <?php echo file_get_contents("assets/svg_elements/greenBtn.svg");?>
+          </a>
 
         </div>
       </div>
