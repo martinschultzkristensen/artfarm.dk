@@ -88,7 +88,7 @@ include $IPATH . 'head.php';
           <h2>Shannon Leypoldt</h2>
           <p class="lead">Danser<br>Performer med os i <a href="/repertoire/akrylarium">AKRYLARIUM</a></p>
           <p>Shannon arbejder som freelance-danser og er bosat i Berlin.</p>
-          <a class="btn btn-outline-dark btn-sm" href="https://www.shannonleypoldt.com/" role="button" target="_blank">Website &raquo;</a>
+          <a class="btn btn-outline-dark btn-sm" href="https://www.tanzfabrik-berlin.de/en/people/2314" role="button" target="_blank">More &raquo;</a>
         </div>
       </div>
 
@@ -113,7 +113,7 @@ include $IPATH . 'head.php';
           <h2>Jon Stage</h2>
           <p class="lead">Musiker<br>Musikartist i forestillingen <i>conTEMPORARY PAINTER</i></p>
           <p>Jon er egentlig uddannet som danser, men har en stærk musikalsk baggrund. Hans kunstneriske arbejde kan følges på <i>jonstage.com</i></p>
-          <a class="btn btn-outline-dark btn-sm" href="http://www.jonstage.com/" role="button" target="_blank"><img src="http://www.jonstage.com/favicon.ico" height="15" class="d-inline-block align-text-center"> jonstage.com &raquo;</a>
+          <a class="btn btn-outline-dark btn-sm" href="http://www.jonstage.com/" role="button" target="_blank"><img src="img/support_logo/FaviconJonStageCom.png" height="15" class="d-inline-block align-text-center"> jonstage.com &raquo;</a>
         </div>
       </div>
 
