@@ -243,101 +243,7 @@ include $IPATH . 'head.php';
           </div>
         </div>
 
-        <!-- <ol>
-                <li>Navn og Hjemsted
-                    <ol>
-                        <li>Foreningens navn er Art Farm.</li>
-                        <li>Foreningen har hjemme i Aarhus Kommune.</li>
-                    </ol>
-                </li>
-
-                <li>Formål
-                    <p>Foreningen er en almennyttig forening der har til formål at lave kunstneriske og kulturelle aktiviteter, med hovedfokus på dans. Andre kunstarter som foreningen i mindre grad vil lave indebære musik, design, digitalt design og billedkunst. herunder bl.a.:</p>
-                    <ol>
-                        <li>At bringe kunst ud til mennesket for herved at vække en interesse for forskellige udtryksformer, primært professionel dans, og give dem lysten til at opsøge steder der opfører dans og visuelt teater som scenekunst.</li>
-                        <li>Involverende kunst.</li>
-                        <li>At skabe, iscenesætte og optræde med scenekunstværker.</li>
-                        <li>Give publikum et indblik i verdenen omkring os, og give udenlandsk publikum et indblik i dansk kultur.</li>
-                        <li>At bygge lokale og internationale netværker for scenekunst, og give danske koreografer mulighed for at præsenterer danmark i verdenen.</li>
-                        <li>Involver professionelle og ikke-professionelle i dans.</li>
-                    </ol></li>
-                <li>Formue og Drift
-                    <ol>
-                        <li>Ved foreningens stiftelse består dens formue af 0,00 kr.</li>
-                        <li>Foreningens drift finansieres af projekt- og driftansøgninger, brugerbetaling, billetindtægter, co- produktioner, samarbejdspartnere, sponsorater, frivillige gaver og hjælp fra frivillige medarbejdere.</li>
-                    </ol>
-                </li>
-                <li>Medlemskab og kontingent
-                    <ol>
-                        <li>Enhver, som har betalt kontingent til foreningen og som tilslutter sig foreningens formål og idégrundlag, er medlem af foreningen.</li>
-                        <li>Bestyrelsen kan ekskludere medlemmer der modarbejder foreningens formål. Bestyrelsens afgørelse kan indbringes for generalforsamlingen.</li>
-                        <li>Et medlem betragtes som udmeldt, når den pågældende ikke har tilkendegivet sit fortsatte medlemskab i forbindelse med indkaldelse til generalforsamling.</li>
-                        <li>Foreningen fører kartotek over medlemmernes navne og kontaktoplysninger (herunder men ikke begrænset til: adresse, email, telefon - medlemmet kan altid få oplyst hvilke oplysninger foreningen har registreret).</li>
-                        <li>Kontingent fastsættes på generalforsamlingen.</li>
-                    </ol></li>
-                <li>Organisering
-                    <ol>
-                        <li>Generalforsamlingen er foreningens øverste myndighed.</li>
-                        <li>Bestyrelsen vælges på generalforsamlingen således at to medlemmer vælges på lige år og tre på ulige år - genvalg kan finde sted.</li>
-                        <li>Bestyrelsen konstituerer sig selv med formand, næstformand og kasser.</li>
-                        <li>Bestyrelsen leder foreningen i overensstemmelse med nærværende vedtægter og generalforsamlingens beslutninger.</li>
-                        <li>Ved stemmelighed i bestyrelsen er formandens stemme udslagsgivende.</li>
-                        <li>Bestyrelsen kan ansætte en daglig ledelse.</li>
-                        <li>Bestyrelsen beslutter i øvrigt selv sin forretningsorden.</li>
-                    </ol></li>
-                <li>Generalforsamlingen
-                    <ol>
-                        <li>Generalforsamlingen er foreningens højeste myndighed.</li>
-                        <li>Ordinær generalforsamling holdes én gang årligt, senest i marts måned og indvarsles pr. email til samtlige medlemmer senest 30 dage før.</li>
-                        <li>Dagsordenen for den ordinære generalforsamling skal mindst indeholde følgende punkter:
-                        <ol class="last">
-                            <li>Valg af dirigent.</li>
-                            <li>Bestyrelsens beretning om foreningens virksomhed i det forløbne år.</li>
-                            <li>Fremlæggelse af foreningens regnskab.</li>
-                            <li>Eventuelle forslag.</li>
-                            <li>Fastsættelse af budget, herunder kontingent.</li>
-                            <li>Valg af bestyrelse.</li>
-                            <li>Valg af revisor og revisor suppleant.</li>
-                            <li>Eventuelt.</li>
-                        </ol></li>
-                        <li>Forslag skal være formanden skriftligt i hænde senest 14 dage før generalforsamlingen og videresendes af formanden umiddelbart efter modtagelsen til medlemmerne.</li>
-                        <li>Ekstraordinær generalforsamling kan indkaldes med 14 dages varsel når minimum 1⁄2 af foreningens medlemmer ønsker det eller et flertal i bestyrelsen med angivelse af dagsorden og en motivation for indkaldelsen.</li>
-                        <li>Alle beslutninger på en generalforsamling træffes ved almindeligt/simpelt stemmeflertal. Undtagelse heraf se §9 og §10.</li>
-                        <li>Den til enhver tid lovligt indvarslede generalforsamling er beslutningsdygtig.</li>
-                        <li>Over det på generalforsamlingen passerede føres en protokol, der underskrives af dirigenten. Her kan indføres at mindst 2/3 af foreningens medlemmer er til stede og lign.</li>
-                        <li>Opstillingsret har foreningens medlemmer.</li>
-                        <li>Stemmeret har foreningens medlemmer. Der kan ikke stemmes ved fuldmagt, undtagen hvis medlemmet er en virksomhed. Ingen kan som fuldmægtig repræsentere mere end eet medlem.</li>
-                    </ol></li>
-                <li>Hæftelse og tegning
-                 <ol>
-                     <li>For foreningens forpligtelser hæfter alene foreningens formue.</li>
-                     <li>Foreningen tegnes af formanden og kassereren i foreningen.</li>
-                     <li>Bestyrelsen kan meddele den daglige ledelse prokura, der fastsættes efter nærmere retningslinier.</li>
-                     <li>Optagelse af lån, køb, salg og pantsætningen af fast ejendom skal godkendes af bestyrelsen.</li>
-                 </ol></li>
-                <li>Regnskab
-                 <ol>
-                     <li>Regnskabsåret er 1/1 til 31/12.</li>
-                     <li>Regnskabet består af men er ikke begrænset til driftsregnskab, status samt bestyrelsens beretning.</li>
-                     <li>Foreningen må ikke være formueskabende.</li>
-                 </ol></li>
-                <li>Vedtægtsændring
-                 <ol>
-                     <li>Disse vedtægter kan kun ændres med 2⁄3 flertal på en generalforsamling, hvor ændringsforslaget fremgår af dagsordenen.</li>
-                     <li>Vedtægtsændringerne træder i kraft med virkning fra den generalforsamling, de vedtages på.</li>
-                 </ol></li>
-                <li>Opløsning
-                 <ol>
-                     <li>Foreningen kan kun opløses med 2⁄3 flertal på to på hinanden følgende generalforsamlinger, hvor ændringsforslaget fremgår af dagsordenen.</li>
-                     <li>Ved ophør skal evt. overskud anvendes til almennyttige formål indenfor formålsparagraffen.</li>
-                     <li>Ingen del af foreningens formue må tilfalde medlemmerne.</li>
-                 </ol></li>
-                <li>Datering
-                 <ol>
-                     <li>Vedtægtsændringer vedtaget på den ordinære generalforsamling 20/04/2018.</li>
-                     <li>Således vedtaget på den stiftende generalforsamling.</li>
-                 </ol></li>
-            </ol> -->
+   
         <hr>
       </article>
       <p>Referater</p>
@@ -349,7 +255,8 @@ include $IPATH . 'head.php';
       <a href="/pdf/gen2022_referat.pdf" target="_blank">General Forsamling 2022</a><br>
       <a href="/pdf/xtraOrdnGen2022_referat.pdf" target="_blank">Ekstraordinær General Forsamling 2022</a><br>
       <a href="/pdf/gen2023_referat.pdf" target="_blank">General Forsamling 2023</a><br>
-      <a href="/pdf/gen2025_referat.pdf" target="_blank">General Forsamling 2025</a>
+      <a href="/pdf/gen2025_referat.pdf" target="_blank">General Forsamling 2025</a><br>
+      <a href="/pdf/gen2026_referat.pdf" target="_blank">General Forsamling 2026</a>
     </div>
     </div>
 
