@@ -72,7 +72,11 @@
             <?php
             $tourplan = include '../tourplan_data.php'; // Adjust path as needed
             $filtered = array_filter($tourplan, fn($item) => strtolower($item['title']) === 'frikadelle');
-            ?>
+            if (empty($filtered)) {
+              echo '<p class="lead mt-3 mx-3">På nuværende tidspunkt er der ingen planlagte forestillinger. <br>Book os nu! <object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="bi-arrow-right-short" type="image/svg+xml"></object> info@artfarm.dk</p>';
+            } else {
+              ?>
+
 
             <table class="table">
               <thead>
@@ -94,6 +98,9 @@
                 <?php endforeach; ?>
               </tbody>
             </table>
+            <?php
+            }
+            ?>
           </div>
 
           <div class="row align-items-center my-md-5">

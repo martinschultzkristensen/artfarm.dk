@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sections = [
-    "#twcultweek",
     "#frikadelle",
     "#danceomatic",
     "#censorship",
     "#terminus",
     "#akyrlarium",
+    "#twcultweek",
   ];
   let currentIndex = 0;
 

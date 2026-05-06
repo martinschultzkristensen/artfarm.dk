@@ -140,8 +140,11 @@
             $filtered = array_filter($tourplan, function ($item) use ($validTitles) {
               return in_array($item['title'], $validTitles);
             });
-            ?>
 
+            if (empty($filtered)) {
+              echo '<p class="lead mt-3 mx-3">Alle aktiviteter for projektet er afholdt. Vi kommer igen i 2027.</p>';
+            } else {
+            ?>
             <table class="table small-screen-font text-muted w-100">
               <thead>
                 <tr>
@@ -162,6 +165,9 @@
                 <?php endforeach; ?>
               </tbody>
             </table>
+            <?php
+            }
+            ?>
           </div>
 
                   <div class="col-12">

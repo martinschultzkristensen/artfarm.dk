@@ -60,7 +60,7 @@ include $IPATH . 'head.php';
 
 
 
-  <div class="fixed-bottom text-center my-5">
+  <div class="fixed-bottom text-center my-5" style="z-index: 1;">
     <a id="scroll-btn" class="btn btn-blur btn-lg btn-outline-light shadow">Repertoire
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi-arrow-down-short" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
@@ -70,17 +70,7 @@ include $IPATH . 'head.php';
 
 
 
-  <div class="container-fluid;" id="twcultweek">
-    <div class="card text-white text-uppercase">
-      <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
-      <div class="card-img-overlay">
-        <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-          <p class="card-text"></span>Dans & Krea-workshops</p>
-          <h1 class="card-title;">Taiwansk Kulturuge</h1>
-          <a href="/co-lab/TWcultWeek.php" class="btn btn-outline-light btn-lg shadow">Info</a>
-        </div>
-      </div>
-    </div>
+
 
 
   <div class="container-fluid;" id="frikadelle">
@@ -104,7 +94,7 @@ include $IPATH . 'head.php';
           <p class="card-text">danceomatic!</p>
           <h1 class="card-title;">Start en dans</h1>
           <a href="/repertoire/danceomatic" class="btn btn-outline-light btn-lg">Start
-            <?php echo file_get_contents("assets/svg_elements/greenBtn.svg");?>
+            <?php echo file_get_contents("assets/svg_elements/greenBtn.svg"); ?>
           </a>
 
         </div>
@@ -152,8 +142,19 @@ include $IPATH . 'head.php';
       </div>
     </div>
 
+    <div class="container-fluid;" id="twcultweek">
+      <div class="card text-white text-uppercase">
+        <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+        <div class="card-img-overlay">
+          <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
+            <p class="card-text"></span>Dans & Krea-workshops</p>
+            <h1 class="card-title;">Taiwansk Kulturuge</h1>
+            <a href="/co-lab/TWcultWeek.php" class="btn btn-outline-light btn-lg shadow">Info</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- 
+      <!-- 
   <div class="card text-white text-uppercase">  
     <img src="/img/kinaShow2BigScreen.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
@@ -165,44 +166,35 @@ include $IPATH . 'head.php';
       </div>
   </div> 
   -->
-    <!-- Footer -->
+      <!-- Footer -->
 
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'footer.php';
-    ?>
-
-
-
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/scroll_on_press.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const intro = document.getElementById("intro-logo");
-
-        // Fade-in
-        requestAnimationFrame(() => intro.style.opacity = "1");
-
-        const fadeInDuration = 1000;
-        const visibleTime = 1600;
-
-        setTimeout(() => {
-          intro.style.opacity = "0";
-
-          setTimeout(() => intro.remove(), fadeInDuration);
-        }, fadeInDuration + visibleTime);
-      });
-    </script>
+      <?php
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+      include $IPATH . 'footer.php';
+      ?>
 
 
-    <!-- <script>
-      window.addEventListener("load", function() {
-        const logo = document.querySelector(".intro-logo");
-        if (logo) {
-          logo.style.opacity = 1;
-        }
-      });
-    </script> -->
+
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/js/scroll_on_press.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const intro = document.getElementById("intro-logo");
+
+          // Fade-in
+          requestAnimationFrame(() => intro.style.opacity = "1");
+
+          const fadeInDuration = 1000;
+          const visibleTime = 1600;
+
+          setTimeout(() => {
+            intro.style.opacity = "0";
+
+            setTimeout(() => intro.remove(), fadeInDuration);
+          }, fadeInDuration + visibleTime);
+        });
+      </script>
+
 
 
 </body>

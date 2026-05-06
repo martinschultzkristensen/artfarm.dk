@@ -1,4 +1,4 @@
-<footer class="container-fluid">
+<footer class="container-fluid" style="position: relative; z-index: 10; background-color: #f8f9fa;">
     <hr>
     <div class="row mx-lg-2">
       <div class="col-sm-12">
