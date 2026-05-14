@@ -23,12 +23,11 @@ include $IPATH . 'head.php';
     <section class="py-5 text-center container">
       <div class="row pt-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <img src="../img/artfarm_logo.svg" alt="Art Farm Logo" class="img-fluid" style="max-height: 100px;">
+          <img src="assets/svg_elements/artfarm_zeromargin.svg" alt="Art Farm Logo" class="img-fluid" style="max-height: 100px;">
         </div>
         <div class="row pt-5">
           <div class="col">
             <h1 class="fw-light">Job</h1>
-            <p>Scoll down for english</p>
           </div>
         </div>
     </section>
@@ -37,23 +36,16 @@ include $IPATH . 'head.php';
     <div class="container">
 
       <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="">
-          <h2 class="featurette-heading">AUDITION CALL</h2>
-          <p class="lead mt-3 mx-lg-3">
-            Art Farm søger <strong>4 dansere (2 mænd og 2 kvinder)</strong> til vores forestilling <em>Danceomatic</em>, som opføres den 6. september i København.
-          </p>
-          <p class="mx-lg-3">
-            <strong>Audition:</strong> 29. juli kl. 10–16 i Kolding (adresse oplyses ved invitation)<br>
-            <strong>Prøver:</strong> 1.–4. september kl. 10–16 i Kolding<br>
-            <strong>Forestilling:</strong> 6. september i København
-          </p>
-          <p class="mx-lg-3">
-            Inden du søger, skal du være sikker på, at du er tilgængelig i hele prøveperioden samt på forestillingsdagen.
-          </p>
-          <p class="mx-lg-3">
-            Se Trailer af forestilling her:<br>
-          </p>
 
+          <h2 class="featurette-heading">Multimedie Design Underviser søges til kreativt skoleprojekt – Region Syddanmark</h2>
+         <p class="lead mt-3 mx-lg-3">
+            Art Farm søger en kreativ og engageret underviser med stærke kompetencer inden for multimedie design til et spændende kulturprojekt på fem skoler i Region Syddanmark i skoleåret 2026/2027.
+          </p>
+ 
+          <p class="mx-lg-3">
+            Projektet hedder danceOmatic – kreativ kulturuge. Et interaktivt forestillingsprojekt, hvor elever på mellemtrinnet i samarbejde med professionelle kunstnere skaber en forestilling inspireret af arkadespilmaskinen: publikum indkaster en mønt, vælger en dans og nyder showet. Projektet er støttet af Region Syddanmarks Kulturudviklingspulje.
+          </p>
+ 
           <div class="col-md-5 py-5">
             <p class="lead text-left">Trailer</p>
             <div style="padding:56.25% 0 0 0;position:relative;">
@@ -61,98 +53,64 @@ include $IPATH . 'head.php';
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
-
+ 
+          <h3 class="mt-4 mx-lg-3">Din rolle</h3>
+          <p class="mx-lg-3">
+            Du underviser og vejleder eleverne i at producere digitalt indhold til forestillingen. Det drejer sig konkret om:
+          </p>
+          <ul class="mx-lg-4">
+            <li>Videoredigering og klipning</li>
+            <li>Grafisk design</li>
+            <li>Produktion af explainervideoer til danceOmatic-maskinen</li>
+          </ul>
+          <p class="mx-lg-3">
+            Du arbejder tæt sammen med de øvrige kunstnere på holdet: koreograf, musiker, kostumedesigner og projektleder.<br>
+            I løbet af projektugen arbejder du mandag–onsdag kl. 8–13 og torsdag kl. 8–ca. 18 (forestillingsdag). Fredag er afsat til evaluering.
+          </p>
+ 
+          <h3 class="mt-4 mx-lg-3">Projektuger og skoler</h3>
+          <ul class="mx-lg-4">
+            <li>Uge 35 – Egtved Skole (Vejle)</li>
+            <li>Uge 37 – Brandkjærskolen (Kolding)</li>
+            <li>Uge 39 – Fællesskolen Hoptrup Marstrup Vilstrup (Haderslev)</li>
+            <li>Uge 40 – Bogense Skole (Nordfyns)</li>
+            <li>Uge 41 – Erritsø Fællesskole Højmosen (Fredericia)</li>
+          </ul>
+ 
           <h3 class="mt-4 mx-lg-3">Hvem søger vi?</h3>
           <ul class="mx-lg-4">
-            <li>Professionelle moderne dansere i begyndelsen af deres karriere</li>
-            <li>Stærk rytmisk sans, musikalitet og forståelse for partnering</li>
-            <li>Trives med fysisk og energisk udtryk</li>
-            <li>Erfaring med breakdance, hiphop, kinesisk dans eller dans med objekter er en fordel</li>
-            <li>Villighed til at hjælpe med praktiske opgaver (scenografi, kostume, m.m.)</li>
+            <li>Har erfaring med multimedie design – fx videoredigering, grafik eller digital indholdsproduktion</li>
+            <li>Trives med at undervise og facilitere kreative processer med unge</li>
+            <li>Er fleksibel og kan indgå i et tværfagligt kunstnerteam</li>
           </ul>
+ 
+          <h3 class="mt-4 mx-lg-3">Praktisk</h3>
           <p class="mx-lg-3">
-            Auditionen er kun åben for inviterede, så send din ansøgning forud.
+            <strong>Projektperiode:</strong> Skoleåret 2026/2027, uge 35–41<br>
+            <strong>Honorar:</strong> 41.000 kr. (kan udbetales i rater efter aftale)<br>
+            <strong>Rejse:</strong> Betalt af projektet ved behov<br>
+            <strong>Overnatning:</strong> Betalt af projektet ved behov
           </p>
+ 
           <h3 class="mt-4 mx-lg-3">Om Art Farm</h3>
           <p class="mx-lg-3">
-            Art Farm er et Kolding-baseret danse- og teaterkompagni. Vi har tre aktive forestillinger, og i sæson 2024/25 har vi opført 35 forestillinger – otte af dem med Danceomatic.
+            Art Farm er et Kolding-baseret danse-kompagni, der arbejder i skæringspunktet mellem performancekunst, teknologi og fællesskab. Vi har tre aktive forestillinger, og i sæson 2024/25 har vi opført 35 forestillinger – otte af dem med danceOmatic.
           </p>
           <p class="mx-lg-3">
-            Selvom dette opslag gælder én forestilling, leder vi efter dansere til fremtidige projekter og turnéer.
+            Selvom dette opslag gælder ét projekt, leder vi altid efter kreative samarbejdspartnere til fremtidige projekter.
           </p>
-          <p class="mx-lg-3"><strong>Prøver og forestilling er lønnet.</strong></p>
+          <p class="mx-lg-3"><strong>Honoraret er som angivet ovenfor.</strong></p>
+ 
           <h4 class="mt-4 mx-lg-3">Sådan ansøger du:</h4>
           <ul class="mx-lg-4">
-            <li>Kort CV (maks. 1 side)</li>
-            <li>Link til en video, hvor du danser</li>
-            <li>Evt. en kort beskrivelse af dig selv</li>
+            <li>CV eller beskrivelse af din baggrund (maks. 1 side)</li>
+            <li>Kort beskrivelse af din interesse i projektet.</li>
+            <li><b>Deadline for ansøgning: 22maj 2026</b></li>
           </ul>
-          <p class="mx-lg-3 pb-5">Send det hele til <a href="mailto:audition@artfarm.dk">audition@artfarm.dk</a></p>
-        </div>
-
-
-
-
+          <p class="mx-lg-3 pb-5">Send det hele til <a href="mailto:job@artfarm.dk">job@artfarm.dk</a> eller ring til Martin på <a href="tel:+4552167532">+45 52167532</a></p>
+ 
       </div>
-
       <hr>
-
-      <div class="col-lg-8 col-md-10 mx-auto pt-5">
-        <div class="">
-          <h2 class="featurette-heading">AUDITION CALL (English)</h2>
-          <p class="lead mt-3 mx-lg-3">
-            Art Farm is looking for <strong>4 dancers (2 men and 2 women)</strong> for our performance <em>Danceomatic</em>, which will take place on September 6 in Copenhagen.
-          </p>
-          <p class="mx-lg-3">
-            <strong>Audition:</strong> July 29, 10:00–16:00 in Kolding (address will be provided upon invitation)<br>
-            <strong>Rehearsals:</strong> September 1–4, 10:00–16:00 in Kolding, Denmark<br>
-            <strong>Performance:</strong> September 6 in Copenhagen
-          </p>
-          <p class="mx-lg-3">
-            Before applying, please make sure you are available for the entire rehearsal period as well as the performance day.
-          </p>
-          <p class="mx-lg-3">
-            Watch a trailer of the performance here:<br>
-          </p>
-
-          <div class="col-md-5 py-5">
-            <p class="lead text-left">Trailer</p>
-            <div style="padding:56.25% 0 0 0;position:relative;">
-              <iframe src="https://player.vimeo.com/video/1077556819?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Kender du danceOmatic"></iframe>
-            </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-          </div>
-
-          <h3 class="mt-4 mx-lg-3">Who are we looking for?</h3>
-          <ul class="mx-lg-4">
-            <li>Professional contemporary dancers at the beginning of their careers</li>
-            <li>Strong sense of rhythm, musicality, and partnering skills</li>
-            <li>Comfortable with physical and energetic expression</li>
-            <li>Experience with breakdance, hip hop, Chinese dance, or object-based dance is a plus</li>
-            <li>Willingness to assist with practical tasks such as set design, costumes, etc.</li>
-          </ul>
-          <p class="mx-lg-3">
-            The audition is by invitation only, so please send your application in advance.
-          </p>
-          <h3 class="mt-4 mx-lg-3">About Art Farm</h3>
-          <p class="mx-lg-3">
-            Art Farm is a dance and theatre company based in Kolding. We currently have three active productions, and in the 2024/25 season, we’ve performed 35 shows — eight of them with Danceomatic.
-          </p>
-          <p class="mx-lg-3">
-            Although this call concerns a specific performance, we are looking for dancers for future projects and tours as well.
-          </p>
-          <p class="mx-lg-3"><strong>Rehearsals and the performance are paid.</strong></p>
-          <h4 class="mt-4 mx-lg-3">How to apply:</h4>
-          <ul class="mx-lg-4">
-            <li>Short CV (max. 1 page)</li>
-            <li>Link to a video of you dancing</li>
-            <li>Optional: A short description of yourself</li>
-          </ul>
-          <p class="mx-lg-3 pb-5">Send everything to <a href="mailto:audition@artfarm.dk">audition@artfarm.dk</a></p>
-        </div>
-      </div>
-
-
 
 
       <!-- Footer -->
