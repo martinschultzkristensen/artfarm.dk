@@ -112,7 +112,7 @@ include $IPATH . 'head.php';
         <div class="position-absolute top-50 p-md-5 px-3">
           <p class="card-text"></span>Worskhop & netværk i Taiwan</p>
           <h1 class="card-title;">Co-Laboratorie omkring censur</h1>
-          <a href="/co-lab/ntwrkTW.php" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
+          <a href="/co-lab/uncensored.php" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
         </div>
       </div>
     </div>

@@ -125,7 +125,7 @@ include $IPATH . 'head.php';
                 </p>
 
                 <p class="lh-lg">
-                  Temaerne talte direkte ind i vores afholdte<a href="https://artfarm.dk/repertoire/ntwrkTW" target="_blank"> laboratorium om censur i Taiwan</a>, støttet af Nordisk Kulturfond. Her undersøgte vi netop, hvordan kunstnere håndterer det ydre pres fra autoritære systemer, og om der er historier de taiwanske kunstnere ikke længere tør give sige i kast med. Det er vores ambition at udvikle et 50 minutters scenekunstværk med dansere fra både Danmark og Taiwan – med fokus på demokrati og censur. Oplevelserne fra CPH STAGE gav os vigtig inspiration og ny energi til arbejdet med fondsansøgningen, der har deadline i september.
+                  Temaerne talte direkte ind i vores afholdte<a href="https://artfarm.dk/co-lab/uncensored.php" target="_blank"> laboratorium om censur i Taiwan</a>, støttet af Nordisk Kulturfond. Her undersøgte vi netop, hvordan kunstnere håndterer det ydre pres fra autoritære systemer, og om der er historier de taiwanske kunstnere ikke længere tør give sige i kast med. Det er vores ambition at udvikle et 50 minutters scenekunstværk med dansere fra både Danmark og Taiwan – med fokus på demokrati og censur. Oplevelserne fra CPH STAGE gav os vigtig inspiration og ny energi til arbejdet med fondsansøgningen, der har deadline i september.
                 </p>
 
                 <p class="lh-lg">
