@@ -104,31 +104,31 @@ include $IPATH . 'head.php';
             $tourplan = include '../tourplan_data.php'; // Adjust path as needed
             $filtered = array_filter($tourplan, fn($item) => strtolower($item['title']) === 'danceomatic');
             if (empty($filtered)) {
-              echo '<p class="lead mt-3 mx-3">På nuværende tidspunkt er der ingen planlagte forestillinger. <br>Book os nu! <object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="bi-arrow-right-short" type="image/svg+xml"></object> info@artfarm.dk</p>';
+              echo '<p class="lead mt-3 mx-3">På nuværende tidspunkt er der ingen planlagte forestillinger. <br>Book os nu! <object data="/assets/svg_elements/arrow-right-short.svg" id="arrow-right-short" class="bi-arrow-right-short" type="image/svg+xml"></object> <a href="mailto:info@artfarm.dk">info@artfarm.dk</a> </p>';
             } else {
-              ?>
+            ?>
 
 
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Dato</th>
-                  <th scope="col">By</th>
-                  <th scope="col">Hvor</th>
-                  <th scope="col">Tid</th>
-                </tr>
-              </thead>
-              <tbody>
-                <?php foreach ($filtered as $row): ?>
+              <table class="table">
+                <thead>
                   <tr>
-                    <th scope="row"><?= $row['date'] ?></th>
-                    <td><?= $row['city'] ?></td>
-                    <td><?= $row['location'] ?></td>
-                    <td><?= $row['time'] ?></td>
+                    <th scope="col">Dato</th>
+                    <th scope="col">By</th>
+                    <th scope="col">Hvor</th>
+                    <th scope="col">Tid</th>
                   </tr>
-                <?php endforeach; ?>
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  <?php foreach ($filtered as $row): ?>
+                    <tr>
+                      <th scope="row"><?= $row['date'] ?></th>
+                      <td><?= $row['city'] ?></td>
+                      <td><?= $row['location'] ?></td>
+                      <td><?= $row['time'] ?></td>
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
             <?php
             }
             ?>
@@ -145,7 +145,7 @@ include $IPATH . 'head.php';
               <div style="padding:56.25% 0 0 0;position:relative;">
                 <iframe src="https://player.vimeo.com/video/1076920149?h=d6381d10a8&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Kender du danceOmatic"></iframe>
               </div>
-              
+
               <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
             <div class="col-md-7">

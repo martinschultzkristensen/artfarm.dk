@@ -76,8 +76,8 @@
       <div class="row pt-5">
         <hr>
         <div class="col text-muted text-center">
-          <h2 class="fw-bold my-5">Forrige års turné</h2>
-          <p>Få et overblik over hvor vi har været i 2025</p>
+          <h2 class="fw-bold my-5">Afsluttede forestillinger</h2>
+          <p>Få et overblik over hvor vi har været i 2026</p>
         </div>
         <?php
         $tourplan = include 'past_tourplan_data.php';
@@ -96,7 +96,7 @@
           <table class="table small-screen-font text-muted w-100">
             <thead>
               <tr>
-                <th><object type="image/svg+xml" data="assets/svg_elements/icon_calender.svg"></object><span class="text-center"> 2025</span></th>
+                <th><object type="image/svg+xml" data="assets/svg_elements/icon_calender.svg"></object><span class="text-center"> 2026</span></th>
                 <th><object type="image/svg+xml" data="assets/svg_elements/icon_theater.svg"></object></th>
                 <th><object type="image/svg+xml" data="assets/svg_elements/icon_geo-alt.svg"></object></th>
               </tr>
