@@ -80,4 +80,49 @@
         transform: scale(1.03);
         box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
       }
+
+      /* danceOmatic - Kreativ Kulturuge intro card title (mirrors the graphic previously baked into MainDomKreaWeek.png) */
+      .dom-kreauge-textbox {
+        max-width: 90%;
+      }
+
+      .dom-kreauge-img {
+        object-position: right center;
+      }
+
+      @media (min-width: 768px) {
+        .dom-kreauge-textbox {
+          max-width: 60%;
+        }
+
+        .dom-kreauge-img {
+          object-position: center center;
+        }
+      }
+
+      .dom-kreauge-title {
+        font-weight: 800;
+        line-height: 1;
+        font-size: clamp(1.3rem, 11vw, 4.5rem);
+        white-space: nowrap;
+        color: #ffffff;
+        text-shadow:
+          -1.5px -1.5px 0 #3953b7,
+          1.5px -1.5px 0 #3953b7,
+          -1.5px 1.5px 0 #3953b7,
+          1.5px 1.5px 0 #3953b7,
+          -1.5px 0 0 #3953b7,
+          1.5px 0 0 #3953b7,
+          0 -1.5px 0 #3953b7,
+          0 1.5px 0 #3953b7;
+      }
+
+      .dom-kreauge-title-sub {
+        font-weight: 600;
+        line-height: 1;
+        font-size: clamp(1.5rem, 5vw, 3.5rem);
+        color: #4069b0 !important;
+        -webkit-text-stroke: 0;
+        text-shadow: none;
+      }
     </style>

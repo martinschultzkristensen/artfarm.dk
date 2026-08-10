@@ -73,6 +73,19 @@ include $IPATH . 'head.php';
 
 
 
+  <div class="container-fluid;" id="dOmKreaWeek">
+    <div class="card text-white text-uppercase">
+      <img src="/img/MainDomKreaWeek_notext.png" alt="" class="card-img vh-100 dom-kreauge-img" style="object-fit:cover;">
+      <div class="card-img-overlay d-flex align-items-center">
+        <div class="text-start px-3 px-md-5 dom-kreauge-textbox">
+          <h1 class="dom-kreauge-title mb-0"><strong>danceOmatic</strong></h1>
+          <h1 class="dom-kreauge-title-sub mb-3">Kreativ Kulturuge</h1>
+          <p class="card-text fs-5 mb-3">Projektuge på skoler</p>
+          <a href="/workshops/danceomatic_kulturuge" class="btn btn-outline-light btn-lg shadow">Info</a>
+        </div>
+      </div>
+    </div>
+
   <div class="container-fluid;" id="frikadelle">
     <div class="card text-white text-uppercase">
       <img src="/img/frikadelleMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">

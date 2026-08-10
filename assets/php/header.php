@@ -25,6 +25,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/tourplan">Tourplan</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/workshops/danceomatic_kulturuge">Workshops</a>
+          </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle me-3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Repertoire
