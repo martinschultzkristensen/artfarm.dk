@@ -18,7 +18,7 @@
               <li><a class="dropdown-item" href="/artikler">Artikler</a></li>
               <li><a class="dropdown-item" href="/about">Tidslinje</a></li>
               <li><a class="dropdown-item" href="/paragraffer">Paragraffer</a></li>
-              <li><a class="dropdown-item" href="/job">Job</a></li>
+              <!-- <li><a class="dropdown-item" href="/job">Job</a></li> -->
             </ul>
           </li>
           </li>
