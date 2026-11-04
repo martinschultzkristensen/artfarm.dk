@@ -1,3 +1,11 @@
+<?php
+// A first-ever visitor is met by the big opening logo; from then on the logo
+// animates in the navbar instead. The cookie is what tells the two apart.
+$FIRST_VISIT = !isset($_COOKIE['artfarm_seen_intro']);
+if ($FIRST_VISIT) {
+  setcookie('artfarm_seen_intro', '1', time() + 60 * 60 * 24 * 365, '/');
+}
+?>
 <!doctype html>
 <html lang="da">
 <?php
@@ -7,52 +15,21 @@ include $IPATH . 'head.php';
 
 <body class="bg-light">
 
-  <div id="intro-logo" class="intro-logo">
+  <?php if ($FIRST_VISIT): ?>
+    <div id="intro-logo" class="intro-logo">
+      <?php
+      $LOGO_CLASS = 'artfarm-logo';
+      $ANIMATE_LOGO = true;
+      include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/logo_animated.php';
+      unset($LOGO_CLASS);
+      ?>
+    </div>
+  <?php endif; ?>
 
-    <svg width="3000" height="2200" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <mask id="mask1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
-          <?php echo file_get_contents("assets/svg_elements/ArtFarmLogoMask.svg"); ?>
-        </mask>
-        <style>
-          .a {
-            fill: #e82827;
-          }
-
-          .b {
-            fill: #fcc326;
-          }
-
-          .c {
-            fill: #fdf600;
-          }
-
-          .d {
-            fill: #4069af;
-          }
-
-          .e {
-            fill: #ed64a3;
-          }
-        </style>
-      </defs>
-      <?php echo file_get_contents("assets/svg_elements/ArtFarmLogoTracing.svg"); ?>
-      <!-- Simplified parallelograms -->
-      <g mask="url(#mask1)">
-        <g class="animated-swipe">
-          <?php echo file_get_contents("assets/svg_elements/colorSwipe.svg"); ?>
-        </g>
-      </g>
-    </svg>
-
-
-
-
-
-
-  </div>
   <?php
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+  // Draw the navbar logo on the landing page, but not while the overlay is up.
+  $ANIMATE_LOGO = !$FIRST_VISIT;
   include $IPATH . 'header.php';
   ?>
 
@@ -70,7 +47,17 @@ include $IPATH . 'head.php';
 
 
 
-
+    <div class="container-fluid;" id="twcultweek">
+      <div class="card text-white text-uppercase">
+        <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+        <div class="card-img-overlay">
+          <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
+            <p class="card-text"></span>Dans & Krea-workshops</p>
+            <h1 class="card-title;">Taiwansk Kulturuge</h1>
+            <a href="/co-lab/TWcultWeek.php" class="btn btn-outline-light btn-lg shadow">Info</a>
+          </div>
+        </div>
+      </div>
 
 
   <div class="container-fluid;" id="dOmKreaWeek">
@@ -155,17 +142,7 @@ include $IPATH . 'head.php';
       </div>
     </div>
 
-    <div class="container-fluid;" id="twcultweek">
-      <div class="card text-white text-uppercase">
-        <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
-        <div class="card-img-overlay">
-          <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-            <p class="card-text"></span>Dans & Krea-workshops</p>
-            <h1 class="card-title;">Taiwansk Kulturuge</h1>
-            <a href="/co-lab/TWcultWeek.php" class="btn btn-outline-light btn-lg shadow">Info</a>
-          </div>
-        </div>
-      </div>
+
 
       <!-- 
   <div class="card text-white text-uppercase">  
@@ -189,24 +166,27 @@ include $IPATH . 'head.php';
 
 
       <script src="/js/bootstrap.bundle.min.js"></script>
-      <script src="/js/scroll_on_press.js"></script>
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const intro = document.getElementById("intro-logo");
+      <?php if ($FIRST_VISIT): ?>
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            const intro = document.getElementById("intro-logo");
 
-          // Fade-in
-          requestAnimationFrame(() => intro.style.opacity = "1");
+            // Fade-in
+            requestAnimationFrame(() => intro.style.opacity = "1");
 
-          const fadeInDuration = 1000;
-          const visibleTime = 1600;
+            const fadeInDuration = 1000;
+            const visibleTime = 1600;
 
-          setTimeout(() => {
-            intro.style.opacity = "0";
+            setTimeout(() => {
+              intro.style.opacity = "0";
 
-            setTimeout(() => intro.remove(), fadeInDuration);
-          }, fadeInDuration + visibleTime);
-        });
-      </script>
+              setTimeout(() => intro.remove(), fadeInDuration);
+            }, fadeInDuration + visibleTime);
+          });
+        </script>
+      <?php endif; ?>
+
+      <script src="/js/scroll_on_press.js?v=<?= filemtime($_SERVER['DOCUMENT_ROOT'] . '/js/scroll_on_press.js') ?>"></script>
 
 
 

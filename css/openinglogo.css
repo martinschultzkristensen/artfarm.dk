@@ -4,7 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  background-color: #000;
+  z-index: 1040; /* above the fixed-top navbar (1030), so the curtain covers it */
+  pointer-events: none; /* do not swallow clicks while it fades */
   transition: opacity 1s ease-out;
 }
 
@@ -17,8 +19,9 @@
   stroke: white;
 }
 
-/* Animation for the colored parallelograms */
-.animated-swipe {
+/* Animation for the colored parallelograms. Only the logo that carries
+   .logo-animate plays it - that class is added on index.php only. */
+.logo-animate .animated-swipe {
   /* Initially invisible */
   transform: translateX(-200%);
   animation: swipeMove 2s linear forwards;
@@ -39,39 +42,39 @@
 
 /* Animation for drawing the logo paths */
 
-#Lille-R,
-#Store-R {
+.logo-animate #Lille-R,
+.logo-animate #Store-R {
   stroke-dasharray: 600; /* total path length */
   stroke-dashoffset: 600; /* hide it */
   animation: draw 3s ease forwards;
 }
-#M {
+.logo-animate #M {
   stroke-dasharray: 700; /* total path length */
   stroke-dashoffset: 700; /* hide it */
   animation: draw 3s ease forwards;
 }
 
-#T path {
+.logo-animate #T path {
   stroke-dasharray: 1334;
   stroke-dashoffset: 1334;
   animation: draw 2s ease forwards;
   animation-delay: 0.8s;
 }
 
-#FA path {
+.logo-animate #FA path {
   stroke-dasharray: 1200;
   stroke-dashoffset: 1200;
   animation: draw 2s ease forwards;
 }
 
-#Lille-A path {
+.logo-animate #Lille-A path {
   stroke-dasharray: 800;
   stroke-dashoffset: 800;
   animation: draw 2s ease forwards;
   animation-delay: 0.4s;
 }
 
-#Store-A {
+.logo-animate #Store-A {
   stroke-dasharray: 2000; /* path length */
   stroke-dashoffset: 2000; /* start hidden */
   animation: draw 1.4s ease forwards;
@@ -82,4 +85,60 @@
   to {
     stroke-dashoffset: 0; /* reveal it */
   }
+}
+
+/* Pages other than index.php show the logo in its finished state: strokes
+   drawn (no dash rules apply) and the colour swipe parked off the mask. */
+.navbar-logo-anim:not(.logo-animate) .animated-swipe {
+  transform: translateX(100%);
+}
+
+/* Animated logo in the navbar brand (assets/php/logo_animated.php).
+   Replaces the static artfarm_zeromargin_invert.png that used to sit here. */
+.navbar-logo-anim {
+  height: 40px;
+  width: 40px;
+  display: block;
+}
+
+.artfarm-logo .a {
+  fill: #e82827;
+}
+
+.artfarm-logo .b {
+  fill: #fcc326;
+}
+
+.artfarm-logo .c {
+  fill: #fdf600;
+}
+
+.artfarm-logo .d {
+  fill: #4069af;
+}
+
+.artfarm-logo .e {
+  fill: #ed64a3;
+}
+
+/* The source SVGs are drawn for the 200px intro logo, so at navbar size the
+   strokes all but vanish. Scale them up proportionally - the mask strokes stay
+   a touch wider than the tracing, just as in the two svg files. The groups that
+   carry a transform (Store-R) keep their smaller value so the transform does
+   not make them look heavy. */
+.navbar-logo-anim defs path {
+  stroke-width: 33.28;
+}
+
+.navbar-logo-anim defs #Store-R path {
+  stroke-width: 16.64;
+}
+
+.navbar-logo-anim > path,
+.navbar-logo-anim > g:not([mask]) path {
+  stroke-width: 26.88;
+}
+
+.navbar-logo-anim > g#Store-R path {
+  stroke-width: 16;
 }

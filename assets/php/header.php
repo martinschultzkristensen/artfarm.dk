@@ -1,7 +1,15 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand:focusable" href="/index"><img src="/img/artfarm_zeromargin_invert.png" height="40px" alt="Art Farm logo" class="ms-1"></a>
+      <a class="navbar-brand:focusable ms-1" href="/index">
+        <?php if (!empty($FIRST_VISIT)): ?>
+          <!-- The opening overlay is on screen and owns the animated svg ids,
+               so the brand stays a plain image on a first-ever visit. -->
+          <img src="/img/artfarm_zeromargin_invert.png" height="40px" alt="Art Farm logo">
+        <?php else: ?>
+          <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/logo_animated.php'; ?>
+        <?php endif; ?>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
