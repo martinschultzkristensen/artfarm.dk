@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sections = [
+    "#dOmKreaWeek",
     "#frikadelle",
     "#danceomatic",
     "#censorship",
@@ -13,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("scroll-btn")
     .addEventListener("click", function (event) {
       event.preventDefault();
-      currentIndex = (currentIndex + 1) % sections.length;
       document.querySelector(sections[currentIndex]).scrollIntoView({
         behavior: "smooth",
       });
+      currentIndex = (currentIndex + 1) % sections.length;
     });
 });
