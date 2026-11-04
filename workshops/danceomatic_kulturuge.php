@@ -40,7 +40,10 @@
             <p class="lead mt-3 mx-3">Når en dans afsluttes, genstartes programmet, og publikum kan vælge en ny dans. Antallet af forskellige danse i programmet kan tilpasses forløbet.</p>
           </div>
           <div class="col-md-6 col-12">
-            <img src="/img/2017_dmaskine.jpg" class="img-fluid rounded shadow" alt="Billede af danceOmatic maskinen">
+            <a href="/repertoire/danceomatic.php" class="d-block text-decoration-none" title="Se mere om danceOmatic">
+              <img src="/img/2017_dmaskine.jpg" class="img-fluid rounded shadow hover-image" alt="Billede af danceOmatic maskinen" style="cursor: pointer;">
+              <span class="d-block text-center mt-2 lead text-decoration-underline">Se mere om danceOmatic <object data="/assets/svg_elements/arrow-right-short.svg" class="bi-arrow-right-short" type="image/svg+xml"></object></span>
+            </a>
           </div>
         </div>
 
