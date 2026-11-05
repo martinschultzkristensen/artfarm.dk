@@ -4,7 +4,7 @@
       <a class="navbar-brand:focusable ms-1" href="/index">
         <?php if (!empty($FIRST_VISIT)): ?>
           <!-- The opening overlay is on screen and owns the animated svg ids,
-               so the brand stays a plain image on a first-ever visit. -->
+               so the brand stays a plain image while it is up. -->
           <img src="/img/artfarm_zeromargin_invert.png" height="40px" alt="Art Farm logo">
         <?php else: ?>
           <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/php/logo_animated.php'; ?>

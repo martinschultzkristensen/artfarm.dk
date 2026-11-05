@@ -1,10 +1,10 @@
 <?php
-// A first-ever visitor is met by the big opening logo; from then on the logo
-// animates in the navbar instead. The cookie is what tells the two apart.
+// A visitor who has not been here within the last 24 hours is met by the big
+// opening logo; otherwise the logo animates in the navbar instead. The cookie
+// is refreshed on every visit, so it runs out 24 hours after the most recent
+// one rather than 24 hours after the first.
 $FIRST_VISIT = !isset($_COOKIE['artfarm_seen_intro']);
-if ($FIRST_VISIT) {
-  setcookie('artfarm_seen_intro', '1', time() + 60 * 60 * 24 * 365, '/');
-}
+setcookie('artfarm_seen_intro', '1', time() + 60 * 60 * 24, '/');
 ?>
 <!doctype html>
 <html lang="da">
