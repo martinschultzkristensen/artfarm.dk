@@ -49,12 +49,18 @@ include $IPATH . 'head.php';
 
     <div class="container-fluid;" id="twcultweek">
       <div class="card text-white text-uppercase">
-        <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
-        <div class="card-img-overlay">
+        <picture>
+          <!-- Landscape viewports (desktop, tablet turned sideways) get the wide
+               artwork; portrait keeps the tall poster, which suits that shape. -->
+          <source media="(min-aspect-ratio: 1/1)" type="image/webp" srcset="/img/mainTwCultWeek2026-wide.webp">
+          <source media="(min-aspect-ratio: 1/1)" srcset="/img/mainTwCultWeek2026-wide.png">
+          <img src="/img/mainTwCultWeek2026.png" alt="" class="card-img parallax-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+        </picture>
+        <div class="card-img-overlay hero-scrim">
           <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
             <p class="card-text"></span>Dans & Krea-workshops</p>
-            <h1 class="card-title;">Taiwansk Kulturuge</h1>
-            <a href="/co-lab/TWcultWeek.php" class="btn btn-outline-light btn-lg shadow">Info</a>
+            <h1 class="card-title;">Taiwanske Kulturdage</h1>
+            <a href="/co-lab/TWcultDays.php" class="btn btn-outline-light btn-lg shadow">Info</a>
           </div>
         </div>
       </div>
@@ -62,7 +68,7 @@ include $IPATH . 'head.php';
 
   <div class="container-fluid;" id="dOmKreaWeek">
     <div class="card text-white text-uppercase">
-      <img src="/img/MainDomKreaWeek_notext.png" alt="" class="card-img vh-100 dom-kreauge-img" style="object-fit:cover;">
+      <img src="/img/MainDomKreaWeek_notext.png" alt="" class="card-img parallax-img vh-100 dom-kreauge-img" style="object-fit:cover;">
       <div class="card-img-overlay d-flex align-items-center">
         <div class="text-start px-3 px-md-5 dom-kreauge-textbox">
           <h1 class="dom-kreauge-title mb-0"><strong>danceOmatic</strong></h1>
@@ -75,7 +81,7 @@ include $IPATH . 'head.php';
 
   <div class="container-fluid;" id="frikadelle">
     <div class="card text-white text-uppercase">
-      <img src="/img/frikadelleMain.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <img src="/img/frikadelleMain.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
           <p class="card-text"></span>En Kulinarisk Forestilling</p>
@@ -88,7 +94,7 @@ include $IPATH . 'head.php';
 
 
     <div class="card text-white text-uppercase" id="danceomatic">
-      <img src="/img/dOm_HTF2024cFotoFrankRosgaard.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <img src="/img/dOm_HTF2024cFotoFrankRosgaard.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
           <p class="card-text">danceomatic!</p>
@@ -107,7 +113,7 @@ include $IPATH . 'head.php';
 
 
     <div class="card text-white text-uppercase" id="censorship">
-      <img src="/img/ntvrkTW.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <img src="/img/ntvrkTW.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay">
         <div class="position-absolute top-50 p-md-5 px-3">
           <p class="card-text"></span>Worskhop & netværk i Taiwan</p>
@@ -120,7 +126,7 @@ include $IPATH . 'head.php';
 
     <div id="terminus">
       <div class="card text-white text-uppercase">
-        <img src="/img/terminusHorsensTogstation.png" alt="" class="card-img index-img" style="height: 100svh ; object-fit:cover; filter: brightness(70%);">
+        <img src="/img/terminusHorsensTogstation.png" alt="" class="card-img parallax-img index-img" style="height: 100svh ; object-fit:cover; filter: brightness(70%);">
         <div class="card-img-overlay">
           <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
             <p class="card-text">Et samfund, der er kørt af (tog)sporet</p>
@@ -132,7 +138,7 @@ include $IPATH . 'head.php';
     </div>
 
     <div class="card text-white text-uppercase" id="akyrlarium">
-      <img src="/img/akryla_shan_structure1.jpg" alt="" class="card-img vh-100" style="object-fit: cover; filter: brightness(70%);">
+      <img src="/img/akryla_shan_structure1.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit: cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
         <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
           <p class="card-text">Forestilling formidler Hudsult</p>
@@ -146,7 +152,7 @@ include $IPATH . 'head.php';
 
       <!-- 
   <div class="card text-white text-uppercase">  
-    <img src="/img/kinaShow2BigScreen.jpg" alt="" class="card-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+    <img src="/img/kinaShow2BigScreen.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit:cover; filter: brightness(70%);">
       <div class="card-img-overlay position-absolute">
         <div class="position-absolute bottom-0 p-md-5 px-3 py-5">
           <p class="card-text">performance i februar</p>
@@ -187,6 +193,7 @@ include $IPATH . 'head.php';
       <?php endif; ?>
 
       <script src="/js/scroll_on_press.js?v=<?= filemtime($_SERVER['DOCUMENT_ROOT'] . '/js/scroll_on_press.js') ?>"></script>
+      <script src="/js/parallax.js?v=<?= filemtime($_SERVER['DOCUMENT_ROOT'] . '/js/parallax.js') ?>"></script>
 
 
 

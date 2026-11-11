@@ -302,3 +302,65 @@
 }
 
 
+
+/* Scroll-driven parallax on the landing page hero cards: the photo drifts
+   downward slower than the page as each card travels through the viewport.
+   Pure CSS -- no scroll listeners. The image is scaled up slightly to give the
+   drift somewhere to go without exposing an empty edge, and the parent card
+   clips the overflow. Browsers without scroll-driven animations, and visitors
+   who have asked for reduced motion, simply get the still photo. */
+/* `clip`, not `hidden`: an `overflow: hidden` box becomes a scroll container,
+   which would make view() measure the image against the card instead of the
+   viewport and freeze the animation. `hidden` stays as a fallback first. */
+.card:has(.parallax-img) {
+  overflow: hidden;
+  overflow: clip;
+}
+
+.parallax-img {
+  transform: scale(1.12);
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .parallax-img {
+      will-change: transform;
+      animation: parallax-drift linear both;
+      animation-timeline: view();
+      animation-range: cover 0% cover 100%;
+    }
+
+    @keyframes parallax-drift {
+      from {
+        transform: scale(1.12) translateY(-4%);
+      }
+      to {
+        transform: scale(1.12) translateY(4%);
+      }
+    }
+  }
+}
+
+/* <picture> must not introduce an inline box between the card and its image,
+   or the inline baseline gap shows up under the full-height hero. */
+.card picture {
+  display: block;
+}
+
+/* The wide artwork has no red band behind the headline, so white text lands on
+   pale beige at only 3.4:1 -- under WCAG AA. This scrim lifts it to ~10:1.
+   Portrait keeps the original poster, whose red band already gives 11:1, so
+   the scrim is scoped to the landscape sources. */
+@media (min-aspect-ratio: 1/1) {
+  .hero-scrim::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, rgba(45, 8, 6, 0.60), rgba(45, 8, 6, 0.30) 35%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .hero-scrim > * {
+    position: relative;
+  }
+}

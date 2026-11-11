@@ -22,7 +22,7 @@
       <div class="card text-white text-uppercase">
         <img src="/img/mainTwCultWeek2026.png" alt="Grafisk Billede af Taiwansk danserinde" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
         <div class="card-img-overlay">
-          <h1 class="position-absolute text-center" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Taiwansk Kulturuge<br>2026</h1>
+          <h1 class="position-absolute text-center" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Taiwanske kulturdage<br>2026</h1>
         </div>
       </div>
 
@@ -30,7 +30,7 @@
 
         <div class="row align-items-center">
           <div class="col-12">
-            <h2 class="text-center">Festlig danseforestilling og kreative workshops for både børn og voksne</p>
+            <h2 class="text-center">Danseforestilling og krea workshops for børn og voksne</p>
           </div>
           <div class="col-12 col-md-6 order-2 order-md-1">
             <p class="lead mt-3 mx-3">Mai-Ti Dance Company fra Taiwan
@@ -124,7 +124,7 @@
 
         <div class="row align-items-left my-5">
           <div class="col-12">
-            <h2 class="featurette-heading">Aktivitets kalender<span class="text-muted"> Kolding, Vejle og Fredericia</span></h2>
+            <h2 class="featurette-heading">Aktivitets kalender<span class="text-muted"></span></h2>
           </div>
 
           <div class="p-sm-2">
@@ -176,7 +176,7 @@
                       Forestillinger og workshops præsenteres af Taiwanske Mai-Ti dance company. <span><a href="https://www.maitidancecompany.org" target="_blank"><img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" width="" height="30" class="d-inline-block align-text-center"></a></span>
                       <br>
                       <br>
-                      Eventet er gratis at deltage i, og er støttet af:
+                      Eventet er støttet af:
                       <span><img src="/img/support_logo/van_fonden_logo1.png" alt="SC Van Fonden Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
                       <span><img src="/assets/svg_elements/kildevaeld_logo.svg" alt="Kildevæld Efterskole Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
                       <span><img src="https://static.moliri.dk/koldingkommune/dist/icons/headerLogo.svg" alt="Kolding Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
