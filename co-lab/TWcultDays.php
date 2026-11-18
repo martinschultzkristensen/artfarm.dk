@@ -22,7 +22,7 @@
       <div class="card text-white text-uppercase">
         <img src="/img/mainTwCultWeek2026.png" alt="Grafisk Billede af Taiwansk danserinde" class="card-img" style="filter: brightness(70%); object-fit:cover ; max-block-size: 500px;">
         <div class="card-img-overlay">
-          <h1 class="position-absolute text-center" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Taiwanske kulturdage<br>2026</h1>
+          <h1 class="position-absolute text-center" style="top:50%; left: 50%; transform: translate(-50%,-50%);">Taiwanske kulturdage<br>2027</h1>
         </div>
       </div>
 
@@ -52,7 +52,7 @@
           <div class="col-12 col-md-6 order-1 order-md-2">
             <p class="lead text-left d-none d-md-block">Trailer</p>
             <div class="ratio ratio-16x9">
-              <iframe title="vimeo-player" src="https://player.vimeo.com/video/1239475747?h=78d11ca323" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+              <iframe title="vimeo-player" src="https://player.vimeo.com/video/1239475747?h=78d11ca323" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
           </div>
@@ -145,49 +145,49 @@
               echo '<p class="lead mt-3 mx-3">Alle aktiviteter for projektet er afholdt. Vi kommer igen i 2027.</p>';
             } else {
             ?>
-            <table class="table small-screen-font text-muted w-100">
-              <thead>
-                <tr>
-                  <th scope="col">Dato</th>
-                  <th scope="col">Hvor</th>
-                  <th scope="col">Event</th>
-                  <th scope="col">Tid</th>
-                </tr>
-              </thead>
-              <tbody>
-                <?php foreach ($filtered as $row): ?>
+              <table class="table small-screen-font text-muted w-100">
+                <thead>
                   <tr>
-                    <th scope="row"><?= $row['date'] ?></th>
-                    <td><?= $row['location'] ?></td>
-                    <td><?= $row['title'] ?></td>
-                    <td><?= $row['time'] ?></td>
+                    <th scope="col">Dato</th>
+                    <th scope="col">Hvor</th>
+                    <th scope="col">Event</th>
+                    <th scope="col">Tid</th>
                   </tr>
-                <?php endforeach; ?>
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  <?php foreach ($filtered as $row): ?>
+                    <tr>
+                      <th scope="row"><?= $row['date'] ?></th>
+                      <td><?= $row['location'] ?></td>
+                      <td><?= $row['title'] ?></td>
+                      <td><?= $row['time'] ?></td>
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
             <?php
             }
             ?>
           </div>
 
-                  <div class="col-12">
+          <div class="col-12">
 
-                    <p class="lead mt-3 mx-3 mb-2 mb-md-0">
-                      Forestillinger og workshops præsenteres af Taiwanske Mai-Ti dance company. <span><a href="https://www.maitidancecompany.org" target="_blank"><img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" width="" height="30" class="d-inline-block align-text-center"></a></span>
-                      <br>
-                      <br>
-                      Eventet er støttet af:
-                      <span><img src="/img/support_logo/van_fonden_logo1.png" alt="SC Van Fonden Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                      <span><img src="/assets/svg_elements/kildevaeld_logo.svg" alt="Kildevæld Efterskole Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                      <span><img src="https://static.moliri.dk/koldingkommune/dist/icons/headerLogo.svg" alt="Kolding Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                      <span><img src="https://www.dksfredericia.dk/media/5axjyhyp/denkreativeskole_black.svg" alt="Den Kreative Skole Fredericia Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                      <span><img src="https://www.fredericia.dk/themes/custom/fds_fredericia_main_theme/logo.png" alt="Fredericia Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                      <span><img src="/assets/svg_elements/vejleKommuneLogo.svg" alt="Vejle Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span> 
-                      <span><img src="https://vejlebib.dk/sites/default/files/styles/logo/public/Navnetr%C3%A6k_Vejle_bibliotekerne_sort_100x220_web.png?itok=KLWCSSvA" alt="Vejle Bibliotek Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
-                      
-                      
-                    </p>
-                  </div>
+            <p class="lead mt-3 mx-3 mb-2 mb-md-0">
+              Forestillinger og workshops præsenteres af Taiwanske Mai-Ti dance company. <span><a href="https://www.maitidancecompany.org" target="_blank"><img src="/img/support_logo/logoMaiTiTransparrent.png" alt="" width="" height="30" class="d-inline-block align-text-center"></a></span>
+              <br>
+              <br>
+              Eventet er støttet af:
+              <span><img src="/img/support_logo/van_fonden_logo1.png" alt="SC Van Fonden Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+              <span><img src="/assets/svg_elements/kildevaeld_logo.svg" alt="Kildevæld Efterskole Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+              <span><img src="https://static.moliri.dk/koldingkommune/dist/icons/headerLogo.svg" alt="Kolding Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+              <span><img src="https://www.dksfredericia.dk/media/5axjyhyp/denkreativeskole_black.svg" alt="Den Kreative Skole Fredericia Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+              <span><img src="https://www.fredericia.dk/themes/custom/fds_fredericia_main_theme/logo.png" alt="Fredericia Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+              <span><img src="/assets/svg_elements/vejleKommuneLogo.svg" alt="Vejle Kommune Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+              <span><img src="https://vejlebib.dk/sites/default/files/styles/logo/public/Navnetr%C3%A6k_Vejle_bibliotekerne_sort_100x220_web.png?itok=KLWCSSvA" alt="Vejle Bibliotek Logo" height="40" class="d-inline-block align-text-center me-3 p-1"></span>
+
+
+            </p>
+          </div>
 
         </div>
 
@@ -201,9 +201,10 @@
             <li><strong>Længde Workshop: </strong>45 minutter</li>
             <li><strong>Deltager pris: </strong>Gratis</li>
             <li><strong>Medvirkende: </strong>Dansere - Mai-Ti dance company + Martin Schultz Kristensen</li>
-            <li><strong>Støttegivere: </strong>Sc Van Fonden, Kildevæld Efterskole, Kolding Kommune, 
-            <!-- Fredericia Kommune,  -->
-            Vejle Bibliotek, Vejle Kommune</li>
+            <li><strong>Støttegivere: </strong>Sc Van Fonden, Kildevæld Efterskole, Kolding Kommune,
+              <!-- Fredericia Kommune,  -->
+              Vejle Bibliotek, Vejle Kommune
+            </li>
           </ul>
         </div>
 
