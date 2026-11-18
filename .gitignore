@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+
+# Local photo archives / FTP-only uploads (not deployed via git)
+img/AkrylariumTanzTageGr/
+img/akrylarium-tanztage/
