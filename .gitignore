@@ -4,3 +4,6 @@ node_modules/
 # Local photo archives / FTP-only uploads (not deployed via git)
 img/AkrylariumTanzTageGr/
 img/akrylarium-tanztage/
+.vscode/
+img/matchGirl/
+img/IMG_20210903_182201.jpg

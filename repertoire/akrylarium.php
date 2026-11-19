@@ -15,7 +15,7 @@ include $IPATH . 'head.php';
     <div class="container-fluid;">
 
       <div class="card text-white text-uppercase">
-        <img src="../img/akryla_shan_structure1.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit: cover; max-block-size: 500px;">
+        <img src="/img/akrylarium_hero.jpg" alt="picture of dancer with acrylic glass structure" class="card-img" style="filter: brightness(70%); object-fit: cover; max-block-size: 500px;">
         <div class="card-img-overlay">
           <h1 class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%);">AKRYLARIUM</h1>
         </div>

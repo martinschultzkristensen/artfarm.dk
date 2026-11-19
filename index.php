@@ -47,6 +47,28 @@ include $IPATH . 'head.php';
 
 
 
+    <div class="card text-white text-uppercase" id="akyrlarium">
+      <img src="/img/akrylarium_hero.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit: cover; filter: brightness(70%);">
+      <div class="card-img-overlay position-absolute">
+        <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
+          <p class="card-text">Forestilling formidler Hudsult</p>
+          <h1 class="card-title;">AKRYLARIUM</h1>
+          <a href="/repertoire/akrylarium" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card text-white text-uppercase" id="matchgirl">
+      <img src="/img/matchgirl_cover.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit:cover; filter: brightness(70%);">
+      <div class="card-img-overlay">
+        <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
+          <p class="card-text">Et eventyr om håb i kulden</p>
+          <h1 class="card-title;">Den Lille Pige<br>Med Svovlstikkerne</h1>
+          <a href="/co-lab/matchgirl.php" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
+        </div>
+      </div>
+    </div>
+
     <div class="container-fluid;" id="twcultweek">
       <div class="card text-white text-uppercase">
         <picture>
@@ -90,6 +112,8 @@ include $IPATH . 'head.php';
         </div>
       </div>
     </div>
+
+
 
 
 
@@ -137,16 +161,6 @@ include $IPATH . 'head.php';
       </div>
     </div>
 
-    <div class="card text-white text-uppercase" id="akyrlarium">
-      <img src="/img/akryla_shan_structure1.jpg" alt="" class="card-img parallax-img vh-100" style="object-fit: cover; filter: brightness(70%);">
-      <div class="card-img-overlay position-absolute">
-        <div class="text-end top-0 p-md-5 px-3 my-5 py-5">
-          <p class="card-text">Forestilling formidler Hudsult</p>
-          <h1 class="card-title;">AKRYLARIUM</h1>
-          <a href="/repertoire/akrylarium" class="btn btn-outline-light btn-lg btn-blur shadow">Info</a>
-        </div>
-      </div>
-    </div>
 
 
 
