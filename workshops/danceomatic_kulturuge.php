@@ -162,6 +162,24 @@
 
         <hr>
 
+        <div class="row align-items-center my-5">
+          <div class="col-12 text-center mb-4">
+            <h2 class="featurette-heading">Tidligere <span class="text-muted">kulturuger</span></h2>
+            <p class="lead mt-3 mx-3">Et glædeligt tilbageblik fra de skoler, der allerede har haft danceOmatic - Kreativ Kulturuge på besøg.</p>
+          </div>
+
+          <div class="col-12 d-flex justify-content-center">
+            <div class="ratio" style="max-width:500px; width:100%; --bs-aspect-ratio: 150.8%;">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBogenseskole%2Fposts%2Fpfbid02eMBdoRhomRvhegCWNdLY3NfGTvJaBUu8RrxYgQnq4NmXW71HH8LsMTQ9bYaYHkvsl&amp;show_text=true&amp;width=500"
+                title="Opslag fra Bogense Skole om danceOmatic kulturugen"
+                style="border:none; overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
         <div class="col-12 my-5 text-center">
           <h2 class="featurette-heading">Interesseret <span class="text-muted">i et forløb på jeres skole?</span></h2>
           <p class="lead mt-3 mx-3">Kontakt os for at høre mere om, hvordan danceOmatic - Kreativ Kulturuge kan komme til jeres skole.
